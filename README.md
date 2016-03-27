@@ -4,7 +4,7 @@
  
         git clone https://github.com/holoto/ec-471g.git
 
-## 本配置文件有少许缺陷 请谨慎使用!! 建议不要使用本配置文件的dsdt
+## 本配置文件有少许缺陷 请谨慎使用!! 建议不要使用本配置文件的dsdt 
 
             缺陷
             
@@ -16,13 +16,45 @@
 
 3.'关机,重启有时候无法断电'
 
+4.'英伟达gt630m 独显无法驱动使用 国外也无解'
+
 
             电脑详细信息 
 
+
 [京东商城链接](http://item.jd.com/849503.html)
+
+
+
+
 ![鲁大师配置图](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/截屏图片.jpg "鲁大师配置图")
 
-和宏碁e1-471g 差不多 只不过ec-471g的usb接口阉割成2.0 其他一样
+
+
+
+
+## 补充 
+        1tb sshd 混合硬盘   分区GPT+Journaled HFS     OSX10.11.3 
+       
+        500GB    机械硬盘   分区MBR+NTFS              系统win10系统
+            
+            /dev/disk0 (internal, physical): 1tb sshd 混合硬盘 在笔记本硬盘位
+               #:                       TYPE NAME                    SIZE       IDENTIFIER
+               0:      GUID_partition_scheme                        *1.0 TB     disk0    
+               1:                        EFI EFI                     209.7 MB   disk0s1  引导区
+               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.3
+               3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3  OSX恢复分区
+            /dev/disk1 (internal, physical): 500GB    机械硬盘 在笔记本光驱位
+               #:                       TYPE NAME                    SIZE       IDENTIFIER
+               0:     FDisk_partition_scheme                        *500.1 GB   disk1   
+               1:               Windows_NTFS 64WinXP                 161.1 GB   disk1s1  win10系统盘
+               2:               Windows_NTFS soft                    161.1 GB   disk1s5  
+               3:               Windows_NTFS word                    53.7 GB    disk1s6
+               4:               Windows_NTFS gamepower               124.3 GB   disk1s7
+
+
+
+# 和宏碁e1-471g 差不多 只不过ec-471g的usb接口阉割成2.0 其他一样
 
 
 
@@ -36,11 +68,15 @@
 
                     目录
 
+
 [EFI](https://github.com/holoto/ec-471g/tree/master/EFI) CLOVER(四叶草)引导目录
+
 
 [pic](https://github.com/holoto/ec-471g/tree/master/pic) 黑苹果运行截图
 
+
 [ssdtpregen](https://github.com/holoto/ec-471g/tree/master/ssdtprgen) osx下生成ssdt的小工具
+
 
 [tool](https://github.com/holoto/ec-471g/tree/master/tool) 安装维护黑苹果的工具
 

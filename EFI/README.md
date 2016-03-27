@@ -1,8 +1,9 @@
-# 本目录为efi 引导目录
+# 本目录为EFI 引导目录
 
-本四叶草版本3368
+本四叶草版本3368 最新版本
 
 '如需使用 将本目录文件全部复制到 你的efi引导盘'
+
 
 [四叶草官方下载地址](https://sourceforge.net/projects/cloverefiboot/)
 
@@ -24,6 +25,11 @@
 ## 教程
 1.config_HD4000_1366x768 copy.plist         clover配置文件          RehabMan大神作品
 如需使用纯净配置文件 将此文件复制到 EFI/CLOVER/ 目录 替换config.plist即可
+
+
+
 [四叶草配置文件集合](https://github.com/RehabMan/OS-X-Clover-Laptop-Config)
+
+
 
 [四叶草配置参数教程](http://www.jianshu.com/p/b156b0177a24)
