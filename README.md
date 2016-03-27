@@ -4,6 +4,12 @@
  
         git clone https://github.com/holoto/ec-471g.git
 
+# 本人提供黑苹果安装服务
+
+
+[咸鱼链接](https://2.taobao.com/item.htm?spm=2007.1000622.0.0.iCkUXt&id=528507949582)
+
+
 ## 本配置文件有少许缺陷 请谨慎使用!! 建议不要使用本配置文件的dsdt 
 
             缺陷
