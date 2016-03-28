@@ -22,9 +22,13 @@
 				<true/>
 				<key>AddPNLF_1000000</key>
 				<true/>
+				<key>DeleteUnused_400000</key>
+				<true/>
 				<key>FIX_ACST_4000000</key>
 				<true/>
 				<key>FIX_ADP1_800000</key>
+				<true/>
+				<key>FIX_INTELGFX_100000</key>
 				<true/>
 				<key>FIX_RTC_20000</key>
 				<true/>
@@ -39,6 +43,8 @@
 				<key>FixAirport_4000</key>
 				<true/>
 				<key>FixDarwin_0002</key>
+				<true/>
+				<key>FixDisplay_0100</key>
 				<true/>
 				<key>FixFirewire_0800</key>
 				<true/>
@@ -94,8 +100,6 @@
 		<key>SortedOrder</key>
 		<array>
 			<string>SSDT.aml</string>
-			<string>SSDT-1.aml</string>
-			<string>SSDT-2.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -218,6 +222,38 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>HDMI-audio HD4000 0x01660003, port 0205</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AgUAAAAEAAAHBAAA
+				</data>
+				<key>Name</key>
+				<string>disabled:AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				AgUAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
+				<key>Name</key>
+				<string>disabled:IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>HDMI-audio HD4000 0x01660003, port 0304</string>
 				<key>Disabled</key>
 				<false/>
@@ -250,22 +286,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>HDMI-audio HD4000 0x01660003, port 0406</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				BAYAAAAEAACBAAAA
-				</data>
-				<key>Name</key>
-				<string>disabled:AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>
-				BAYAAAAIAAAGAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Boot graphics glitch, 10.10.x/10.11.x (credit lisai9093, cecekpawon)</string>
 				<key>Disabled</key>
 				<false/>
@@ -282,34 +302,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>HDMI-audio HD4000 0x01660003, port 0205</string>
+				<string>HDMI-audio HD4000 0x01660003, port 0406</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AgUAAAAEAAAHBAAA
+				BAYAAAAEAACBAAAA
 				</data>
 				<key>Name</key>
 				<string>disabled:AppleIntelFramebufferCapri</string>
 				<key>Replace</key>
 				<data>
-				AgUAAAAIAAAGAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable TRIM for SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
-				<key>Name</key>
-				<string>disabled:IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
+				BAYAAAAIAAAGAAAA
 				</data>
 			</dict>
 		</array>
