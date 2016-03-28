@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOAudioEngineDescription"},"attr":{"id":"5258","ColType":"String","ColValue":"Microphone (Analog)"}},
+{"data":{"title":"IOAudioEngineFlavor"},"attr":{"id":"5260","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOAudioEngineOutputSampleLatency"},"attr":{"id":"5262","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"IOAudioSampleRate"},"attr":{"id":"5264","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOAudioSampleRateFraction"},"attr":{"id":"5266","ColType":"Number","ColValue":"0"}},{"data":{"title":"IOAudioSampleRateWholeNumber"},"attr":{"id":"5268","ColType":"Number","ColValue":"48000"}}]},
+{"data":{"title":"IOAudioEngineNumSampleFramesPerBuffer"},"attr":{"id":"5270","ColType":"Number","ColValue":"32768"}},
+{"data":{"title":"IOAudioEngineGlobalUniqueID"},"attr":{"id":"5272","ColType":"String","ColValue":"VoodooHDAEngine:pci8086,1e20:1"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"5274","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOAudioEngineClockDomain"},"attr":{"id":"5276","ColType":"Number","ColValue":"153954560"}},
+{"data":{"title":"IOAudioEngineInputSampleLatency"},"attr":{"id":"5278","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"IOAudioEngineState"},"attr":{"id":"5280","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioEngineSampleOffset"},"attr":{"id":"5282","ColType":"Number","ColValue":"64"}}
+]

@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"2000","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"2002","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"2004","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"2006","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"2008","ColType":"String","ColValue":"AppleACPICPU"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"2010","ColType":"String","ColValue":"VoodooTSCSync"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"2012","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOPropertyMatch"},"attr":{"id":"2014","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOCPUNumber"},"attr":{"id":"2016","ColType":"Number","ColValue":"1"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"2018","ColType":"String","ColValue":"org.voodoo.driver.VoodooTSCSync"}},
+{"data":{"title":"IOClass"},"attr":{"id":"2020","ColType":"String","ColValue":"org_voodoo_driver_VoodooTSCSync"}}
+]

@@ -1,0 +1,7 @@
+[
+{"data":{"title":"name"},"attr":{"id":"1728","ColType":"Data","ColValue":"&lt;\"CPU7\"&gt;"}},
+{"data":{"title":"processor-index"},"attr":{"id":"1730","ColType":"Number","ColValue":"7"}},
+{"data":{"title":"device_type"},"attr":{"id":"1732","ColType":"Data","ColValue":"&lt;\"processor\"&gt;"}},
+{"data":{"title":"processor-id"},"attr":{"id":"1734","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"cpu-type"},"attr":{"id":"1736","ColType":"Data","ColValue":"&lt;0406&gt;"}}
+]

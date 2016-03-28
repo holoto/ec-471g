@@ -1,0 +1,8 @@
+[
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"61456","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"61458","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"Transport"},"attr":{"id":"61460","ColType":"String","ColValue":"PS2"}},
+{"data":{"title":"Product"},"attr":{"id":"61462","ColType":"String","ColValue":"Mouse"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"61464","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"61466","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"61467","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"61469","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"61471","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"1"},"attr":{"id":"61472","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"61474","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"61476","ColType":"Number","ColValue":"1"}}]}]}
+]

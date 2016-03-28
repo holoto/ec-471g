@@ -1,0 +1,92 @@
+================================================
+disk0s1
+================================================
+-rwxrwxrwx  1 99  99    15K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/FSInject-32.efi
+-rwxrwxrwx  1 99  99    45K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/GrubEXFAT-32.efi
+-rwxrwxrwx  1 99  99    48K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/GrubISO9660-32.efi
+-rwxrwxrwx  1 99  99    53K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/GrubNTFS-32.efi
+-rwxrwxrwx  1 99  99    42K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/GrubUDF-32.efi
+-rwxrwxrwx  1 99  99   6.9K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/Ps2MouseDxe-32.efi
+-rwxrwxrwx  1 99  99   5.3K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/UsbMouseDxe-32.efi
+-rwxrwxrwx  1 99  99    14K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/VBoxExt2-32.efi
+-rwxrwxrwx  1 99  99    14K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/VBoxExt4-32.efi
+-rwxrwxrwx  1 99  99    22K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/VBoxHfs-32.efi
+-rwxrwxrwx  1 99  99    33K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers32/XhciDxe-32.efi
+---------
+Versions:
+FSInject-32.efi (Unknown)
+GrubEXFAT-32.efi (Unknown)
+GrubISO9660-32.efi (Unknown)
+GrubNTFS-32.efi (Unknown)
+GrubUDF-32.efi (Unknown)
+Ps2MouseDxe-32.efi (Unknown)
+UsbMouseDxe-32.efi (Unknown)
+VBoxExt2-32.efi (Unknown)
+VBoxExt4-32.efi (Unknown)
+VBoxHfs-32.efi (Unknown)
+XhciDxe-32.efi (Unknown)
+
+================================================
+disk0s1
+================================================
+-rwxrwxrwx  1 99  99    18K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/FSInject-64.efi
+-rwxrwxrwx  1 99  99    52K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/GrubEXFAT-64.efi
+-rwxrwxrwx  1 99  99    56K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/GrubISO9660-64.efi
+-rwxrwxrwx  1 99  99    61K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/GrubNTFS-64.efi
+-rwxrwxrwx  1 99  99    49K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/GrubUDF-64.efi
+-rwxrwxrwx  1 99  99   132K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/NTFS.efi
+-rwxrwxrwx  1 99  99    20K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/NvmExpressDxe-64.efi
+-rwxrwxrwx  1 99  99   8.7K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/Ps2MouseDxe-64.efi
+-rwxrwxrwx  1 99  99   6.8K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/UsbMouseDxe-64.efi
+-rwxrwxrwx  1 99  99    16K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/VBoxExt2-64.efi
+-rwxrwxrwx  1 99  99    17K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/VBoxExt4-64.efi
+-rwxrwxrwx  1 99  99    26K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/VBoxHfs-64.efi
+-rwxrwxrwx  1 99  99    23K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/VBoxIso9600-64.efi
+-rwxrwxrwx  1 99  99    41K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64/XhciDxe-64.efi
+---------
+Versions:
+FSInject-64.efi (Unknown)
+GrubEXFAT-64.efi (Unknown)
+GrubISO9660-64.efi (Unknown)
+GrubNTFS-64.efi (Unknown)
+GrubUDF-64.efi (Unknown)
+NTFS.efi (Unknown)
+NvmExpressDxe-64.efi (Unknown)
+Ps2MouseDxe-64.efi (Unknown)
+UsbMouseDxe-64.efi (Unknown)
+VBoxExt2-64.efi (Unknown)
+VBoxExt4-64.efi (Unknown)
+VBoxHfs-64.efi (Unknown)
+VBoxIso9600-64.efi (Unknown)
+XhciDxe-64.efi (Unknown)
+
+================================================
+disk0s1
+================================================
+-rwxrwxrwx  1 99  99    23K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/CsmVideoDxe-64.efi
+-rwxrwxrwx  1 99  99   3.1K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/DataHubDxe-64.efi
+-rwxrwxrwx  1 99  99    16K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/EmuVariableUefi-64.efi
+-rwxrwxrwx  1 99  99    18K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/FSInject-64.efi
+-rwxrwxrwx  1 99  99    23K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/HFSPlus-64.efi
+-rwxrwxrwx  1 99  99   132K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/NTFS.efi
+-rwxrwxrwx  1 99  99    18K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/OsxAptioFix2Drv-64.efi
+-rwxrwxrwx  1 99  99    19K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/OsxAptioFixDrv-64.efi
+-rwxrwxrwx  1 99  99   2.8K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/OsxFatBinaryDrv-64.efi
+-rwxrwxrwx  1 99  99   2.1K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/OsxLowMemFixDrv-64.efi
+-rwxrwxrwx  1 99  99    22K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/PartitionDxe-64.efi
+-rwxrwxrwx  1 99  99    26K Mar 21 18:32:00 2016 /Volumes/ddTempMpk2z9vgCfv/EFI/Clover/drivers64UEFI/VBoxHfs-64.efi
+---------
+Versions:
+CsmVideoDxe-64.efi (Unknown)
+DataHubDxe-64.efi (Unknown)
+EmuVariableUefi-64.efi (Unknown)
+FSInject-64.efi (Unknown)
+HFSPlus-64.efi (Unknown)
+NTFS.efi (Unknown)
+OsxAptioFix2Drv-64.efi (Unknown)
+OsxAptioFixDrv-64.efi (Unknown)
+OsxFatBinaryDrv-64.efi (Unknown)
+OsxLowMemFixDrv-64.efi (Unknown)
+PartitionDxe-64.efi (Unknown)
+VBoxHfs-64.efi (Unknown)
+

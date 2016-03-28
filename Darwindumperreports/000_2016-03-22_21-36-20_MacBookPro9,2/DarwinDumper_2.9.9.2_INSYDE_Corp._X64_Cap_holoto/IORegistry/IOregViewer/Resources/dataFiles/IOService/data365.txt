@@ -1,0 +1,9 @@
+[
+{"data":{"title":"csr-active-config"},"attr":{"id":"62443","ColType":"Data","ColValue":"&lt;67000000&gt;"}},
+{"data":{"title":"efi-boot-device-data"},"attr":{"id":"62445","ColType":"Data","ColValue":"&lt;02010c00d041030a0000000001010600021f03120a0000000000000004012a000100000000080000000000000008c01200000000c230629d00000000000000000000000001017fff0400&gt;"}},
+{"data":{"title":"backlight-level"},"attr":{"id":"62447","ColType":"Data","ColValue":"&lt;ffff&gt;"}},
+{"data":{"title":"EmuVariableUefiPresent"},"attr":{"id":"62449","ColType":"Data","ColValue":"&lt;\"Yes\"&gt;"}},
+{"data":{"title":"fmm-computer-name"},"attr":{"id":"62451","ColType":"Data","ColValue":"&lt;\"holoto’s MacBook Pro\"&gt;"}},
+{"data":{"title":"LocationServicesEnabled"},"attr":{"id":"62453","ColType":"Data","ColValue":"&lt;01&gt;"}},
+{"data":{"title":"security-mode"},"attr":{"id":"62455","ColType":"String","ColValue":"none"}}
+]

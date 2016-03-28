@@ -1,0 +1,22 @@
+[
+{"data":{"title":"Revision"},"attr":{"id":"32466","ColType":"String","ColValue":"LVD5    "}},
+{"data":{"title":"Protocol Characteristics"},"attr":{"id":"32468","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"32470","ColType":"String","ColValue":"Internal"}},{"data":{"title":"Physical Interconnect"},"attr":{"id":"32472","ColType":"String","ColValue":"SATA"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"32474","ColType":"String","ColValue":"com.apple.iokit.IOAHCIBlockStorage"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"32476","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"SATA Features"},"attr":{"id":"32478","ColType":"Number","ColValue":"15"}},
+{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"32480","ColType":"String","ColValue":"Internal"}},
+{"data":{"title":"IOPersonalityPublisher"},"attr":{"id":"32482","ColType":"String","ColValue":"com.apple.driver.AHCIPortInjector"}},
+{"data":{"title":"Logical Block Size"},"attr":{"id":"32484","ColType":"Number","ColValue":"512"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"32486","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"Serial Number"},"attr":{"id":"32488","ColType":"String","ColValue":"            W771APAN"}},
+{"data":{"title":"IOClass"},"attr":{"id":"32490","ColType":"String","ColValue":"AppleAHCIDiskDriver"}},
+{"data":{"title":"Trace ID"},"attr":{"id":"32492","ColType":"Number","ColValue":"2032128"}},
+{"data":{"title":"IOMaximumBlockCountWrite"},"attr":{"id":"32494","ColType":"Number","ColValue":"65536"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"32496","ColType":"String","ColValue":"IOAHCIDevice"}},
+{"data":{"title":"Physical Block Size"},"attr":{"id":"32498","ColType":"Number","ColValue":"4096"}},
+{"data":{"title":"NCQ"},"attr":{"id":"32500","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPolledInterface"},"attr":{"id":"32502","ColType":"String","ColValue":"AppleAHCIDiskPolledInterface is not serializable"}},
+{"data":{"title":"Model"},"attr":{"id":"32504","ColType":"String","ColValue":"ST1000LM014-SSHD-8GB                    "}},
+{"data":{"title":"IOMaximumBlockCountRead"},"attr":{"id":"32506","ColType":"Number","ColValue":"65536"}},
+{"data":{"title":"Queue Depth"},"attr":{"id":"32508","ColType":"Number","ColValue":"32"}}
+]

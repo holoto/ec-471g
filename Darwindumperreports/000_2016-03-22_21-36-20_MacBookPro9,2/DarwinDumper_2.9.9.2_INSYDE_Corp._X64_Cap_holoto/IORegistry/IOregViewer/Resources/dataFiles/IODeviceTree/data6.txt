@@ -1,0 +1,4 @@
+[
+{"data":{"title":"name"},"attr":{"id":"1498","ColType":"Data","ColValue":"&lt;\"kernel-compatibility\"&gt;"}},
+{"data":{"title":"x86_64"},"attr":{"id":"1500","ColType":"Data","ColValue":"&lt;b6524890&gt;"}}
+]

@@ -1,0 +1,138 @@
+deResources
+Sandbox: chown(14562) System Policy: allow(0) file-write-owner /System/Library/Extensions/udf.kext/Contents/Info.plist
+Sandbox: chown(14564) System Policy: allow(0) file-write-owner /System/Library/Extensions/udf.kext/Contents/MacOS
+Sandbox: chown(14566) System Policy: allow(0) file-write-owner /System/Library/Extensions/udf.kext/Contents/MacOS/udf
+Sandbox: chown(14568) System Policy: allow(0) file-write-owner /System/Library/Extensions/udf.kext/Contents/version.plist
+Sandbox: chown(14580) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext
+Sandbox: chown(14582) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext/Contents
+Sandbox: chown(14584) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext/Contents/_CodeSignature
+Sandbox: chown(14586) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext/Contents/_CodeSignature/CodeResources
+Sandbox: chown(14588) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext/Contents/Info.plist
+Sandbox: chown(14590) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext/Contents/MacOS
+Sandbox: chown(14592) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext/Contents/MacOS/vecLib
+Sandbox: chown(14594) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext/Contents/Resources
+Sandbox: chown(14596) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext/Contents/Resources/en.lproj
+Sandbox: chown(14598) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext/Contents/Resources/en.lproj/InfoPlist.strings
+Sandbox: chown(14600) System Policy: allow(0) file-write-owner /System/Library/Extensions/vecLib.kext/Contents/version.plist
+Sandbox: chown(14682) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext
+Sandbox: chown(14684) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents
+Sandbox: chown(14686) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/_CodeSignature
+Sandbox: chown(14688) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/_CodeSignature/CodeResources
+Sandbox: chown(14691) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Info.plist
+Sandbox: chown(14693) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/MacOS
+Sandbox: chown(14695) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/MacOS/webcontentfilter
+Sandbox: chown(14697) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources
+Sandbox: chown(14699) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ar.lproj
+Sandbox: chown(14701) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ar.lproj/InfoPlist.strings
+Sandbox: chown(14703) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ca.lproj
+Sandbox: chown(14705) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ca.lproj/InfoPlist.strings
+Sandbox: chown(14707) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/cs.lproj
+Sandbox: chown(14709) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/cs.lproj/InfoPlist.strings
+Sandbox: chown(14711) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/da.lproj
+Sandbox: chown(14713) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/da.lproj/InfoPlist.strings
+Sandbox: chown(14715) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/Dutch.lproj
+Sandbox: chown(14717) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/Dutch.lproj/InfoPlist.strings
+Sandbox: chown(14719) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/el.lproj
+Sandbox: chown(14722) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/el.lproj/InfoPlist.strings
+Sandbox: chown(14724) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/English.lproj
+Sandbox: chown(14726) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/English.lproj/InfoPlist.strings
+Sandbox: chown(14728) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/es_MX.lproj
+Sandbox: chown(14730) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/es_MX.lproj/InfoPlist.strings
+Sandbox: chown(14732) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/fi.lproj
+Sandbox: chown(14734) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/fi.lproj/InfoPlist.strings
+Sandbox: chown(14736) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/French.lproj
+Sandbox: chown(14738) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/French.lproj/InfoPlist.strings
+Sandbox: chown(14742) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/German.lproj/InfoPlist.strings
+Sandbox: chown(14744) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/he.lproj
+Sandbox: chown(14746) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/he.lproj/InfoPlist.strings
+Sandbox: chown(14748) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/hr.lproj
+Sandbox: chown(14750) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/hr.lproj/InfoPlist.strings
+Sandbox: chown(14752) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/hu.lproj
+Sandbox: chown(14754) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/hu.lproj/InfoPlist.strings
+Sandbox: chown(14756) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/id.lproj
+Sandbox: chown(14758) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/id.lproj/InfoPlist.strings
+Sandbox: chown(14760) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/Italian.lproj
+Sandbox: chown(14762) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/Italian.lproj/InfoPlist.strings
+Sandbox: chown(14764) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/Japanese.lproj
+Sandbox: chown(14766) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/Japanese.lproj/InfoPlist.strings
+Sandbox: chown(14769) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ko.lproj
+Sandbox: chown(14771) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ko.lproj/InfoPlist.strings
+Sandbox: chown(14773) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ms.lproj
+Sandbox: chown(14775) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ms.lproj/InfoPlist.strings
+Sandbox: chown(14777) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/no.lproj
+Sandbox: chown(14779) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/no.lproj/InfoPlist.strings
+Sandbox: chown(14781) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/pl.lproj
+Sandbox: chown(14783) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/pl.lproj/InfoPlist.strings
+Sandbox: chown(14785) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/pt.lproj
+Sandbox: chown(14787) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/pt.lproj/InfoPlist.strings
+Sandbox: chown(14789) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/pt_PT.lproj
+Sandbox: chown(14791) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/pt_PT.lproj/InfoPlist.strings
+Sandbox: chown(14793) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ro.lproj
+Sandbox: chown(14795) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ro.lproj/InfoPlist.strings
+Sandbox: chown(14797) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ru.lproj
+Sandbox: chown(14799) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/ru.lproj/InfoPlist.strings
+Sandbox: chown(14801) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/sk.lproj
+Sandbox: chown(14803) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/sk.lproj/InfoPlist.strings
+Sandbox: chown(14805) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/Spanish.lproj
+Sandbox: chown(14807) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/Spanish.lproj/InfoPlist.strings
+Sandbox: chown(14809) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/sv.lproj
+Sandbox: chown(14811) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/sv.lproj/InfoPlist.strings
+Sandbox: chown(14813) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/th.lproj
+Sandbox: chown(14815) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/th.lproj/InfoPlist.strings
+Sandbox: chown(14817) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/tr.lproj
+Sandbox: chown(14819) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/tr.lproj/InfoPlist.strings
+Sandbox: chown(14821) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/uk.lproj
+Sandbox: chown(14823) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/uk.lproj/InfoPlist.strings
+Sandbox: chown(14825) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/vi.lproj
+Sandbox: chown(14827) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/vi.lproj/InfoPlist.strings
+Sandbox: chown(14829) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/zh_CN.lproj
+Sandbox: chown(14831) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/zh_CN.lproj/InfoPlist.strings
+Sandbox: chown(14833) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/zh_TW.lproj
+Sandbox: chown(14835) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/Resources/zh_TW.lproj/InfoPlist.strings
+Sandbox: chown(14837) System Policy: allow(0) file-write-owner /System/Library/Extensions/webcontentfilter.kext/Contents/version.plist
+Sandbox: chown(14839) System Policy: allow(0) file-write-owner /System/Library/Extensions/webdav_fs.kext
+Sandbox: chown(14841) System Policy: allow(0) file-write-owner /System/Library/Extensions/webdav_fs.kext/Contents
+Sandbox: chown(14843) System Policy: allow(0) file-write-owner /System/Library/Extensions/webdav_fs.kext/Contents/_CodeSignature
+Sandbox: chown(14845) System Policy: allow(0) file-write-owner /System/Library/Extensions/webdav_fs.kext/Contents/_CodeSignature/CodeResources
+Sandbox: chown(14847) System Policy: allow(0) file-write-owner /System/Library/Extensions/webdav_fs.kext/Contents/Info.plist
+Sandbox: chown(14849) System Policy: allow(0) file-write-owner /System/Library/Extensions/webdav_fs.kext/Contents/MacOS
+Sandbox: chown(14851) System Policy: allow(0) file-write-owner /System/Library/Extensions/webdav_fs.kext/Contents/MacOS/webdav_fs
+Sandbox: chown(14853) System Policy: allow(0) file-write-owner /System/Library/Extensions/webdav_fs.kext/Contents/Resources
+Sandbox: chown(14855) System Policy: allow(0) file-write-owner /System/Library/Extensions/webdav_fs.kext/Contents/Resources/webdavfs_agent
+Sandbox: chown(14857) System Policy: allow(0) file-write-owner /System/Library/Extensions/webdav_fs.kext/Contents/version.plist
+Couldn't alloc class "CodecCommanderResidency"
+Couldn't alloc class "CodecCommanderResidency"
+Resetting IOCatalogue.
+Refusing new kext com.apple.iokit.IOUSBFamily, v3.8.5: already have loaded v900.4.1.
+OSMetaClass: Kext com.apple.driver.AppleUSBHub class AppleUSBHub is a duplicate;kext com.apple.driver.usb.AppleUSBHub already has a class by that name.
+Kext com.apple.driver.AppleUSBHub start failed (result 0xdc00400a).
+Kext com.apple.driver.AppleUSBHub failed to load (0xdc008017).
+Failed to load kext com.apple.driver.AppleUSBHub (error 0xdc008017).
+HDAEnabler: Copyright (c) 2008 by Kabyl
+HDAEnabler: 05/05/2008 Added SP-Audio support by Taruga
+HDAEnabler: 03/07/2009 Compiled for 32/64-bit by Taruga
+HDAEnabler: Copyright (c) 2008 by Kabyl
+HDAEnabler: 05/05/2008 Added SP-Audio support by Taruga
+HDAEnabler: 03/07/2009 Compiled for 32/64-bit by Taruga
+HDAEnabler: Copyright (c) 2008 by Kabyl
+HDAEnabler: 05/05/2008 Added SP-Audio support by Taruga
+HDAEnabler: 03/07/2009 Compiled for 32/64-bit by Taruga
+HDAEnabler: Copyright (c) 2008 by Kabyl
+HDAEnabler: 05/05/2008 Added SP-Audio support by Taruga
+HDAEnabler: 03/07/2009 Compiled for 32/64-bit by Taruga
+HDAEnabler: Copyright (c) 2008 by Kabyl
+HDAEnabler: 05/05/2008 Added SP-Audio support by Taruga
+HDAEnabler: 03/07/2009 Compiled for 32/64-bit by Taruga
+HDAEnabler: Copyright (c) 2008 by Kabyl
+HDAEnabler: 05/05/2008 Added SP-Audio support by Taruga
+HDAEnabler: 03/07/2009 Compiled for 32/64-bit by Taruga
+Sound assertion in AppleHDAController at line 384
+Couldn't alloc class "CodecCommanderResidency"
+Couldn't alloc class "CodecCommanderResidency"
+Sandbox: Finder(267) System Policy: allow(0) file-write-create /System/Library/.DS_Store
+ignored is_io_service_close(0x100000386,IOHIDParamUserClient)
+ignored is_io_service_close(0x100000386,IOHIDParamUserClient)
+Couldn't alloc class "CodecCommanderResidency"
+Couldn't alloc class "CodecCommanderResidency"
+Couldn't alloc class "CodecCommanderResidency"
+Couldn't alloc class "CodecCommanderResidency"

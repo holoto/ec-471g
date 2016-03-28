@@ -1,0 +1,16 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"20807","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"20809","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"Transport"},"attr":{"id":"20811","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"20813","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"VendorID"},"attr":{"id":"20815","ColType":"Number","ColValue":"9610"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"20817","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"20819","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"BootProtocol"},"attr":{"id":"20821","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"20823","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"20824","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"20826","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"20828","ColType":"Number","ColValue":"6"}}]}]},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"20830","ColType":"String","ColValue":""}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"20832","ColType":"String","ColValue":"SINO WEALTH"}},
+{"data":{"title":"Product"},"attr":{"id":"20834","ColType":"String","ColValue":"USB KEYBOARD"}},
+{"data":{"title":"LocationID"},"attr":{"id":"20836","ColType":"Number","ColValue":"487718912"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"20838","ColType":"Number","ColValue":"0"}}
+]

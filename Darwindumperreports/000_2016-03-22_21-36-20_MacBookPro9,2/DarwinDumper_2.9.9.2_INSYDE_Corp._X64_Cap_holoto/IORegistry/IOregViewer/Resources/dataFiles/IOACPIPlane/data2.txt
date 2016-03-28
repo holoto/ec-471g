@@ -1,0 +1,18 @@
+[
+{"data":{"title":"IOBusyInterest"},"attr":{"id":"1420","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"system-type"},"attr":{"id":"1422","ColType":"Data","ColValue":"&lt;02&gt;"}},
+{"data":{"title":"IOInterruptControllers"},"attr":{"id":"1424","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"1425","ColType":"String","ColValue":"io-apic-0"}}]},
+{"data":{"title":"product-name"},"attr":{"id":"1427","ColType":"Data","ColValue":"&lt;\"MacBookPro9,2\"&gt;"}},
+{"data":{"title":"IOPlatformUUID"},"attr":{"id":"1429","ColType":"String","ColValue":"D7********************************D7"}},
+{"data":{"title":"board-id"},"attr":{"id":"1431","ColType":"Data","ColValue":"&lt;\"Mac-6F01561E16C75D06\"&gt;"}},
+{"data":{"title":"IOPlatformSerialNumber"},"attr":{"id":"1433","ColType":"String","ColValue":"C**********3"}},
+{"data":{"title":"version"},"attr":{"id":"1435","ColType":"Data","ColValue":"&lt;\"1.0\"&gt;"}},
+{"data":{"title":"IOPolledInterface"},"attr":{"id":"1437","ColType":"String","ColValue":"SMCPolledInterface is not serializable"}},
+{"data":{"title":"IOInterruptSpecifiers"},"attr":{"id":"1439","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"1440","ColType":"Data","ColValue":"&lt;0900000005000000&gt;"}}]},
+{"data":{"title":"model"},"attr":{"id":"1442","ColType":"Data","ColValue":"&lt;\"MacBookPro9,2\"&gt;"}},
+{"data":{"title":"manufacturer"},"attr":{"id":"1444","ColType":"Data","ColValue":"&lt;\"Apple Inc.\"&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"1446","ColType":"Data","ColValue":"&lt;\"/\"&gt;"}},
+{"data":{"title":"clock-frequency"},"attr":{"id":"1448","ColType":"Data","ColValue":"&lt;0084d717&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"1450","ColType":"Data","ColValue":"&lt;\"MacBookPro9,2\"&gt;"}},
+{"data":{"title":"serial-number"},"attr":{"id":"1452","ColType":"Data","ColValue":"&lt;44545****************************************************************************00000&gt;"}}
+]

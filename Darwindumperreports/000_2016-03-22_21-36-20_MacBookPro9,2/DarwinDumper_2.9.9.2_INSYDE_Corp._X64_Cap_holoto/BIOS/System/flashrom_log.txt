@@ -1,0 +1,196 @@
+flashrom v0.9.7-unknown on Darwin 15.3.0 (x86_64)
+flashrom was built with libpci 3.1.9, GCC 4.2.1 (Apple Inc. build 5666) (dot 3), little endian
+Command line (6 args): /Users/holoto/Desktop/Tools/DarwinDumper.app/Contents/Resources/Tools/flashrom -p internal -r /Users/holoto/Desktop/Tools/DarwinDumperReports/000_2016-03-22_21-36-20_MacBookPro9,2/DarwinDumper_2.9.9.2_INSYDE_Corp._X64_Cap_holoto/BIOS/System/biosbackup.rom -o /Users/holoto/Desktop/Tools/DarwinDumperReports/000_2016-03-22_21-36-20_MacBookPro9,2/DarwinDumper_2.9.9.2_INSYDE_Corp._X64_Cap_holoto/BIOS/System/flashrom_log.txt
+Calibrating delay loop... OS timer resolution is 1 usecs, 1237M loops per second, delay more than 10% too short (got 49% of expected delay), recalculating... 1419M loops per second, delay more than 10% too short (got 83% of expected delay), recalculating... 1345M loops per second, delay more than 10% too short (got 79% of expected delay), recalculating... 1614M loops per second, 10 myus = 9 us, 100 myus = 174 us, 1000 myus = 1168 us, 10000 myus = 11028 us, 4 myus = 2 us, OK.
+Initializing internal programmer
+No coreboot table found.
+Using Internal DMI decoder.
+No DMI table found.
+W836xx enter config mode worked or we were already in config mode. W836xx leave config mode had no effect.
+Active config mode, unknown reg 0x20 ID: fc.
+Please send the output of "flashrom -V -p internal" to 
+flashrom@flashrom.org with W836xx: your board name: flashrom -V
+as the subject to help us finish support for your Super I/O. Thanks.
+Found chipset "Intel HM77" with PCI ID 8086:1e57. Enabling flash write... Root Complex Register Block address = 0xfed1c000
+GCS = 0xc21: BIOS Interface Lock-Down: enabled, Boot BIOS Straps: 0x3 (SPI)
+Top Swap : not enabled
+
+0xfff80000/0xffb80000 FWH IDSEL: 0x0
+0xfff00000/0xffb00000 FWH IDSEL: 0x0
+0xffe80000/0xffa80000 FWH IDSEL: 0x0
+0xffe00000/0xffa00000 FWH IDSEL: 0x0
+0xffd80000/0xff980000 FWH IDSEL: 0x0
+0xffd00000/0xff900000 FWH IDSEL: 0x0
+0xffc80000/0xff880000 FWH IDSEL: 0x3
+0xffc00000/0xff800000 FWH IDSEL: 0x3
+0xff700000/0xff300000 FWH IDSEL: 0x4
+0xff600000/0xff200000 FWH IDSEL: 0x5
+0xff500000/0xff100000 FWH IDSEL: 0x6
+0xff400000/0xff000000 FWH IDSEL: 0x7
+0xfff80000/0xffb80000 FWH decode enabled
+0xfff00000/0xffb00000 FWH decode enabled
+0xffe80000/0xffa80000 FWH decode enabled
+0xffe00000/0xffa00000 FWH decode enabled
+0xffd80000/0xff980000 FWH decode enabled
+0xffd00000/0xff900000 FWH decode enabled
+0xffc80000/0xff880000 FWH decode enabled
+0xffc00000/0xff800000 FWH decode enabled
+0xff700000/0xff300000 FWH decode disabled
+0xff600000/0xff200000 FWH decode disabled
+0xff500000/0xff100000 FWH decode disabled
+0xff400000/0xff000000 FWH decode disabled
+Maximum FWH chip size: 0x300000 bytesSPI Read Configuration: prefetching disabled, caching enabled, 
+BIOS_CNTL = 0x01: BIOS Lock Enable: disabled, BIOS Write Enable: enabled
+SPIBAR = 0x00000001000ca000 + 0x3800
+0x04: 0xe008 (HSFS)
+HSFS: FDONE=0, FCERR=0, AEL=0, BERASE=1, SCIP=0, FDOPSS=1, FDV=1, FLOCKDN=1
+Warning: SPI Configuration Lockdown activated.
+Reading OPCODES... done
+        OP        Type      Pre-OP
+op[0]: 0x9f, read  w/o addr, none
+op[1]: 0x20, write w/  addr, none
+op[2]: 0x02, write w/  addr, none
+op[3]: 0x01, write w/o addr, none
+op[4]: 0x03, read  w/  addr, none
+op[5]: 0x05, read  w/o addr, none
+op[6]: 0x00, write w/  addr, none
+op[7]: 0x00, write w/  addr, none
+Pre-OP 0: 0x06, Pre-OP 1: 0x06
+0x06: 0x0004 (HSFC)
+HSFC: FGO=0, FCYCLE=2, FDBC=0, SME=0
+0x08: 0x00000000 (FADDR)
+0x50: 0x00000a0b (FRAP)
+BMWAG 0x00, BMRAG 0x00, BRWA 0x0a, BRRA 0x0b
+0x54: 0x00000000 FREG0: Warning: Flash Descriptor region (0x00000000-0x00000fff) is read-only.
+0x58: 0x05ff0200 FREG1: BIOS region (0x00200000-0x005fffff) is read-write.
+0x5C: 0x01ff0001 FREG2: Warning: Management Engine region (0x00001000-0x001fffff) is locked.
+0x60: 0x00001fff FREG3: Gigabit Ethernet region is unused.
+0x64: 0x00001fff FREG4: Platform Data region is unused.
+Not all flash regions are freely accessible by flashrom. This is most likely
+due to an active ME. Please see http://flashrom.org/ME for details.
+0x74: 0x85ff0540 PR0: Warning: 0x00540000-0x005fffff is read-only.
+0x78: 0x84f10300 PR1: Warning: 0x00300000-0x004f1fff is read-only.
+0x7C: 0x00000000 (PR2 is unused)
+0x80: 0x00000000 (PR3 is unused)
+0x84: 0x00000000 (PR4 is unused)
+Writes have been disabled for safety reasons. You can enforce write
+support with the ich_spi_force programmer option, but you will most likely
+harm your hardware! If you force flashrom you will get no support if
+something breaks. On a few mainboards it is possible to enable write
+access by setting a jumper (see its documentation or the board itself).
+0x90: 0xc0 (SSFS)
+SSFS: SCIP=0, FDONE=0, FCERR=0, AEL=0
+0x91: 0xf84204 (SSFC)
+SSFC: SCGO=0, ACS=1, SPOP=0, COP=0, DBC=2, SME=0, SCF=0
+0x94: 0x0606     (PREOP)
+0x96: 0xf27c     (OPTYPE)
+0x98: 0x0102209f (OPMENU)
+0x9C: 0x00000503 (OPMENU+4)
+0xA0: 0x00000000 (BBAR)
+0xC4: 0x00802005 (LVSCC)
+LVSCC: BES=0x1, WG=1, WSR=0, WEWS=0, EO=0x20, VCL=1
+0xC8: 0x00002005 (UVSCC)
+UVSCC: BES=0x1, WG=1, WSR=0, WEWS=0, EO=0x20, VCL=0
+0xD0: 0x00000000 (FPB)
+
+Reading flash descriptors mapped by the chipset via FDOC/FDOD... done.
+=== Content Section ===
+FLVALSIG 0x0ff0a55a
+FLMAP0   0x02040103
+FLMAP1   0x12100206
+FLMAP2   0x00210120
+
+--- Details ---
+NR          (Number of Regions):                     3
+FRBA        (Flash Region Base Address):         0x040
+NC          (Number of Components):                  2
+FCBA        (Flash Component Base Address):      0x030
+ISL         (ICH/PCH Strap Length):                 18
+FISBA/FPSBA (Flash ICH/PCH Strap Base Address):  0x100
+NM          (Number of Masters):                     3
+FMBA        (Flash Master Base Address):         0x060
+MSL/PSL     (MCH/PROC Strap Length):                 1
+FMSBA       (Flash MCH/PROC Strap Base Address): 0x200
+
+=== Component Section ===
+FLCOMP   0x6490001a
+FLILL    0x00000000
+
+--- Details ---
+Component 1 density:             2 MB
+Component 2 density:             4 MB
+Read Clock Frequency:           20 MHz
+Read ID and Status Clock Freq.: 50 MHz
+Write and Erase Clock Freq.:    50 MHz
+Fast Read is supported.
+Fast Read Clock Frequency:      50 MHz
+No forbidden opcodes.
+
+=== Region Section ===
+FLREG0   0x00000000
+FLREG1   0x05ff0200
+FLREG2   0x01ff0001
+FLREG3   0x00001fff
+FLREG4   0x00001fff
+
+--- Details ---
+Region 0 (Descr.) 0x00000000 - 0x00000fff
+Region 1 (BIOS  ) 0x00200000 - 0x005fffff
+Region 2 (ME    ) 0x00001000 - 0x001fffff
+Region 3 (GbE   ) is unused.
+Region 4 (Platf.) is unused.
+
+=== Master Section ===
+FLMSTR1  0x0a0b0000
+FLMSTR2  0x0c0d0000
+FLMSTR3  0x08080118
+
+--- Details ---
+      Descr. BIOS ME GbE Platf.
+BIOS    r     rw      rw     
+ME      r         rw  rw     
+GbE                   rw     
+
+Enabling hardware sequencing due to multiple flash chips detected.
+OK.
+The following protocols are supported: FWH, Programmer-specific.
+Probing for Programmer Opaque flash chip, 0 kB: Found 2 attached SPI flash chips with a combined density of 6144 kB.
+There is only one partition containing the whole address space (0x000000 - 0x5fffff).
+There are 1536 erase blocks with 4096 B each.
+Found Programmer flash chip "Opaque flash chip" (6144 kB, Programmer-specific) at physical address 0x0.
+Probing for Atmel AT49LH002, 256 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 82802AB, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 82802AC, 1024 kB: probe_82802ab: id1 0x01, id2 0x00, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm49FL002, 256 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm49FL004, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Sharp LHF00L04, 1024 kB: probe_82802ab: id1 0x01, id2 0x00, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF002A/B, 256 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF003A/B, 384 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF004A/B, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF004C, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF008A, 1024 kB: probe_jedec_common: id1 0x01, id2 0x00, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF008C, 1024 kB: probe_82802ab: id1 0x01, id2 0x00, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF016C, 2048 kB: probe_82802ab: id1 0x41, id2 0x43, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW040A, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW040B, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW080A, 1024 kB: probe_82802ab: id1 0x01, id2 0x00, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW080B, 1024 kB: probe_82802ab: id1 0x01, id2 0x00, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW002, 256 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW016, 2048 kB: probe_82802ab: id1 0x41, id2 0x43, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW040, 512 kB: probe_82802ab: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW080, 1024 kB: probe_82802ab: id1 0x01, id2 0x00, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FA, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FB, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FC, 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W49V002FA, 256 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V080FA, 1024 kB: probe_jedec_common: id1 0x01, id2 0x00, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V080FA (dual mode), 512 kB: probe_jedec_common: id1 0x00, id2 0x00, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Found Programmer flash chip "Opaque flash chip" (6144 kB, Programmer-specific).
+Reading flash... Reading 6291456 bytes starting at 0x000000.
+Transaction error between offset 0x00001000 and 0x0000103f (= 0x00001000 + 63)!
+HSFS: FDONE=1, FCERR=1, AEL=0, BERASE=1, SCIP=0, FDOPSS=1, FDV=1, FLOCKDN=1
+HSFC: FGO=0, FCYCLE=0, FDBC=63, SME=0
+Read operation failed!
+FAILED.
+Restoring MMIO space at 0x1000cd8a0
+Restoring PCI config space for 00:1f:0 reg 0xdc

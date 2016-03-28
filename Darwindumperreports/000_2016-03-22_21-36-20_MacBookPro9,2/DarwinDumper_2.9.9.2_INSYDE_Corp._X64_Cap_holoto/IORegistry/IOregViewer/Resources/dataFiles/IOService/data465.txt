@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"70004","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"70006","ColType":"String","ColValue":"org_pqrs_driver_Karabiner"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"70008","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"70010","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"70012","ColType":"String","ColValue":"org.pqrs.driver.Karabiner"}},
+{"data":{"title":"IOKitDebug"},"attr":{"id":"70014","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"70016","ColType":"String","ColValue":"org_pqrs_driver_Karabiner_UserClient_kext"}},
+{"data":{"title":"IOClass"},"attr":{"id":"70018","ColType":"String","ColValue":"org_pqrs_driver_Karabiner"}}
+]

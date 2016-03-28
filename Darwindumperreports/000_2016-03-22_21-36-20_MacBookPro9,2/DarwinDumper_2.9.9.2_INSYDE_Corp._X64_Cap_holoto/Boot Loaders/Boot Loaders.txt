@@ -1,0 +1,31 @@
+                                                                                                                                    
+                                                                                                                                    
+disk0 ST1000LM014-SSHD-8GB (4096 byte physical block size)
+==========================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME         SIZE    MBR (Stage0)         PBR (Stage1)        BootFile (Stage 2)             UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              GUID_partition_scheme                1 TB    None
+     disk0s1  EFI                     EFI          209 MB                       Apple EFI
+                                                                                                    boot(Clover r3330)
+                                                                                                    boot3(Clover r3354)
+                                                                                                    boot6(Clover r3354)
+                                                                                                    boot7(Clover r3354)
+                                                                                                                                   /EFI/Boot/BootX64.efi(Clover r3354)
+                                                                                                                                   /EFI/Boot/BootIA32.efi(Clover r3354)
+                                                                                                                                   /EFI/Clover/CloverX64.efi(Clover r3354)
+     disk0s2  Apple_HFS               osx          999 GB                        
+     disk0s3  Apple_Boot              Recovery HD  650 MB                        
+                                                                                                                                    
+                                                                                                                                    
+disk1 ST500LT012-9WS142 (4096 byte physical block size)
+==========================================================================================================================================================================
+ACT  DEVICE   TYPE                    NAME         SIZE    MBR (Stage0)         PBR (Stage1)        BootFile (Stage 2)             UEFI BootFile
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+              FDisk_partition_scheme               500 GB  Windows Vista,7 MBR
+*    disk1s1  Windows_NTFS            WIN10        161 GB                       Windows NTFS NTLDR
+                                                                                                    bootmgr(Windows Boot Manager)
+                                                                                                                                   /EFI/Boot/BootX64.efi(Windows)
+                                                                                                                                   /EFI/Microsoft/Boot/bootmgfw.efi
+     disk1s5  Windows_NTFS            soft         161 GB                       Windows NTFS NTLDR
+     disk1s6  Windows_NTFS            word         53 GB                        Windows NTFS NTLDR
+     disk1s7  Windows_NTFS            gamepower    124 GB                       Windows NTFS NTLDR

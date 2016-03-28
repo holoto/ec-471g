@@ -1,0 +1,950 @@
+Found a device of class VoodooHDADevice: IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/HDEF@1B/VoodooHDADevice
+
+
+Probing codec #0...
+ HDA Codec #0: Realtek ALC269
+ HDA Codec ID: 0x10ec0269
+       Vendor: 0x10ec
+       Device: 0x0269
+     Revision: 0x01
+     Stepping: 0x00
+PCI Subvendor: 0x07321025
+	startNode=1 endNode=2
+	Found audio FG nid=1 startNode=2 endNode=36 total=34
+
+Processing audio FG cad=0 nid=1...
+Powering up...
+Parsing audio FG...
+GPIO: 0x40000002 NumGPIO=2 NumGPO=0 NumGPI=0 GPIWake=0 GPIUnsol=1
+ nid 18 0x411111f0 as 15 seq  0 Speaker       None  1/8     Rear    External Black   misc 0 NoPresenceDetect
+ nid 20 0x90170110 as  1 seq  0 Speaker       Fixed Analog  N/A     Internal Unknown misc 0 NoPresenceDetect
+ nid 23 0x411111f0 as 15 seq  0 Speaker       None  1/8     Rear    External Black   misc 0 NoPresenceDetect
+ nid 24 0x03a19820 as  2 seq  0 Microphone    Jack  1/8     Left    External Pink    misc 4
+ nid 25 0x90a7092f as  2 seq 15 Microphone    Fixed Analog  N/A     Internal Unknown misc 4 NoPresenceDetect
+ nid 26 0x411111f0 as 15 seq  0 Speaker       None  1/8     Rear    External Black   misc 0 NoPresenceDetect
+ nid 27 0x411111f0 as 15 seq  0 Speaker       None  1/8     Rear    External Black   misc 0 NoPresenceDetect
+Patching widget caps nid=29 0x00400000 -> 0x00700000
+ nid 30 0x411111f0 as 15 seq  0 Speaker       None  1/8     Rear    External Black   misc 0 NoPresenceDetect
+ nid 33 0x0321401f as  1 seq 15 Headphones    Jack  1/8     Left    External Green   misc 0
+Parsing vendor patch...
+Nodes patching. Codec = 0 
+NumNodes = 0
+VHDevice NID= 2 Config=00000000 (audio output  ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID= 3 Config=00000000 (audio output  ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID= 4 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID= 5 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID= 6 Config=00000000 (audio output  ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID= 7 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID= 8 Config=00000000 (audio input   ) Cap=00000000 Ctrl=00000000 -- Conns: 0=35
+VHDevice NID= 9 Config=00000000 (audio input   ) Cap=00000000 Ctrl=00000000 -- Conns: 0=34
+VHDevice NID=10 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=11 Config=00000000 (audio mixer   ) Cap=00000000 Ctrl=00000000 -- Conns: 0=24 1=25 2=26 3=27 4=29
+VHDevice NID=12 Config=00000000 (audio mixer   ) Cap=00000000 Ctrl=00000000 -- Conns: 0=2 1=11
+VHDevice NID=13 Config=00000000 (audio mixer   ) Cap=00000000 Ctrl=00000000 -- Conns: 0=3 1=11
+VHDevice NID=14 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=15 Config=00000000 (audio mixer   ) Cap=00000000 Ctrl=00000000 -- Conns: 0=2 1=11
+VHDevice NID=16 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=17 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=18 Config=411111f0 (pin: Speaker () Cap=00000020 Ctrl=00000000 -- Conns:
+VHDevice NID=19 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=20 Config=90170110 (pin: Speaker () Cap=00010014 Ctrl=00000040 -- Conns: 0=12 1=13
+VHDevice NID=21 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=22 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=23 Config=411111f0 (pin: Speaker () Cap=00000010 Ctrl=00000000 -- Conns: 0=15
+VHDevice NID=24 Config=03a19820 (pin: Microphon) Cap=00001734 Ctrl=00000020 -- Conns: 0=13
+VHDevice NID=25 Config=90a7092f (pin: Microphon) Cap=00001724 Ctrl=00000020 -- Conns:
+VHDevice NID=26 Config=411111f0 (pin: Speaker () Cap=0000003c Ctrl=00000020 -- Conns: 0=12 1=13
+VHDevice NID=27 Config=411111f0 (pin: Speaker () Cap=00000034 Ctrl=00000020 -- Conns: 0=12 1=13
+VHDevice NID=28 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=29 Config=00000000 (beep widget   ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=30 Config=411111f0 (pin: Speaker () Cap=00000014 Ctrl=00000040 -- Conns: 0=6
+VHDevice NID=31 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=32 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID=33 Config=0321401f (pin: Headphone) Cap=0000001c Ctrl=00000000 -- Conns: 0=12 1=13
+VHDevice NID=34 Config=00000000 (audio selector) Cap=00000000 Ctrl=00000000 -- Conns: 0=24 1=25 2=26 3=27 4=29 5=11 6=18
+VHDevice NID=35 Config=00000000 (audio mixer   ) Cap=00000000 Ctrl=00000000 -- Conns: 0=24 1=25 2=26 3=27 4=29 5=11
+Disabling nonaudio...
+Disabling useless...
+ Disabling nid 11 connection 2 due to disabled child widget.
+ Disabling nid 11 connection 3 due to disabled child widget.
+ Disabling nid 15 due to all it's consumers disabled.
+ Disabling nid 34 connection 2 due to disabled child widget.
+ Disabling nid 34 connection 3 due to disabled child widget.
+ Disabling nid 34 connection 6 due to disabled child widget.
+ Disabling nid 35 connection 2 due to disabled child widget.
+ Disabling nid 35 connection 3 due to disabled child widget.
+Patched pins configuration:
+ nid 18 0x411111f0 as 15 seq  0 Speaker       None  1/8     Rear    External Black   misc 0 NoPresenceDetect [DISABLED]
+ nid 20 0x90170110 as  1 seq  0 Speaker       Fixed Analog  N/A     Internal Unknown misc 0 NoPresenceDetect
+ nid 23 0x411111f0 as 15 seq  0 Speaker       None  1/8     Rear    External Black   misc 0 NoPresenceDetect [DISABLED]
+ nid 24 0x03a19820 as  2 seq  0 Microphone    Jack  1/8     Left    External Pink    misc 4
+ nid 25 0x90a7092f as  2 seq 15 Microphone    Fixed Analog  N/A     Internal Unknown misc 4 NoPresenceDetect
+ nid 26 0x411111f0 as 15 seq  0 Speaker       None  1/8     Rear    External Black   misc 0 NoPresenceDetect [DISABLED]
+ nid 27 0x411111f0 as 15 seq  0 Speaker       None  1/8     Rear    External Black   misc 0 NoPresenceDetect [DISABLED]
+ nid 30 0x411111f0 as 15 seq  0 Speaker       None  1/8     Rear    External Black   misc 0 NoPresenceDetect [DISABLED]
+ nid 33 0x0321401f as  1 seq 15 Headphones    Jack  1/8     Left    External Green   misc 0
+Parsing pin associations...
+2 associations found:
+Association 0 (1) out:
+ Pin nid=20 seq=0
+ Pin nid=33 seq=15
+   Redir type=0 jack=15 def=0
+Association 1 (2) in:
+ Pin nid=24 seq=0
+ Pin nid=25 seq=15
+   Redir type=0 jack=0 def=15
+Building AFG tree...
+Tracing association 0 (1)
+ Tracing pin 20 with min nid 0
+    nid 2 returned 2
+   nid 12 returned 2
+    nid 3 returned 3
+   nid 13 returned 3
+  nid 20 returned 2
+ Pin 20 traced to DAC 2
+ Tracing pin 33 with min nid 0 and hpredir 0
+    nid 2 returned 2
+   nid 12 returned 2
+  nid 33 returned 2
+ Pin 33 traced to DAC 2 and hpredir 0
+Association 0 (1) trace succeeded
+Tracing association 1 (2)
+ Tracing pin 24 to ADC 8
+  tracing via nid 24
+   tracing via nid 11
+    tracing via nid 12
+    nid 12 busy by association 0
+    tracing via nid 13
+     tracing via nid 20
+     nid 20 busy by association 0
+     tracing via nid 24
+     nid 24 returned 0
+     tracing via nid 33
+     nid 33 busy by association 0
+    nid 13 returned 0
+    tracing via nid 34
+     tracing via nid 9
+     nid 9 returned 0
+    nid 34 returned 0
+    tracing via nid 35
+     tracing via nid 8
+     nid 8 returned 1
+    nid 35 returned 1
+   nid 11 returned 1
+   tracing via nid 34
+    tracing via nid 9
+    nid 9 returned 0
+   nid 34 returned 0
+   tracing via nid 35
+    tracing via nid 8
+    nid 8 returned 1
+   nid 35 returned 1
+  nid 24 returned 1
+ Pin 24 traced to ADC 8
+ Tracing pin 25 to ADC 8
+  tracing via nid 25
+   tracing via nid 11
+    tracing via nid 12
+    nid 12 busy by association 0
+    tracing via nid 13
+     tracing via nid 20
+     nid 20 busy by association 0
+     tracing via nid 24
+     nid 24 returned 0
+     tracing via nid 33
+     nid 33 busy by association 0
+    nid 13 returned 0
+    tracing via nid 34
+     tracing via nid 9
+     nid 9 returned 0
+    nid 34 returned 0
+    tracing via nid 35
+     tracing via nid 8
+     nid 8 returned 1
+    nid 35 returned 1
+   nid 11 returned 1
+   tracing via nid 34
+    tracing via nid 9
+    nid 9 returned 0
+   nid 34 returned 0
+   tracing via nid 35
+    tracing via nid 8
+    nid 8 returned 1
+   nid 35 returned 1
+  nid 25 returned 1
+ Pin 25 traced to ADC 8
+Association 1 (2) trace succeeded
+Tracing input monitor
+ Tracing nid 11 to out
+  tracing via nid 11
+   tracing via nid 12
+   nid 12 found output association 0
+   tracing via nid 13
+    tracing via nid 20
+    nid 20 found output association 0
+    tracing via nid 24
+    nid 24 busy by input association 1
+    tracing via nid 33
+    nid 33 found output association 0
+   nid 13 returned 1
+   tracing via nid 34
+    tracing via nid 9
+    nid 9 returned 0
+   nid 34 returned 0
+   tracing via nid 35
+   nid 35 busy by input association 1
+  nid 11 returned 1
+ nid 11 is input monitor
+ Tracing nid 35 to out
+  tracing via nid 35
+   tracing via nid 8
+   nid 8 busy by input association 1
+  nid 35 returned 0
+Tracing other input monitors
+ Tracing nid 24 to out
+  tracing via nid 24
+   tracing via nid 11
+   nid 11 busy by input association 1
+   tracing via nid 34
+    tracing via nid 9
+    nid 9 returned 0
+   nid 34 returned 0
+   tracing via nid 35
+   nid 35 busy by input association 1
+  nid 24 returned 0
+ Tracing nid 25 to out
+  tracing via nid 25
+   tracing via nid 11
+   nid 11 busy by input association 1
+   tracing via nid 34
+    tracing via nid 9
+    nid 9 returned 0
+   nid 34 returned 0
+   tracing via nid 35
+   nid 35 busy by input association 1
+  nid 25 returned 0
+Tracing beeper
+ Tracing nid 29 to out
+  tracing via nid 29
+   tracing via nid 11
+   nid 11 busy by input association 1
+   tracing via nid 34
+    tracing via nid 9
+    nid 9 returned 0
+   nid 34 returned 0
+   tracing via nid 35
+   nid 35 busy by input association 1
+  nid 29 returned 0
+Disabling unassociated widgets...
+Disabling nonselected inputs...
+Disabling useless...
+ Disabling nid 13 connection 0 due to disabled child widget.
+ Disabling nid 13 due to all it's consumers disabled.
+Disabling crossassociated connections...
+ Disabling connection input mixer nid 35 conn 5 to monitor 11.
+Disabling useless...
+Binding associations to channels...
+Assigning names to signal sources...
+Parsing Ctls...
+Assigning mixers to the tree...
+Preparing pin controls...
+AFG commit...
+GPIO init: data=0x00000000 mask=0x00000000 dir=0x00000000
+GPIO commit: data=0x00000001 mask=0x00000001 dir=0x00000001
+Creating PCM devices...
+pcmAttach: HDA Realtek ALC269 PCM #0 Analog at cad 0 nid 1
++--------------------------------------+
+| DUMPING PCM Playback/Record Channels |
++--------------------------------------+
+
+Playback:
+
+     Stream cap: 0x00000001
+                 PCM
+        PCM cap: 0x000e0560
+                 16 20 24 bits, 44 48 96 192 KHz
+            DAC: 2
+
+Record:
+
+     Stream cap: 0x00000001
+                 PCM
+        PCM cap: 0x000e0560
+                 16 20 24 bits, 44 48 96 192 KHz
+            ADC: 8
+
++-------------------------------+
+| DUMPING Playback/Record Paths |
++-------------------------------+
+
+Playback:
+
+    nid=20 [pin: Speaker (Analog)]
+      |
+      + <- nid=12 [audio mixer] bindSeq=00008001
+             |
+             + <- nid=2 [audio output] [src: pcm] bindSeq=00008001
+
+             + <- nid=11 [audio mixer] bindSeq=00008001
+                    |
+                    + <- nid=24 [pin: Microphone (Pink Left)] [src: mic] bindSeq=00000001
+
+                    + <- nid=25 [pin: Microphone (Analog)] [src: monitor] bindSeq=00008000
+
+                    + <- nid=29 [beep widget]
+
+    nid=33 [pin: Headphones (Green Left)]
+      |
+      + <- nid=12 [audio mixer] bindSeq=00008001
+             |
+             + <- nid=2 [audio output] [src: pcm] bindSeq=00008001
+
+             + <- nid=11 [audio mixer] bindSeq=00008001
+                    |
+                    + <- nid=24 [pin: Microphone (Pink Left)] [src: mic] bindSeq=00000001
+
+                    + <- nid=25 [pin: Microphone (Analog)] [src: monitor] bindSeq=00008000
+
+                    + <- nid=29 [beep widget]
+
+Record:
+
+    nid=8 [audio input]
+      |
+      + <- nid=35 [audio mixer] [src: mix] bindSeq=00008001
+
+             |
+             + <- nid=24 [pin: Microphone (Pink Left)] [src: mic] bindSeq=00000001
+
+             + <- nid=25 [pin: Microphone (Analog)] [src: monitor] bindSeq=00008000
+
+             + <- nid=29 [beep widget]
+
+Input Mix:
+
+    nid=35 [audio mixer]
+      |
+      + <- nid=24 [pin: Microphone (Pink Left)] [src: mic] bindSeq=00000001
+
+      + <- nid=25 [pin: Microphone (Analog)] [src: monitor] bindSeq=00008000
+
+      + <- nid=29 [beep widget]
+
++-------------------------+
+| DUMPING Volume Controls |
++-------------------------+
+
+Master Volume (OSS: vol)
+   |
+   +- control  1 (nid   2 out):    dir - out oss: vol, pcm -65/+0dB (88 steps)
+   +- control  3 (nid  11 in   0): dir - in oss: vol, igain -34/+12dB (32 steps) + mute
+   +- control  4 (nid  11 in   1): dir - in oss: vol, igain -34/+12dB (32 steps) + mute
+   +- control  5 (nid  11 in   4): dir - in oss: vol, speaker, igain -34/+12dB (32 steps) + mute
+   +- control  6 (nid  12 in   0): dir - out oss: vol, pcm mute
+   +- control  7 (nid  12 in   1): dir - out oss: vol, igain mute
+   +- control  8 (nid  20 out):    dir - out oss: vol mute
+   +- control 12 (nid  33 out):    dir - out oss: vol mute
+
+PCM Volume (OSS: pcm)
+   |
+   +- control  1 (nid   2 out):    dir - out oss: vol, pcm -65/+0dB (88 steps)
+   +- control  6 (nid  12 in   0): dir - out oss: vol, pcm mute
+
+Microphone Volume (OSS: mic)
+   |
+   +- control 10 (nid  24 in   0): dir - in oss: mic +0/+36dB (4 steps)
+   +- control 13 (nid  35 in   0): dir - in oss: mic, rec mute
+
+Microphone2 Volume (OSS: monitor)
+   |
+   +- control 11 (nid  25 in   0): dir - in oss: monitor +0/+36dB (4 steps)
+   +- control 14 (nid  35 in   1): dir - in oss: rec, monitor mute
+
+Speaker/Beep Volume (OSS: speaker)
+   |
+   +- control  5 (nid  11 in   4): dir - in oss: vol, speaker, igain -34/+12dB (32 steps) + mute
+   +- control 15 (nid  35 in   4): dir - in oss: speaker, rec mute
+
+Recording Level (OSS: rec)
+   |
+   +- control  2 (nid   8 in   0): dir - in oss: mix, rec -16/+30dB (32 steps) + mute
+   +- control 13 (nid  35 in   0): dir - in oss: mic, rec mute
+   +- control 14 (nid  35 in   1): dir - in oss: rec, monitor mute
+   +- control 15 (nid  35 in   4): dir - in oss: speaker, rec mute
+
+Input Mix Level (OSS: mix)
+   |
+   +- control  2 (nid   8 in   0): dir - in oss: mix, rec -16/+30dB (32 steps) + mute
+
+Input Monitoring Level (OSS: igain)
+   |
+   +- control  3 (nid  11 in   0): dir - in oss: vol, igain -34/+12dB (32 steps) + mute
+   +- control  4 (nid  11 in   1): dir - in oss: vol, igain -34/+12dB (32 steps) + mute
+   +- control  5 (nid  11 in   4): dir - in oss: vol, speaker, igain -34/+12dB (32 steps) + mute
+   +- control  7 (nid  12 in   1): dir - out oss: vol, igain mute
+
+OSS mixer initialization...
+Registering PCM channels...
+FG config/quirks: gpio0 forcestereo ivref50 ivref80 ivref100 ivref
+HP switch init...
+
++-------------------+
+| DUMPING HDA NODES |
++-------------------+
+
+Default Parameter
+-----------------
+     Stream cap: 0x00000001
+                 PCM
+        PCM cap: 0x000e0560
+                 16 20 24 bits, 44 48 96 192 KHz
+         IN amp: 0x00000000
+        OUT amp: 0x00000000
+
+            nid: 2
+           Name: audio output
+     Widget cap: 0x0000001d
+                 STEREO
+    Association: 0 (0x00008001)
+            OSS: pcm (pcm)
+     Stream cap: 0x00000001
+                 PCM
+        PCM cap: 0x000e0560
+                 16 20 24 bits, 44 48 96 192 KHz
+     Output amp: 0x00025757
+                 mute=0 step=87 size=2 offset=87
+     Output val: [0x4A 0x4A]
+
+            nid: 3 [DISABLED]
+           Name: audio output
+     Widget cap: 0x0000001d
+                 STEREO
+     Stream cap: 0x00000001
+                 PCM
+        PCM cap: 0x000e0560
+                 16 20 24 bits, 44 48 96 192 KHz
+     Output amp: 0x00025757
+                 mute=0 step=87 size=2 offset=87
+     Output val: [0x57 0x57]
+
+            nid: 4 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 5 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 6 [DISABLED]
+           Name: audio output
+     Widget cap: 0x00000211
+                 DIGITAL STEREO
+     Stream cap: 0x00000001
+                 PCM
+        PCM cap: 0x000e05e0
+                 16 20 24 bits, 44 48 88 96 192 KHz
+
+            nid: 7 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 8
+           Name: audio input
+     Widget cap: 0x0010011b
+                 STEREO
+    Association: 1 (0x00008001)
+     Stream cap: 0x00000001
+                 PCM
+        PCM cap: 0x000e0560
+                 16 20 24 bits, 44 48 96 192 KHz
+      Input amp: 0x80051f0b
+                 mute=1 step=31 size=5 offset=11
+      Input val: [0x80 0x80] 
+    connections: 1 enabled 1
+          |
+          + <- nid=35 [audio mixer]
+
+            nid: 9 [DISABLED]
+           Name: audio input
+     Widget cap: 0x0010011b
+                 STEREO
+     Stream cap: 0x00000001
+                 PCM
+        PCM cap: 0x000e0560
+                 16 20 24 bits, 44 48 96 192 KHz
+      Input amp: 0x80051f0b
+                 mute=1 step=31 size=5 offset=11
+      Input val: [0x8B 0x8B] 
+    connections: 1 enabled 1
+          |
+          + <- nid=34 [audio selector] [DISABLED]
+
+            nid: 10 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 11
+           Name: audio mixer
+     Widget cap: 0x0020010b
+                 STEREO
+    Association: 1 (0x00008001)
+            OSS:  (igain)
+      Input amp: 0x80051f17
+                 mute=1 step=31 size=5 offset=23
+      Input val: [0x80 0x80] [0x80 0x80] [0x97 0x97] [0x97 0x97] [0x80 0x80] 
+    connections: 5 enabled 3
+          |
+          + <- nid=24 [pin: Microphone (Pink Left)]
+          + <- nid=25 [pin: Microphone (Analog)]
+          + [DISABLED] <- nid=26 [pin: Speaker (None)] [DISABLED]
+          + [DISABLED] <- nid=27 [pin: Speaker (None)] [DISABLED]
+          + <- nid=29 [beep widget]
+
+            nid: 12
+           Name: audio mixer
+     Widget cap: 0x0020010b
+                 STEREO
+    Association: 0 (0x00008001)
+            OSS:  (igain)
+      Input amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+      Input val: [0x00 0x00] [0x80 0x80] 
+    connections: 2 enabled 2
+          |
+          + <- nid=2 [audio output]
+          + <- nid=11 [audio mixer]
+
+            nid: 13 [DISABLED]
+           Name: audio mixer
+     Widget cap: 0x0020010b
+                 STEREO
+    Association: -2 (0x00000000)
+      Input amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+      Input val: [0x00 0x00] [0x80 0x80] 
+    connections: 2 enabled 1
+          |
+          + [DISABLED] <- nid=3 [audio output] [DISABLED]
+          + <- nid=11 [audio mixer]
+
+            nid: 14 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 15 [DISABLED]
+           Name: audio mixer
+     Widget cap: 0x0020010a
+      Input amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+      Input val: [0x00 0x00] [0x80 0x80] 
+    connections: 2 enabled 2
+          |
+          + <- nid=2 [audio output]
+          + <- nid=11 [audio mixer]
+
+            nid: 16 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 17 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 18 [DISABLED]
+           Name: pin: Speaker (None)
+     Widget cap: 0x0040000b
+                 STEREO
+        Pin cap: 0x00000020
+                 IN
+     Pin config: 0x411111f0
+    Pin control: 0x00000000
+      Input amp: 0x002f0300
+                 mute=0 step=3 size=47 offset=0
+      Input val: 
+
+            nid: 19 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 20
+           Name: pin: Speaker (Analog)
+     Widget cap: 0x0040018d
+                 UNSOL STEREO
+    Association: 0 (0x00000001)
+        Pin cap: 0x00010014
+                 PDC OUT EAPD
+     Pin config: 0x90170110
+    Pin control: 0x00000040 OUT
+           EAPD: 0x00000002
+     Output amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+     Output val: [0x00 0x00]
+    connections: 2 enabled 1
+          |
+          + <- nid=12 [audio mixer] (selected)
+          + [DISABLED] <- nid=13 [audio mixer] [DISABLED]
+
+            nid: 21 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 22 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 23 [DISABLED]
+           Name: pin: Speaker (None)
+     Widget cap: 0x0040010c
+        Pin cap: 0x00000010
+                 OUT
+     Pin config: 0x411111f0
+    Pin control: 0x00000000
+     Output amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+     Output val: [0x80 0x80]
+    connections: 1 enabled 1
+          |
+          + <- nid=15 [audio mixer] [DISABLED]
+
+            nid: 24
+           Name: pin: Microphone (Pink Left)
+     Widget cap: 0x0040018f
+                 UNSOL STEREO
+    Association: 1 (0x00000001)
+            OSS: mic (mic)
+        Pin cap: 0x00001734
+                 PDC OUT IN VREF[ 50 80 GROUND HIZ ]
+     Pin config: 0x03a19820
+    Pin control: 0x00000024 IN VREFs
+     Output amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+     Output val: [0x00 0x00]
+      Input amp: 0x002f0300
+                 mute=0 step=3 size=47 offset=0
+      Input val: [0x00 0x00] 
+    connections: 1 enabled 0
+          |
+          + [DISABLED] <- nid=13 [audio mixer] [DISABLED]
+
+            nid: 25
+           Name: pin: Microphone (Analog)
+     Widget cap: 0x0040008b
+                 UNSOL STEREO
+    Association: 1 (0x00008000)
+            OSS: monitor (monitor)
+        Pin cap: 0x00001724
+                 PDC IN VREF[ 50 80 GROUND HIZ ]
+     Pin config: 0x90a7092f
+    Pin control: 0x00000024 IN VREFs
+      Input amp: 0x002f0300
+                 mute=0 step=3 size=47 offset=0
+      Input val: 
+
+            nid: 26 [DISABLED]
+           Name: pin: Speaker (None)
+     Widget cap: 0x0040018f
+                 UNSOL STEREO
+        Pin cap: 0x0000003c
+                 PDC HP OUT IN
+     Pin config: 0x411111f0
+    Pin control: 0x00000000
+     Output amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+     Output val: [0x80 0x80]
+      Input amp: 0x002f0300
+                 mute=0 step=3 size=47 offset=0
+      Input val: [0x00 0x00] [0x00 0x00] 
+    connections: 2 enabled 2
+          |
+          + <- nid=12 [audio mixer] (selected)
+          + <- nid=13 [audio mixer] [DISABLED]
+
+            nid: 27 [DISABLED]
+           Name: pin: Speaker (None)
+     Widget cap: 0x0040018f
+                 UNSOL STEREO
+        Pin cap: 0x00000034
+                 PDC OUT IN
+     Pin config: 0x411111f0
+    Pin control: 0x00000000
+     Output amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+     Output val: [0x80 0x80]
+      Input amp: 0x002f0300
+                 mute=0 step=3 size=47 offset=0
+      Input val: [0x00 0x00] [0x00 0x00] 
+    connections: 2 enabled 2
+          |
+          + <- nid=12 [audio mixer] (selected)
+          + <- nid=13 [audio mixer] [DISABLED]
+
+            nid: 28 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 29
+           Name: beep widget
+     Widget cap: 0x00700000
+    Association: -2 (0x00000000)
+            OSS: speaker (speaker)
+
+            nid: 30 [DISABLED]
+           Name: pin: Speaker (None)
+     Widget cap: 0x00400381
+                 DIGITAL UNSOL STEREO
+        Pin cap: 0x00000014
+                 PDC OUT
+     Pin config: 0x411111f0
+    Pin control: 0x00000000
+    connections: 1 enabled 1
+          |
+          + <- nid=6 [audio output] [DISABLED]
+
+            nid: 31 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000
+
+            nid: 32 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00040
+                 PROC
+
+            nid: 33
+           Name: pin: Headphones (Green Left)
+     Widget cap: 0x0040018d
+                 UNSOL STEREO
+    Association: 0 (0x00008000)
+        Pin cap: 0x0000001c
+                 PDC HP OUT
+     Pin config: 0x0321401f
+    Pin control: 0x000000c0 HP OUT
+     Output amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+     Output val: [0x00 0x00]
+    connections: 2 enabled 1
+          |
+          + <- nid=12 [audio mixer] (selected)
+          + [DISABLED] <- nid=13 [audio mixer] [DISABLED]
+
+            nid: 34 [DISABLED]
+           Name: audio selector
+     Widget cap: 0x0030010b
+                 STEREO
+    connections: 7 enabled 4
+          |
+          + <- nid=24 [pin: Microphone (Pink Left)] (selected)
+          + <- nid=25 [pin: Microphone (Analog)]
+          + [DISABLED] <- nid=26 [pin: Speaker (None)] [DISABLED]
+          + [DISABLED] <- nid=27 [pin: Speaker (None)] [DISABLED]
+          + <- nid=29 [beep widget]
+          + <- nid=11 [audio mixer]
+          + [DISABLED] <- nid=18 [pin: Speaker (None)] [DISABLED]
+
+            nid: 35
+           Name: audio mixer
+     Widget cap: 0x0020010b
+                 STEREO
+    Association: 1 (0x00008001)
+            OSS: mix (mix)
+      Input amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+      Input val: [0x00 0x00] [0x00 0x00] [0x80 0x80] [0x80 0x80] [0x00 0x00] [0x00 0x00] 
+    connections: 6 enabled 3
+          |
+          + <- nid=24 [pin: Microphone (Pink Left)]
+          + <- nid=25 [pin: Microphone (Analog)]
+          + [DISABLED] <- nid=26 [pin: Speaker (None)] [DISABLED]
+          + [DISABLED] <- nid=27 [pin: Speaker (None)] [DISABLED]
+          + <- nid=29 [beep widget]
+          + [DISABLED] <- nid=11 [audio mixer]
+
+
+Probing codec #3...
+ HDA Codec #3: Intel Panther Point HDMI
+ HDA Codec ID: 0x80862806
+       Vendor: 0x8086
+       Device: 0x2806
+     Revision: 0x00
+     Stepping: 0x00
+PCI Subvendor: 0x07321025
+	startNode=1 endNode=2
+	Found audio FG nid=1 startNode=2 endNode=9 total=7
+
+Processing audio FG cad=3 nid=1...
+Powering up...
+Parsing audio FG...
+GPIO: 0x00000000 NumGPIO=0 NumGPO=0 NumGPI=0 GPIWake=0 GPIUnsol=0
+ nid  5 0x18560010 as  1 seq  0 Digital-out   Jack  Digital Special Internal Unknown misc 0
+ nid  6 0x58560020 as  2 seq  0 Digital-out   None  Digital Special Internal Unknown misc 0
+ nid  7 0x58560030 as  3 seq  0 Digital-out   None  Digital Special Internal Unknown misc 0
+Parsing vendor patch...
+Nodes patching. Codec = 3 
+NumNodes = 0
+VHDevice NID= 2 Config=00000000 (audio output  ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID= 3 Config=00000000 (audio output  ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID= 4 Config=00000000 (audio output  ) Cap=00000000 Ctrl=00000000 -- Conns:
+VHDevice NID= 5 Config=18560010 (pin: Digital-o) Cap=09000094 Ctrl=00000040 -- Conns: 0=2
+VHDevice NID= 6 Config=58560020 (pin: Digital-o) Cap=09000094 Ctrl=00000040 -- Conns: 0=3
+VHDevice NID= 7 Config=58560030 (pin: Digital-o) Cap=09000094 Ctrl=00000040 -- Conns: 0=4
+VHDevice NID= 8 Config=00000000 (vendor widget ) Cap=00000000 Ctrl=00000000 -- Conns:
+Disabling nonaudio...
+Disabling useless...
+Patched pins configuration:
+ nid  5 0x18560010 as  1 seq  0 Digital-out   Jack  Digital Special Internal Unknown misc 0
+ nid  6 0x58560020 as  2 seq  0 Digital-out   None  Digital Special Internal Unknown misc 0 [DISABLED]
+ nid  7 0x58560030 as  3 seq  0 Digital-out   None  Digital Special Internal Unknown misc 0 [DISABLED]
+Parsing pin associations...
+1 associations found:
+Association 0 (1) out:
+ Pin nid=5 seq=0
+   Redir type=-1 jack=0 def=0
+Building AFG tree...
+Tracing association 0 (1)
+ Tracing pin 5 with min nid 0
+   nid 2 returned 2
+  nid 5 returned 2
+ Pin 5 traced to DAC 2
+Association 0 (1) trace succeeded
+Tracing input monitor
+Tracing other input monitors
+Tracing beeper
+Disabling unassociated widgets...
+Disabling nonselected inputs...
+Disabling useless...
+Disabling crossassociated connections...
+Disabling useless...
+Binding associations to channels...
+Assigning names to signal sources...
+Parsing Ctls...
+Assigning mixers to the tree...
+Preparing pin controls...
+AFG commit...
+Creating PCM devices...
+pcmAttach: HDA Intel Panther Point HDMI PCM #0 DisplayPort at cad 3 nid 1
++--------------------------------------+
+| DUMPING PCM Playback/Record Channels |
++--------------------------------------+
+
+Playback:
+
+     Stream cap: 0x00000005
+                 AC3 PCM
+        PCM cap: 0x001e07f0
+                 16 20 24 32 bits, 32 44 48 88 96 176 192 KHz
+            DAC: 2
+
++-------------------------------+
+| DUMPING Playback/Record Paths |
++-------------------------------+
+
+Playback:
+
+    nid=5 [pin: Digital-out (HDMI)]
+      |
+      + <- nid=2 [audio output] [src: pcm] bindSeq=00000001
+
+
++-------------------------+
+| DUMPING Volume Controls |
++-------------------------+
+
+Master Volume (OSS: vol)
+   |
+   +- control  1 (nid   5 out):    dir - out oss: vol, pcm mute
+
+PCM Volume (OSS: pcm)
+   |
+   +- control  1 (nid   5 out):    dir - out oss: vol, pcm mute
+
+OSS mixer initialization...
+Registering PCM channels...
+FG config/quirks: gpio0 forcestereo ivref50 ivref80 ivref100 ivref
+HP switch init...
+
++-------------------+
+| DUMPING HDA NODES |
++-------------------+
+
+Default Parameter
+-----------------
+         IN amp: 0x00000000
+        OUT amp: 0x00000000
+
+            nid: 2
+           Name: audio output
+     Widget cap: 0x00006611
+                 PWR DIGITAL 8CH
+    Association: 0 (0x00000001)
+            OSS: pcm (pcm)
+     Stream cap: 0x00000005
+                 AC3 PCM
+        PCM cap: 0x001e07f0
+                 16 20 24 32 bits, 32 44 48 88 96 176 192 KHz
+
+            nid: 3 [DISABLED]
+           Name: audio output
+     Widget cap: 0x00006611
+                 PWR DIGITAL 8CH
+     Stream cap: 0x00000005
+                 AC3 PCM
+        PCM cap: 0x001e07f0
+                 16 20 24 32 bits, 32 44 48 88 96 176 192 KHz
+
+            nid: 4 [DISABLED]
+           Name: audio output
+     Widget cap: 0x00006611
+                 PWR DIGITAL 8CH
+     Stream cap: 0x00000005
+                 AC3 PCM
+        PCM cap: 0x001e07f0
+                 16 20 24 32 bits, 32 44 48 88 96 176 192 KHz
+
+            nid: 5
+           Name: pin: Digital-out (HDMI)
+     Widget cap: 0x0040778d
+                 PWR DIGITAL UNSOL 8CH
+    Association: 0 (0x00000001)
+        Pin cap: 0x09000094
+                 PDC OUT HDMI DP HBR
+     Pin config: 0x18560010
+    Pin control: 0x00000040 OUT
+     Output amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+     Output val: [0x00 0x00]
+    connections: 1 enabled 1
+          |
+          + <- nid=2 [audio output]
+
+            nid: 6 [DISABLED]
+           Name: pin: Digital-out (HDMI)
+     Widget cap: 0x0040778d
+                 PWR DIGITAL UNSOL 8CH
+        Pin cap: 0x09000094
+                 PDC OUT HDMI DP HBR
+     Pin config: 0x58560020
+    Pin control: 0x00000000
+     Output amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+     Output val: [0x00 0x80]
+    connections: 1 enabled 1
+          |
+          + <- nid=3 [audio output] [DISABLED]
+
+            nid: 7 [DISABLED]
+           Name: pin: Digital-out (HDMI)
+     Widget cap: 0x0040778d
+                 PWR DIGITAL UNSOL 8CH
+        Pin cap: 0x09000094
+                 PDC OUT HDMI DP HBR
+     Pin config: 0x58560030
+    Pin control: 0x00000000
+     Output amp: 0x80000000
+                 mute=1 step=0 size=0 offset=0
+     Output val: [0x00 0x80]
+    connections: 1 enabled 1
+          |
+          + <- nid=4 [audio output] [DISABLED]
+
+            nid: 8 [DISABLED]
+           Name: vendor widget
+     Widget cap: 0x00f00000

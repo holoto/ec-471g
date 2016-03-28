@@ -1,0 +1,16 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"64522","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"64524","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"Transport"},"attr":{"id":"64526","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"64528","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"VendorID"},"attr":{"id":"64530","ColType":"Number","ColValue":"9610"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"64532","ColType":"Number","ColValue":"128"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"64534","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"BootProtocol"},"attr":{"id":"64536","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"64538","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"64539","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"64541","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"64543","ColType":"Number","ColValue":"128"}}]},{"data":{"title":"1"},"attr":{"id":"64544","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"64546","ColType":"Number","ColValue":"12"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"64548","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"2"},"attr":{"id":"64549","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"64551","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"64553","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"64555","ColType":"String","ColValue":""}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"64557","ColType":"String","ColValue":"SINO WEALTH"}},
+{"data":{"title":"Product"},"attr":{"id":"64559","ColType":"String","ColValue":"USB KEYBOARD"}},
+{"data":{"title":"LocationID"},"attr":{"id":"64561","ColType":"Number","ColValue":"487718912"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"64563","ColType":"Number","ColValue":"0"}}
+]

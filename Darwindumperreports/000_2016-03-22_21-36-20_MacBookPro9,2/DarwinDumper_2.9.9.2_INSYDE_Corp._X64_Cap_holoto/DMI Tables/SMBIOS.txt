@@ -1,0 +1,404 @@
+# dmidecode 2.12b
+Handle 0x0000, DMI type 0, 24 bytes
+0000: 00 18 00 00 01 02 00 00 03 3f 00 98 f9 4b 00 00 
+0010: 00 00 03 0d 00 01 00 00 
+
+BIOS Information
+	Vendor: Apple Inc.
+	Version: MBP91.88Z.00D3.B00.1203211536
+	Release Date: 21/03/12
+	ROM Size: 4096 kB
+	Characteristics:
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		EDD is supported
+		Japanese floppy for NEC 9800 1.2 MB is supported (int 13h)
+		Japanese floppy for Toshiba 1.2 MB is supported (int 13h)
+		5.25"/360 kB floppy services are supported (int 13h)
+		5.25"/1.2 MB floppy services are supported (int 13h)
+		3.5"/720 kB floppy services are supported (int 13h)
+		3.5"/2.88 MB floppy services are supported (int 13h)
+		8042 keyboard services are supported (int 9h)
+		CGA/mono video services are supported (int 10h)
+		ACPI is supported
+		USB legacy is supported
+		BIOS boot specification is supported
+		Targeted content distribution is supported
+		UEFI is supported
+	BIOS Revision: 0.1
+	Firmware Revision: 0.0
+
+Handle 0x0001, DMI type 1, 27 bytes
+0000: 01 1b 01 00 01 02 03 04 69 68 fc 2f 96 10 49 43 
+0010: b7 cb 08 9e 01 9b ac 09 06 05 06 
+
+System Information
+	Manufacturer: Apple Inc.
+	Product Name: MacBookPro9,2
+	Version: 1.0
+	Serial Number: C**********3
+	UUID: 69********************************09
+	Wake-up Type: Power Switch
+	SKU Number: Mac-6F01561E16C75D06
+	Family: MacBook Pro
+
+Handle 0x0002, DMI type 2, 16 bytes
+0000: 02 10 02 00 01 02 03 04 05 09 06 03 00 0a 00 00 
+0010: 
+
+Base Board Information
+	Manufacturer: Apple Inc.
+	Product Name: Mac-6F01561E16C75D06
+	Version: MacBookPro9,2
+	Serial Number: C***************M
+	Asset Tag: Type2 - Board Asset Tag
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: Part Component
+	Chassis Handle: 0x0003
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0003, DMI type 3, 23 bytes
+0000: 03 17 03 00 01 08 02 03 04 03 03 01 01 00 00 00 
+0010: 00 00 01 00 00 00 05 
+
+Chassis Information
+	Manufacturer: Apple Inc.
+	Type: Portable
+	Lock: Not Present
+	Version: Mac-6F01561E16C75D06
+	Serial Number: C**********3
+	Asset Tag: MacBook-Aluminum
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Other
+	Security Status: Other
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: 1
+	Contained Elements: 0
+	SKU Number: Not Specified
+
+Handle 0x0008, DMI type 7, 19 bytes
+0000: 07 13 08 00 01 80 00 20 00 20 00 02 00 02 00 00 
+0010: 04 04 07 
+
+Cache Information
+	Socket Designation: L1 Cache
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Through
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Unknown
+	Installed SRAM Type: Unknown
+	Speed: Unknown
+	Error Correction Type: Parity
+	System Type: Data
+	Associativity: 8-way Set-associative
+
+Handle 0x0009, DMI type 7, 19 bytes
+0000: 07 13 09 00 01 80 00 20 00 20 00 02 00 02 00 00 
+0010: 04 03 07 
+
+Cache Information
+	Socket Designation: L1 Cache
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Through
+	Location: Internal
+	Installed Size: 32 kB
+	Maximum Size: 32 kB
+	Supported SRAM Types:
+		Unknown
+	Installed SRAM Type: Unknown
+	Speed: Unknown
+	Error Correction Type: Parity
+	System Type: Instruction
+	Associativity: 8-way Set-associative
+
+Handle 0x000A, DMI type 7, 19 bytes
+0000: 07 13 0a 00 01 81 00 00 01 00 01 02 00 02 00 00 
+0010: 06 05 07 
+
+Cache Information
+	Socket Designation: L2 Cache
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Through
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Unknown
+	Installed SRAM Type: Unknown
+	Speed: Unknown
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 8-way Set-associative
+
+Handle 0x000B, DMI type 7, 19 bytes
+0000: 07 13 0b 00 01 82 01 30 80 30 80 02 00 02 00 00 
+0010: 06 05 09 
+
+Cache Information
+	Socket Designation: L3 Cache
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 3072 kB
+	Maximum Size: 3072 kB
+	Supported SRAM Types:
+		Unknown
+	Installed SRAM Type: Unknown
+	Speed: Unknown
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 12-way Set-associative
+
+Handle 0x0004, DMI type 4, 42 bytes
+0000: 04 2a 04 00 04 03 cd 02 a9 06 03 00 ff fb eb bf 
+0010: 01 88 64 00 be 09 c4 09 41 21 09 00 0a 00 0b 00 
+0020: 03 05 06 02 02 04 fc 00 00 00 
+
+Processor Information
+	Socket Designation: U2E1
+	Type: Central Processor
+	Family: Core i5
+	Manufacturer: Intel(R) Corporation
+	ID: A9 06 03 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 58, Stepping 9
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
+	Voltage: 0.8 V
+	External Clock: 100 MHz
+	Max Speed: 2494 MHz
+	Current Speed: 2500 MHz
+	Status: Populated, Enabled
+	Upgrade: Socket rPGA988B
+	L1 Cache Handle: 0x0009
+	L2 Cache Handle: 0x000A
+	L3 Cache Handle: 0x000B
+	Serial Number: 17
+	Asset Tag: Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
+	Part Number: To Be Filled By O.E.M.
+	Core Count: 2
+	Core Enabled: 2
+	Thread Count: 4
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Hardware Thread
+		Execute Protection
+		Enhanced Virtualization
+		Power/Performance Control
+
+Handle 0x0905, DMI type 9, 17 bytes
+0000: 09 11 05 09 01 a6 08 03 03 02 00 04 02 00 00 04 
+0010: 02 
+
+System Slot Information
+	Designation: Ethernet
+	Type: x1 PCI Express x1
+	Current Usage: Available
+	Length: Short
+	ID: 2
+	Characteristics:
+		3.3 V is provided
+		Hot-plug devices are supported
+	Bus Address: 0000:04:00.2
+
+Handle 0x0906, DMI type 9, 17 bytes
+0000: 09 11 06 09 01 a6 08 03 03 00 00 04 02 00 00 09 
+0010: 00 
+
+System Slot Information
+	Designation: Airport
+	Type: x1 PCI Express x1
+	Current Usage: Available
+	Length: Short
+	ID: 0
+	Characteristics:
+		3.3 V is provided
+		Hot-plug devices are supported
+	Bus Address: 0000:09:00.0
+
+Handle 0x0014, DMI type 10, 6 bytes
+0000: 0a 06 14 00 83 01 
+
+On Board Device Information
+	Type: Video
+	Status: Enabled
+	Description: Video Graphics Controller
+
+Handle 0x0015, DMI type 10, 6 bytes
+0000: 0a 06 15 00 85 01 
+
+On Board Device Information
+	Type: Ethernet
+	Status: Enabled
+	Description: Realtek Lan Controller
+
+Handle 0x1100, DMI type 17, 34 bytes
+0000: 11 22 00 11 00 10 ff ff 40 00 40 00 00 10 0d 01 
+0010: 01 02 18 80 00 40 06 03 04 00 06 02 00 00 00 00 
+0020: 40 06 
+
+Memory Device
+	Array Handle: 0x1000
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: SODIMM
+	Set: 1
+	Locator: DIMM0
+	Bank Locator: BANK0
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MHz (0.6 ns)
+	Manufacturer: Team Group
+	Serial Number: 0000000000000000
+	Asset Tag: Not Specified
+	Part Number: Team-Elite-1600
+	Rank: 2
+	Configured Clock Speed: 1600 MHz (0.6 ns)
+
+Handle 0x1101, DMI type 17, 34 bytes
+0000: 11 22 01 11 00 10 ff ff 40 00 40 00 00 10 0d 01 
+0010: 01 02 18 80 00 40 06 03 04 00 06 01 00 00 00 00 
+0020: 40 06 
+
+Memory Device
+	Array Handle: 0x1000
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: SODIMM
+	Set: 1
+	Locator: DIMM0
+	Bank Locator: BANK1
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MHz (0.6 ns)
+	Manufacturer: Hynix Semiconductor
+	Serial Number: 030204030C07020E
+	Asset Tag: Not Specified
+	Part Number: HMT451S6MFR8C-PBN0
+	Rank: 1
+	Configured Clock Speed: 1600 MHz (0.6 ns)
+
+Handle 0x1000, DMI type 16, 23 bytes
+0000: 10 17 00 10 03 03 03 00 00 00 01 ff ff 02 00 00 
+0010: 00 00 00 00 00 00 00 
+
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 16 GB
+	Error Information Handle: No Error
+	Number Of Devices: 2
+
+Handle 0x1300, DMI type 19, 15 bytes
+0000: 13 0f 00 13 00 00 00 00 ff ff 7f 00 00 10 02 
+
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
+	Physical Array Handle: 0x1000
+	Partition Width: 2
+
+Handle 0x001C, DMI type 20, 35 bytes
+0000: 14 23 1c 00 00 00 00 00 ff ff 3f 00 00 11 00 13 
+0010: ff 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 00 00 00 
+
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
+	Physical Device Handle: 0x1100
+	Memory Array Mapped Address Handle: 0x1300
+	Partition Row Position: Unknown
+	Interleave Position: 1
+	Interleaved Data Depth: 1
+
+Handle 0x001D, DMI type 20, 35 bytes
+0000: 14 23 1d 00 00 00 00 00 ff ff 3f 00 01 11 00 13 
+0010: ff 02 01 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 00 00 00 
+
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
+	Physical Device Handle: 0x1101
+	Memory Array Mapped Address Handle: 0x1300
+	Partition Row Position: Unknown
+	Interleave Position: 2
+	Interleaved Data Depth: 1
+
+Handle 0x8000, DMI type 128, 88 bytes
+0000: 80 58 00 80 01 00 00 00 37 f5 01 e0 37 ff 03 c0 
+0010: 02 00 00 00 00 00 00 00 00 00 e0 ff ff ff ef ff 
+0020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 
+
+Apple specific FirmwareVolume
+	FirmwareFeatures: e001f537
+	FirmwareFeaturesMask: c003ff37
+	Region Type:02 Start:ffe00000 End:ffefffff
+
+Handle 0x8300, DMI type 131, 6 bytes
+0000: 83 06 00 83 04 06 
+
+Apple specific Processor Type
+	 cpu=0604
+
+Handle 0x8400, DMI type 132, 6 bytes
+0000: 84 06 00 84 00 00 
+
+Apple specific Processor Interconnect Speed
+	 0 MT/s
+
+Handle 0x007E, DMI type 127, 4 bytes
+0000: 7f 04 7e 00 
+
+End Of Table
+

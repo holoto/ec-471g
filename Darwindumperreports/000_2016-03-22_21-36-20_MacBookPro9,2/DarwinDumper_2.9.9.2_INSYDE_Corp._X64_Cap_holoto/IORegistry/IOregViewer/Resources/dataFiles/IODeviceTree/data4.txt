@@ -1,0 +1,5 @@
+[
+{"data":{"title":"FailedCLUT"},"attr":{"id":"1482","ColType":"Data","ColValue":"&lt;00709b0200100000&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"1484","ColType":"Data","ColValue":"&lt;\"memory-map\"&gt;"}},
+{"data":{"title":"FailedImage"},"attr":{"id":"1486","ColType":"Data","ColValue":"&lt;00809b0220190000&gt;"}}
+]

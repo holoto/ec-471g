@@ -1,0 +1,8 @@
+[
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"69232","ColType":"String","ColValue":"com_apple_driver_pmtelemetry"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"69234","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"69236","ColType":"String","ColValue":"com.apple.driver.pmtelemetry"}},
+{"data":{"title":"IOReportLegendPublic"},"attr":{"id":"69238","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOClass"},"attr":{"id":"69240","ColType":"String","ColValue":"com_apple_driver_pmtelemetry"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"69242","ColType":"String","ColValue":"IOResources"}}
+]

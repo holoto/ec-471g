@@ -1,0 +1,22 @@
+[
+{"data":{"title":"AHCI Port ESATA"},"attr":{"id":"3986","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"Protocol Characteristics"},"attr":{"id":"3988","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"3990","ColType":"String","ColValue":"Internal"}},{"data":{"title":"Physical Interconnect"},"attr":{"id":"3992","ColType":"String","ColValue":"SATA"}}]},
+{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"3994","ColType":"String","ColValue":"Internal"}},
+{"data":{"title":"AHCI Port Optimized Device Number"},"attr":{"id":"3996","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"acpi-path"},"attr":{"id":"3998","ColType":"String","ColValue":"IOACPIPlane:/_SB/PCI0@0/SAT0@1f0002/PRT5@5ffff"}},
+{"data":{"title":"acpi-device"},"attr":{"id":"4000","ColType":"String","ColValue":"IOACPIPlatformDevice is not serializable"}},
+{"data":{"title":"AHCI-Built-In"},"attr":{"id":"4002","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"AHCI Port Hot Plug"},"attr":{"id":"4004","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"AHCI Port ALPM"},"attr":{"id":"4006","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Trace ID"},"attr":{"id":"4008","ColType":"Number","ColValue":"2032208"}},
+{"data":{"title":"IOMaximumSegmentByteCountWrite"},"attr":{"id":"4010","ColType":"Number","ColValue":"4194304"}},
+{"data":{"title":"AHCI Port SNotification"},"attr":{"id":"4012","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"Controller Characteristics"},"attr":{"id":"4014","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Product Name"},"attr":{"id":"4016","ColType":"String","ColValue":"7 Series Chipset"}},{"data":{"title":"Port Description"},"attr":{"id":"4018","ColType":"String","ColValue":"AHCI Version 1.30 Supported"}},{"data":{"title":"Vendor Name"},"attr":{"id":"4020","ColType":"String","ColValue":"Intel"}},{"data":{"title":"Port Speed"},"attr":{"id":"4022","ColType":"String","ColValue":"6 Gigabit"}}]},
+{"data":{"title":"64-bit"},"attr":{"id":"4024","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOMaximumSegmentCountRead"},"attr":{"id":"4026","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"4028","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"4030","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"4032","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"4034","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"4036","ColType":"Number","ColValue":"2"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"4038","ColType":"Number","ColValue":"2"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"4040","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"AHCI-Ejectable"},"attr":{"id":"4042","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"IOMaximumSegmentCountWrite"},"attr":{"id":"4044","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"IOMaximumSegmentByteCountRead"},"attr":{"id":"4046","ColType":"Number","ColValue":"4194304"}},
+{"data":{"title":"IOPolledInterface"},"attr":{"id":"4048","ColType":"String","ColValue":"AppleAHCIPortPolledAdapter is not serializable"}}
+]

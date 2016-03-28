@@ -1,0 +1,17 @@
+[
+{"data":{"title":"EstimateCycleCountDivisor"},"attr":{"id":"61921","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"RM,Version"},"attr":{"id":"61923","ColType":"String","ColValue":"ACPIBatteryManager 1.55"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"61925","ColType":"String","ColValue":"org.rehabman.driver.AppleSmartBatteryManager"}},
+{"data":{"title":"UseExtendedBatteryInformationMethod"},"attr":{"id":"61927","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"61929","ColType":"String","ColValue":"PNP0C0A"}},
+{"data":{"title":"IOClass"},"attr":{"id":"61931","ColType":"String","ColValue":"rehab_ACPIBatteryManager"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"61933","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"Battery Status"},"attr":{"id":"61935","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"61936","ColType":"Number","ColValue":"0"}},{"data":{"title":"1"},"attr":{"id":"61937","ColType":"Number","ColValue":"0"}},{"data":{"title":"2"},"attr":{"id":"61938","ColType":"Number","ColValue":"2590"}},{"data":{"title":"3"},"attr":{"id":"61939","ColType":"Number","ColValue":"12183"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"61941","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"61943","ColType":"String","ColValue":"PNP0C0A"}},
+{"data":{"title":"RM,Build"},"attr":{"id":"61945","ColType":"String","ColValue":"Release-RehabMan"}},
+{"data":{"title":"Battery Information"},"attr":{"id":"61947","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"61948","ColType":"Number","ColValue":"1"}},{"data":{"title":"1"},"attr":{"id":"61949","ColType":"Number","ColValue":"4400"}},{"data":{"title":"2"},"attr":{"id":"61950","ColType":"Number","ColValue":"2590"}},{"data":{"title":"3"},"attr":{"id":"61951","ColType":"Number","ColValue":"1"}},{"data":{"title":"4"},"attr":{"id":"61952","ColType":"Number","ColValue":"10800"}},{"data":{"title":"5"},"attr":{"id":"61953","ColType":"Number","ColValue":"300"}},{"data":{"title":"6"},"attr":{"id":"61954","ColType":"Number","ColValue":"103"}},{"data":{"title":"7"},"attr":{"id":"61955","ColType":"Number","ColValue":"32"}},{"data":{"title":"8"},"attr":{"id":"61956","ColType":"Number","ColValue":"32"}},{"data":{"title":"9"},"attr":{"id":"61957","ColType":"String","ColValue":"AS10D31"}},{"data":{"title":"10"},"attr":{"id":"61958","ColType":"String","ColValue":"5925"}},{"data":{"title":"11"},"attr":{"id":"61959","ColType":"String","ColValue":"LION"}},{"data":{"title":"12"},"attr":{"id":"61960","ColType":"String","ColValue":"SANYO"}}]},
+{"data":{"title":"UseExtraBatteryInformationMethod"},"attr":{"id":"61962","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"61964","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"61966","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"61968","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"61970","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"61972","ColType":"String","ColValue":"IOACPIPlatformDevice"}}
+]

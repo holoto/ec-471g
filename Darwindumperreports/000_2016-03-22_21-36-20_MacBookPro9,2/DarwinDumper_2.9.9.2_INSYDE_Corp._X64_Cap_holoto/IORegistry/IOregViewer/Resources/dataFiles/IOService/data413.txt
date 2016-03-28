@@ -1,0 +1,20 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"68006","ColType":"Number","ColValue":"5"}},
+{"data":{"title":"Transport"},"attr":{"id":"68008","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"68010","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"68012","ColType":"Number","ColValue":"20"}},
+{"data":{"title":"VendorID"},"attr":{"id":"68014","ColType":"Number","ColValue":"7119"}},
+{"data":{"title":"VendorIDSource"},"attr":{"id":"68016","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"HIDKind"},"attr":{"id":"68018","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"HIDDeviceEventID"},"attr":{"id":"68020","ColType":"Number","ColValue":"759"}},
+{"data":{"title":"HIDSubinterfaceID"},"attr":{"id":"68022","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"alt_sender_id"},"attr":{"id":"68024","ColType":"Number","ColValue":"4294968053"}},
+{"data":{"title":"HIDKeyMapping"},"attr":{"id":"68026","ColType":"Data","ColValue":"&lt;00000000001800000101020203030404050506060707080809090a0a0b0b0c0c0d0d0e0e0f0f10101111121213131414151516161717&gt;"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"68028","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"68029","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"68031","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"68033","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"1"},"attr":{"id":"68034","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"68036","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"68038","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"HIDResetKeyboard"},"attr":{"id":"68040","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"HIDInterfaceID"},"attr":{"id":"68042","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"HIDVirtualDevice"},"attr":{"id":"68044","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Product"},"attr":{"id":"68046","ColType":"String","ColValue":"USB Optical Mouse"}},
+{"data":{"title":"LocationID"},"attr":{"id":"68048","ColType":"Number","ColValue":"487784448"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"68050","ColType":"Number","ColValue":"0"}}
+]

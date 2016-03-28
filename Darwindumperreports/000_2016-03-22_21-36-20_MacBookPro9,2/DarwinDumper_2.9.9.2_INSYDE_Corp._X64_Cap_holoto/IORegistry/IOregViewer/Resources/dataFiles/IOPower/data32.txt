@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOSourceVersion"},"attr":{"id":"2547","ColType":"String","ColValue":"0.0.0.0.0"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"2549","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"2551","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"2553","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"2555","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"2557","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"2559","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"2561","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"2563","ColType":"Number","ColValue":"80000"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"2565","ColType":"String","ColValue":"com.apple.driver.AppleIntelFramebufferCapri"}},
+{"data":{"title":"IOPCIPrimaryMatch"},"attr":{"id":"2567","ColType":"String","ColValue":"0x1E3A8086"}},
+{"data":{"title":"IOClass"},"attr":{"id":"2569","ColType":"String","ColValue":"AppleIntelMEIDriver"}}
+]

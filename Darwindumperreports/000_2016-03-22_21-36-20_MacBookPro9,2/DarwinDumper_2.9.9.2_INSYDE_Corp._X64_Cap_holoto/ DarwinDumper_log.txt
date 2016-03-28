@@ -1,0 +1,406 @@
+========================================================
+Welcome to DarwinDumper 2.9.9.2
+Tue Mar 22 21:36:21 CST 2016
+System Version: OS X 10.11.3 (15D21)
+Security Integrity Configuration: Custom (77) | Internal (67)
+========================================================
+Initialisation info
+--------------------------------------------------------
+*Reading /Users/holoto/Library/Preferences/org.tom.DarwinDumper.plist
+*Found previous option: ArchiveZip
+*Found previous option: ReportNew
+*Found previous option: acpi
+*Found previous option: asl
+*Found previous option: biosSystem
+*Found previous option: biosVideo
+*Found previous option: bootLoaderBootSectors
+*Found previous option: codecid
+*Found previous option: cpuinfo
+*Found previous option: devprop
+*Found previous option: diskLoaderConfigs
+*Found previous option: diskPartitionInfo
+*Found previous option: dmi
+*Found previous option: edid
+*Found previous option: firmlog
+*Found previous option: firmmemmap
+*Found previous option: ioreg
+*Found previous option: kerneldmesg
+*Found previous option: kernelinfo
+*Found previous option: kexts
+*Found previous option: lspci
+*Found previous option: nvram
+*Found previous option: opencl
+*Found previous option: privacy
+*Found previous option: rcscripts
+*Found previous option: rtc
+*Found previous option: smc
+*Found previous option: sysprof
+*Save path - Default: Will use /Users/holoto/Desktop/Tools
+*Symlink check: Symlink has not been created.
+*UI: User clicked the run button
+*Save path verify: Path exists.
+*Save path verify: Path is writeable.
+*Save path verify: Path does not end with DarwinDumperReports.
+*Save path: Creating /Users/holoto/Desktop/Tools/DarwinDumperReports
+*Save path: Currently owned by user:501 of group:20 with permissions: 755
+*Save path: /Users/holoto/Desktop/Tools/DarwinDumperReports is now owned by holoto:staff with permissions 755
+*User Chose: Archive Zip
+*User Chose: Audio Codec
+*User Chose: System BIOS
+*User Chose: Video BIOS
+*User Chose: Boot Loaders and Disk Sectors
+*User Chose: Disk Loader Configs
+*User Chose: Disk Partitions
+*User Chose: Firmware Memory Map
+*User Chose: Kernel dmesg
+*User Chose: Kexts
+*User Chose: LSPCI
+*User Chose: ACPI tables
+*User Chose: Apple System Log
+*User Chose: Firmware (Boot) Log
+*User Chose: CPU Information
+*User Chose: Device Properties
+*User Chose: DMI Tables
+*User Chose: EDID
+*User Chose: IORegistry
+*User Chose: Kernel Info
+*User Chose: NVRAM
+*User Chose: Open CL
+*User Chose: RC Scripts
+*User Chose: RTC
+*User Chose: SIP
+*User Chose: SMC Keys
+*User Chose: System Profiler
+*User Chose: privacy
+*User Chose: Report
+--------------------------------------------------------
+          Attempting to dump kernel buffer using dmesg...
+000s : +Started process DumpFilesKernelLogs: pid 16755
+          Attempting to read last ASL boot log...
+000s : +Started process DumpFilesAppleSystemLog: pid 16759
+          Check: /Kernel Logs/dmesg.txt created.
+000s : +Started process DumpFilesSystemProfilerInfo: pid 16766
+000s : -Completed DumpFilesKernelLogs
+000s : +Started process DumpFilesDiskUtilConfigsAndLoaders: pid 16771
+000s : +Started process DumpFilesBiosROM: pid 16774
+000s : +Started process DumpFilesBiosVideoROM: pid 16783
+          Preparing to read disks...
+          Note: There may be a delay if any disks are sleeping
+          Driver: Loading DirectHW
+          Driver: Loading RadeonPCI
+          Driver: DirectHW loaded successfully.
+          Found /var/log/asl/2016.03.22.U0.G80.asl
+          Check: /Kernel Logs/AppleSystemLog.txt created.
+002s : -Completed DumpFilesAppleSystemLog
+          Driver: RadeonPCI loaded successfully.
+          Running RadeonDump
+          Number of legacy VBIOS ROM's dumped: 0
+          Driver: Unloading RadeonPCI
+          Driver: RadeonPCI successfully unloaded.
+          Note: System Profiler shows more GPUs than dumped VBIOS ROM's.
+          Check: /System Profiler/System-Profiler.spx created.
+          Number of ATI ROM images found in IORegistry: 0
+          Looking for existence of ACPI table: VFCT
+005s : -Completed DumpFilesBiosVideoROM
+          Scanning disk: disk0
+          Reading partition info for: disk0
+          Scanning & interpreting partition table for disk0
+          Check: ** /BIOS/System/biosbackup.rom failed to be created.
+          Driver: Unloading DirectHW
+          Driver: DirectHW successfully unloaded.
+008s : -Completed DumpFilesBiosROM
+          Searching for Bootloader files on disk0s1
+          Found /Volumes/ddTempMpk2z9vgCfv/EFI/CLOVER/config.plist
+          Found /Volumes/ddTempMpk2z9vgCfv/EFI/CLOVER/OEM/SystemProductName/config.plist
+          Found /Volumes/ddTempMpk2z9vgCfv/EFI/CLOVER/OEM/SystemProductName/UEFI/config.plist
+          Searching for Bootloader files on disk0s2
+          Found /Volumes/osx/Library/Preferences/SystemConfiguration/com.apple.Boot.plist
+          Searching for Bootloader files on disk0s3
+          Check: /System Profiler/System-Profiler.txt created.
+017s : -Completed DumpFilesSystemProfilerInfo
+          Scanning disk: disk1
+          Reading partition info for: disk1
+          Scanning & interpreting partition table for disk1
+          Searching for Bootloader files on disk1s1
+          Searching for Bootloader files on disk1s5
+          Searching for Bootloader files on disk1s6
+          Searching for Bootloader files on disk1s7
+027s : -Completed DumpFilesDiskUtilConfigsAndLoaders
+028s : +Started process DumpFilesAcpiTables: pid 21017
+028s : +Started process DumpFilesAudioCodec: pid 21020
+028s : +Started process DumpFilesFirmwareMemoryMap: pid 21027
+          Dumping Kext lists...
+028s : +Started process DumpFilesKextLists: pid 21034
+028s : +Started process DumpFilesBootLog: pid 21042
+028s : +Started process DumpFilesDeviceProperties: pid 21051
+028s : +Started process DumpFilesOpenCLInfo: pid 21060
+028s : +Started process DumpFilesKernelInfo: pid 21067
+028s : +Started process DumpSip: pid 21074
+028s : +Started process DumpFilesSmcKeys: pid 21080
+          Dumped INSYDE_Corp._X64 boot log.
+          Check: /BootLog/INSYDE_Corp._X64_BootLog.txt created.
+          Check: /SIP/SIP_status.txt created.
+028s : -Completed DumpFilesBootLog
+028s : +Started process DumpFilesRtc: pid 21085
+028s : -Completed DumpSip
+          Check: /OpenCL/openCLinfo.txt created.
+028s : -Completed DumpFilesRcScripts
+028s : +Started process DumpFilesRcScripts: pid 21095
+028s : -Completed DumpFilesOpenCLInfo
+          Check: /SMC/SMC-keys.txt created.
+          Check: /Kexts/NonAppleKexts.txt created.
+          Audio: AppleHDA is loaded.
+          Audio: VoodooHDA is loaded.
+          Check: /Kernel Info/sysctl_cpu.txt created.
+          Check: /SMC/SMC-fans.txt created.
+029s : -Completed DumpFilesSmcKeys
+          Check: /Kernel Info/sysctl_hw.txt created.
+          Check: /Kernel Info/sysctl_machdep_xcpm.txt created.
+029s : -Completed DumpFilesKernelInfo
+          Found ACPI table: SSDT-19
+          Check: /RTC/RTCDump.txt created.
+029s : -Completed DumpFilesRtc
+          Found ACPI table: SSDT-17
+          Found ACPI table: SSDT-26
+          Check: /Kexts/AppleKexts.txt created.
+029s : -Completed DumpFilesKextLists
+          Found ACPI table: SSDT-27
+          Found ACPI table: ASPT-1
+          Disassembled ACPI table: ASPT-1
+          Audio: Waiting 2 seconds before running VoodooHDA's getdump.
+          Found ACPI table: SSDT-5
+          Found ACPI table: BGRT
+          Disassembled ACPI table: BGRT
+          Found ACPI table: SSDT-7
+          Check: /Device Properties/device-properties.hex created.
+          Found ACPI table: SSDT-9
+          Check: /Device Properties/device-properties.plist created.
+030s : -Completed DumpFilesDeviceProperties
+          Found ACPI table: BGRT-2
+          Disassembled ACPI table: BGRT-2
+          Found ACPI table: UEFI
+          Disassembled ACPI table: UEFI
+          Found ACPI table: ASPT
+          Disassembled ACPI table: ASPT
+          Found ACPI table: MCFG-1
+          Disassembled ACPI table: MCFG-1
+          Found ACPI table: FACP-2
+          Disassembled ACPI table: FACP-2
+          Found ACPI table: DSDT
+          Found ACPI table: FACS
+          Disassembled ACPI table: FACS
+          Found ACPI table: WDAT-1
+          Disassembled ACPI table: WDAT-1
+          Found ACPI table: APIC-2
+          Disassembled ACPI table: APIC-2
+          Found ACPI table: UEFI-1
+          Audio: Running VoodooHDA's getdump...
+          Audio: VoodooHDA's getdump was successful.
+          Audio: VoodooHDA's getdump may produce more info if AppleHDA is disabled.
+          Check: /Memory/FirmwareMemoryMap.txt created.
+          Disassembled ACPI table: UEFI-1
+          Audio: Running getcodecid
+067s : -Completed DumpFilesFirmwareMemoryMap
+          Found ACPI table: FPDT-2
+          Audio: pci.ids uncompressed
+          Disassembled ACPI table: FPDT-2
+          Found ACPI table: HPET-1
+          Disassembled ACPI table: HPET-1
+          Found ACPI table: ASF!
+          Disassembled ACPI table: ASF!
+          Found ACPI table: BOOT-2
+          Disassembled ACPI table: BOOT-2
+          Found ACPI table: DSDT-1
+          Disassembled ACPI table: DSDT-1
+          Found ACPI table: SSDT
+          Found ACPI table: HPET
+          Disassembled ACPI table: HPET
+          Found ACPI table: SSDT-2
+          Found ACPI table: APIC
+          Disassembled ACPI table: APIC
+          Found ACPI table: XSDT
+          Disassembled ACPI table: XSDT
+          Check: /Audio/AudioCodecID.txt created.
+          Audio: getcodecid completed audio codec ID dump
+          Found ACPI table: SSDT-4
+068s : -Completed DumpFilesAudioCodec
+          Found ACPI table: FACS-1
+          Disassembled ACPI table: FACS-1
+          Found ACPI table: MCFG
+          Disassembled ACPI table: MCFG
+          Found ACPI table: ASF!-2
+          Disassembled ACPI table: ASF!-2
+          Found ACPI table: SSDT-6
+          Found ACPI table: SSDT-8
+          Found ACPI table: BOOT
+          Disassembled ACPI table: BOOT
+          Found ACPI table: WDAT
+          Disassembled ACPI table: WDAT
+          Found ACPI table: ASPT-2
+          Disassembled ACPI table: ASPT-2
+          Found ACPI table: WDAT-2
+          Disassembled ACPI table: WDAT-2
+          Found ACPI table: BGRT-1
+          Disassembled ACPI table: BGRT-1
+          Found ACPI table: FACP-1
+          Disassembled ACPI table: FACP-1
+          Found ACPI table: MCFG-2
+          Disassembled ACPI table: MCFG-2
+          Found ACPI table: APIC-1
+          Disassembled ACPI table: APIC-1
+          Found ACPI table: FPDT-1
+          Disassembled ACPI table: FPDT-1
+          Found ACPI table: UEFI-2
+          Disassembled ACPI table: UEFI-2
+          Found ACPI table: RSDT
+          Disassembled ACPI table: RSDT
+          Found ACPI table: FACP
+          Disassembled ACPI table: FACP
+          Found ACPI table: FPDT
+          Disassembled ACPI table: FPDT
+          Found ACPI table: BOOT-1
+          Disassembled ACPI table: BOOT-1
+          Found ACPI table: HPET-2
+          Disassembled ACPI table: HPET-2
+          Found ACPI table: DSDT-2
+          Disassembled ACPI table: DSDT-2
+          Found ACPI table: SSDT-10
+          Found ACPI table: SSDT-1
+          Found ACPI table: SSDT-11
+          Found ACPI table: SSDT-12
+          Found ACPI table: SSDT-3
+          Found ACPI table: SSDT-20
+          Found ACPI table: SSDT-13
+          Found ACPI table: SSDT-21
+          Found ACPI table: SSDT-14
+          Found ACPI table: SSDT-15
+          Found ACPI table: SSDT-22
+          Found ACPI table: SSDT-16
+          Found ACPI table: SSDT-23
+          Found ACPI table: SSDT-24
+          Found ACPI table: ASF!-1
+          Disassembled ACPI table: ASF!-1
+          Found ACPI table: SSDT-25
+          Found ACPI table: SSDT-18
+          Disassembling DSDT and SSDT's (29 files in total) as multiple tables from single namespace...
+          ** Error disassembling. Attaching iasl log to logfile.
+--------------------------------------------------------
+Loading Acpi table from file /Users/holoto/Desktop/Tools/DarwinDumperReports/000_2016-03-22_21-36-20_MacBookPro9,2/DarwinDumper_2.9.9.2_INSYDE_Corp._X64_Cap_holoto/ACPI Tables/AML/SSDT-1.aml
+Acpi table [SSDT] successfully installed and loaded
+Loading Acpi table from file /Users/holoto/Desktop/Tools/DarwinDumperReports/000_2016-03-22_21-36-20_MacBookPro9,2/DarwinDumper_2.9.9.2_INSYDE_Corp._X64_Cap_holoto/ACPI Tables/AML/DSDT.aml
+Acpi table [DSDT] successfully installed and loaded
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Loading Acpi table from file /Users/holoto/Desktop/Tools/DarwinDumperReports/000_2016-03-22_21-36-20_MacBookPro9,2/DarwinDumper_2.9.9.2_INSYDE_Corp._X64_Cap_holoto/ACPI Tables/AML/DSDT-2.aml
+Acpi table [DSDT] successfully installed and loaded
+Pass 1 parse of [DSDT]
+ACPI Error: [SS1_] Namespace lookup failure, AE_ALREADY_EXISTS (20130823/dswload-436)
+ACPI Exception: AE_ALREADY_EXISTS, During name lookup/catalog (20130823/psobject-304)
+
+Intel ACPI Component Architecture
+ASL Optimizing Compiler version 20130823-32 [Sep 16 2013]
+Copyright (c) 2000 - 2013 Intel Corporation
+
+Could not parse external ACPI tables, AE_ALREADY_EXISTS
+--------------------------------------------------------
+          29 .dsl files are missing. Will try disassembling as single files.
+          Disassembled ACPI table: SSDT-1.aml
+          Disassembled ACPI table: SSDT-10.aml
+          Disassembled ACPI table: SSDT-11.aml
+          Disassembled ACPI table: SSDT-12.aml
+          Disassembled ACPI table: SSDT-13.aml
+          Disassembled ACPI table: SSDT-14.aml
+          Disassembled ACPI table: SSDT-15.aml
+          Disassembled ACPI table: SSDT-16.aml
+          Disassembled ACPI table: SSDT-17.aml
+          Disassembled ACPI table: SSDT-18.aml
+          Disassembled ACPI table: SSDT-19.aml
+          Disassembled ACPI table: SSDT-2.aml
+          Disassembled ACPI table: SSDT-20.aml
+          Disassembled ACPI table: SSDT-21.aml
+          Disassembled ACPI table: SSDT-22.aml
+          Disassembled ACPI table: SSDT-23.aml
+          Disassembled ACPI table: SSDT-24.aml
+          Disassembled ACPI table: SSDT-25.aml
+          Disassembled ACPI table: SSDT-26.aml
+          Disassembled ACPI table: SSDT-27.aml
+          Disassembled ACPI table: SSDT-3.aml
+          Disassembled ACPI table: SSDT-4.aml
+          Disassembled ACPI table: SSDT-5.aml
+          Disassembled ACPI table: SSDT-6.aml
+          Disassembled ACPI table: SSDT-7.aml
+          Disassembled ACPI table: SSDT-8.aml
+          Disassembled ACPI table: SSDT-9.aml
+          Disassembled ACPI table: SSDT.aml
+          Disassembled ACPI table: DSDT.aml
+069s : -Completed AcpiTables
+070s : +Started process DumpFilesLspci: pid 21918
+          Update pciids database
+070s : +Started process DumpFilesDmiTables: pid 21921
+070s : +Started process DumpFilesNvram: pid 21928
+070s : +Started process DumpFilesEdid: pid 21932
+          Check: /NVRAM/nvram.plist created.
+070s : +Started process DumpFilesCpuInfo: pid 21937
+          Check: /NVRAM/nvram_hexdump.txt created.
+          Check: /NVRAM/nvram.plist created.
+070s : -Completed DumpFilesNvram
+          Check: /DMI Tables/SMBIOS.bin created.
+          Check: /DMI Tables/SMBIOS.txt created.
+070s : -Completed DumpFilesDmiTables
+          Found 1 EDID in ioreg
+          Check: /CPU/cpuinfo.txt created.
+071s : -Completed DumpFilesCpuInfo
+          Check: /EDID/EDID.txt created.
+          Check: /EDID/EDID.bin created.
+          Checking Clover bootlog for EDID data
+          EDID data found. Writing to file
+          Check: /EDID/EDID_from_Clover_bootlog.txt created.
+          Check: /EDID/EDID_from_Clover_bootlog.bin created.
+071s : -Completed DumpFilesEdid
+          Update pciids
+          Dumping LSPCI info...
+          Driver: Loading DirectHW
+          Driver: DirectHW loaded successfully.
+          Check: /LSPCI/lspci (nnvv).txt created.
+          Check: /LSPCI/lspci detailed (nnvvbxxxx).txt created.
+          Check: /LSPCI/lspci tree (nnvvt).txt created.
+          Check: /LSPCI/lspci map (M).txt created.
+          Driver: Unloading DirectHW
+          Driver: DirectHW successfully unloaded.
+075s : -Completed DumpFilesLspci
+          Running ioregwv...
+075s : +Started process DumpFilesIoreg: pid 22012
+082s : -Completed DumpFilesIoreg
+082s : Making dump(s) private..
+========================================================
+Dumps complete after: 100 seconds
+--------------------------------------------------------
+Creating HTML report...
+          adding ACPI tables
+          adding VoodooHDAGetdump.txt
+          adding BIOS flashrom_log.txt
+          adding diskutil & loader info
+          adding Bootloader config files
+          adding boot log
+          adding CPU Information
+          adding device properties
+          adding partition table info
+          adding disk & volume UIDs
+          adding DMI dump
+          adding EDID.txt
+          adding EDID_from_Clover_bootlog.txt
+          adding firmware memory map
+          adding IORegistry Viewer
+          adding kernel logs
+          adding kernel info
+          adding kext dumps
+          adding LSPCI dumps
+          adding nvram info
+          adding OpenCL dump
+          adding RTC dump
+          adding SIP dump
+          adding SMC dumps
+          adding System Profiler dump
+========================================================
+DarwinDumper Completed in: 163 seconds
+========================================================

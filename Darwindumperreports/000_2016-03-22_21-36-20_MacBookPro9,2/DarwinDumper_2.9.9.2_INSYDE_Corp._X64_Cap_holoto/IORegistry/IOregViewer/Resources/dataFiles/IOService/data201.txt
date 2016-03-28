@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"7545","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"7547","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"7549","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"7551","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"7553","ColType":"String","ColValue":"net.osrom.kext.Disabler"}},
+{"data":{"title":"IOPCIClassMatch"},"attr":{"id":"7555","ColType":"String","ColValue":"0x04020000&0xFFFE0000"}},
+{"data":{"title":"IOClass"},"attr":{"id":"7557","ColType":"String","ColValue":"Disabler"}}
+]

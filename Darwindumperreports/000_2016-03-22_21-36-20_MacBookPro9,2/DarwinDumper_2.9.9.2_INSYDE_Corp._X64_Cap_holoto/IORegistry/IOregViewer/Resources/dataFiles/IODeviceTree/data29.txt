@@ -1,0 +1,11 @@
+[
+{"data":{"title":"slot-names"},"attr":{"id":"1738","ColType":"Data","ColValue":"&lt;\"   \",\"BANK0/DIMM0\",\"BANK1/DIMM0\"&gt;"}},
+{"data":{"title":"dimm-types"},"attr":{"id":"1740","ColType":"Data","ColValue":"&lt;\"DDR3\",\"DDR3\"&gt;"}},
+{"data":{"title":"dimm-speeds"},"attr":{"id":"1742","ColType":"Data","ColValue":"&lt;\"1600 MHz\",\"1600 MHz\"&gt;"}},
+{"data":{"title":"dimm-serial-number"},"attr":{"id":"1744","ColType":"Data","ColValue":"&lt;\"0000000000000000\",\"030204030C07020E\"&gt;"}},
+{"data":{"title":"dimm-part-number"},"attr":{"id":"1746","ColType":"Data","ColValue":"&lt;\"Team-Elite-1600\",\"HMT451S6MFR8C-PBN0\"&gt;"}},
+{"data":{"title":"ecc-enabled"},"attr":{"id":"1748","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"dimm-info"},"attr":{"id":"1750","ColType":"Data","ColValue":"&lt;00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"1752","ColType":"Data","ColValue":"&lt;01000000000000000100000000000000&gt;"}},
+{"data":{"title":"dimm-manufacturer"},"attr":{"id":"1754","ColType":"Data","ColValue":"&lt;\"Team Group\",\"Hynix Semiconductor\"&gt;"}}
+]

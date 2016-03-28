@@ -1,0 +1,31 @@
+/dev/disk0 
+ST1000LM014-SSHD-8GB 
+Physical Block (sector) size: 4096 bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 1953525168 
+Total Disk Size: 1.0 TB 
+  
+MBR Partition Entry 1: 00feffffeefeffff01000000af6d7074 
+MBR Partition Entry 2: 00000000000000000000000000000000 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: GUID Partition Table 
+Disk GUID:f66f92c8-0359-44b9-9bc3-4b7c8a1ca298 
+Partition GUID: 57fabe9f-8077-4464-b737-a45827764371 | Name: EFI System Partition 
+Partition GUID: a5276523-2b78-4010-a58a-87561a95daaf | Name: osx 
+Partition GUID: b7723ce2-9ed3-4d13-a64e-30a413d1dc7e | Name: Recovery HD 
+
+=========   =========             ========              ==========  ========= 
+LBA Start   Type                  GPT Name              LoaderCode  Size LBA 
+=========   =========             ========              ==========  ========= 
+0           MBR                                                     1 
+1           Primary GPT Header                                      1 
+2           Primary GPT Table                                       32 
+34          Space                                                   6 
+40          EFI System Partition  EFI System Partition  Apple EFI   409600 
+409640      HFS+                  osx                               1951845952 
+1952255592  OSX Boot              Recovery HD                       1269536 
+1953525128  Space                                                   7 
+1953525135  Backup GPT Table                                        32 
+1953525167  Backup GPT Header                                       1 

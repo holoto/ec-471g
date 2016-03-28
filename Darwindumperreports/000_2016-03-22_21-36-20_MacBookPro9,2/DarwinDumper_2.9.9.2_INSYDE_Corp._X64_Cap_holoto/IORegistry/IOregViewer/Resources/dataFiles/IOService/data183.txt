@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOAudioControlChannelName"},"attr":{"id":"5229","ColType":"String","ColValue":"All Channels"}},
+{"data":{"title":"IOAudioSelectorControlAvailableSelections"},"attr":{"id":"5231","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5232","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOAudioSelectorControlSelectionValue"},"attr":{"id":"5234","ColType":"Number","ColValue":"1702064235"}},{"data":{"title":"IOAudioSelectorControlSelectionDescriptionKey"},"attr":{"id":"5236","ColType":"String","ColValue":"Speaker (Analog)"}}]}]},
+{"data":{"title":"IOAudioControlID"},"attr":{"id":"5238","ColType":"Number","ColValue":"65541"}},
+{"data":{"title":"IOAudioControlValue"},"attr":{"id":"5240","ColType":"Number","ColValue":"1702064235"}},
+{"data":{"title":"IOAudioControlChannelNumber"},"attr":{"id":"5242","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioControlChannelID"},"attr":{"id":"5244","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioControlUsage"},"attr":{"id":"5246","ColType":"Number","ColValue":"1869968496"}},
+{"data":{"title":"IOAudioControlType"},"attr":{"id":"5248","ColType":"Number","ColValue":"1936483188"}},
+{"data":{"title":"IOAudioControlSubType"},"attr":{"id":"5250","ColType":"Number","ColValue":"1869968496"}}
+]

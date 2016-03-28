@@ -1,0 +1,13 @@
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS osx                     999.3 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *500.1 GB   disk1
+   1:               Windows_NTFS WIN10                   161.1 GB   disk1s1
+   2:               Windows_NTFS soft                    161.1 GB   disk1s5
+   3:               Windows_NTFS word                    53.7 GB    disk1s6
+   4:               Windows_NTFS gamepower               124.3 GB   disk1s7

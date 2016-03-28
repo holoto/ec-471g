@@ -1,0 +1,16 @@
+[
+{"data":{"title":"boot-device-path"},"attr":{"id":"1454","ColType":"Data","ColValue":"&lt;02010c00d041030a0000000001010600021f03120a0000000000000004012a0002000000284006000000000040ce567400000000236527a5782b1040a58a87561a95daaf02027fff0400&gt;"}},
+{"data":{"title":"random-seed"},"attr":{"id":"1456","ColType":"Data","ColValue":"&lt;00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&gt;"}},
+{"data":{"title":"IOScreenLockState"},"attr":{"id":"1458","ColType":"Data","ColValue":"&lt;01000000&gt;"}},
+{"data":{"title":"booter-build-time"},"attr":{"id":"1460","ColType":"Data","ColValue":"&lt;\"Sat Oct 31 04:14:50 PDT 2015\"&gt;"}},
+{"data":{"title":"boot-uuid"},"attr":{"id":"1462","ColType":"Data","ColValue":"&lt;\"5F503A6C-E0EC-363C-98AE-D34D99812F3D\"&gt;"}},
+{"data":{"title":"boot-file-path"},"attr":{"id":"1464","ColType":"Data","ColValue":"&lt;04044e00530079007300740065006d005c004c006900620072006100720079005c0043006f0072006500530065007200760069006300650073005c0062006f006f0074002e0065006600690000007fff0400&gt;"}},
+{"data":{"title":"boot-kernelcache-adler32"},"attr":{"id":"1466","ColType":"Data","ColValue":"&lt;b3c92a92&gt;"}},
+{"data":{"title":"machine-signature"},"attr":{"id":"1468","ColType":"Data","ColValue":"&lt;00000000&gt;"}},
+{"data":{"title":"IOProgressColorTheme"},"attr":{"id":"1470","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"boot-args"},"attr":{"id":"1472","ColType":"Data","ColValue":"&lt;\"slide=0 dart=0 nv_disable=1 kext-dev-mode=1 -v "Kernel=/System/Library/Kernels/kernel"  rootless=0\"&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"1474","ColType":"Data","ColValue":"&lt;\"chosen\"&gt;"}},
+{"data":{"title":"booter-name"},"attr":{"id":"1476","ColType":"Data","ColValue":"&lt;\"boot.efi\"&gt;"}},
+{"data":{"title":"booter-version"},"attr":{"id":"1478","ColType":"Data","ColValue":"&lt;\"version:307.20.3\"&gt;"}},
+{"data":{"title":"boot-file"},"attr":{"id":"1480","ColType":"Data","ColValue":"&lt;\"System\\Library\\PrelinkedKernels\\prelinkedkernel\"&gt;"}}
+]

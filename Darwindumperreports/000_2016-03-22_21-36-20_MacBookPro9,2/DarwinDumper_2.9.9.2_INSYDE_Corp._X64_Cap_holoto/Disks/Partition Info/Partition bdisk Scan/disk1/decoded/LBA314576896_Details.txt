@@ -1,0 +1,28 @@
+EBR Windows NT Signature: 00000000
+EBR Partition Entry 1: 00feffff07feffff000800000008c012
+EBR Partition Entry 2: 00feffff05feffff0010c01200104006
+EBR Partition Entry 3: 00000000000000000000000000000000
+EBR Partition Entry 4: 00000000000000000000000000000000
+EBR Signature: aa55
+
+EBR Partition Entry: 00feffff07feffff000800000008c012
+=====================================================
+EBR Partition Entry Status: 00 (Inactive) 
+EBR Partition Entry Starting CHS: 1023:254:63
+EBR Partition Entry Ending CHS: 1023:254:63
+EBR Partition Entry Partition Type: 07 (NTFS)
+EBR Partition Entry LBA of First Sector: 314578944
+EBR Partition Entry No. Sectors in Partition: 314574848
+EBR Partition Size: 161.06GB
+Partition Loader: Unknown
+
+EBR Partition Entry: 00feffff05feffff0010c01200104006
+=====================================================
+EBR Partition Entry Status: 00 (Inactive) 
+EBR Partition Entry Starting CHS: 1023:254:63
+EBR Partition Entry Ending CHS: 1023:254:63
+EBR Partition Entry Partition Type: 05 (Extended DOS)
+EBR Partition Entry LBA of First Sector: 629153792
+EBR Partition Entry No. Sectors in Partition: 104861696
+EBR Partition Size: 53.68GB
+Partition Loader: Windows NTFS NTLDR

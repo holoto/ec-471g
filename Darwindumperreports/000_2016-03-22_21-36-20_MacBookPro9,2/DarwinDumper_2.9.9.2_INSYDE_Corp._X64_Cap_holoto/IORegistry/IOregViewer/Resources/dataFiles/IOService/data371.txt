@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"62614","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"62616","ColType":"String","ColValue":"FakeSMCKeyStore"}},
+{"data":{"title":"manufacturer"},"attr":{"id":"62618","ColType":"String","ColValue":"Acer"}},
+{"data":{"title":"product-name"},"attr":{"id":"62620","ColType":"String","ColValue":"EA40_HC"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"62622","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"62624","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"62626","ColType":"String","ColValue":"org.netkas.driver.FakeSMC"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"62628","ColType":"String","ColValue":"FakeSMCKeyStoreUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"62630","ColType":"String","ColValue":"FakeSMCKeyStore"}}
+]

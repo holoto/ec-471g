@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"33937","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"33939","ColType":"Number","ColValue":"2"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"33941","ColType":"Number","ColValue":"2"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"33943","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"33945","ColType":"String","ColValue":"IOPlatformDevice"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"33947","ColType":"String","ColValue":"ps2controller"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"33949","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"33951","ColType":"String","ColValue":"ps2controller"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"33953","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"33955","ColType":"String","ColValue":"org.emlydinesh.driver.ApplePS2Controller"}},
+{"data":{"title":"IOClass"},"attr":{"id":"33957","ColType":"String","ColValue":"ApplePS2Controller"}}
+]

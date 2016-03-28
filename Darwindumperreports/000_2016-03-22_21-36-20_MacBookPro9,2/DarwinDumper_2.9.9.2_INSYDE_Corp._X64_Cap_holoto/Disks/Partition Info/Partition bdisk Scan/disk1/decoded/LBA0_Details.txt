@@ -1,0 +1,27 @@
+MBR Windows NT Signature: c230629d
+MBR Partition Entry 1: 8020210007feffff000800000008c012
+MBR Partition Entry 2: 00feffff0ffeffff0010c01200507827
+MBR Partition Entry 3: 00000000000000000000000000000000
+MBR Partition Entry 4: 00000000000000000000000000000000
+MBR Signature: aa55
+
+MBR Partition Entry: 8020210007feffff000800000008c012
+=====================================================
+MBR Partition Entry Status: 80 (Active)
+MBR Partition Entry Starting CHS: 0:32:33
+MBR Partition Entry Ending CHS: 1023:254:63
+MBR Partition Entry Partition Type: 07 (NTFS)
+MBR Partition Entry LBA of First Sector: 2048
+MBR Partition Entry No. Sectors in Partition: 314574848
+MBR Partition Size: 161.06GB
+
+MBR Partition Entry: 00feffff0ffeffff0010c01200507827
+=====================================================
+MBR Partition Entry Status: 00 (Inactive) 
+MBR Partition Entry Starting CHS: 1023:254:63
+MBR Partition Entry Ending CHS: 1023:254:63
+MBR Partition Entry Partition Type: 0f (Extended Partition(LBA))
+MBR Partition Entry LBA of First Sector: 314576896
+MBR Partition Entry No. Sectors in Partition: 662196224
+MBR Partition Size: 339.04GB
+Partition Loader: Windows NTFS NTLDR

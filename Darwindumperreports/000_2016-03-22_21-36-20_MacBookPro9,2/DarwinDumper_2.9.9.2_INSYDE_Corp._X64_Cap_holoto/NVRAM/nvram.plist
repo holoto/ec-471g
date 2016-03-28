@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EmuVariableUefiPresent</key>
+	<data>
+	WWVz
+	</data>
+	<key>LocationServicesEnabled</key>
+	<data>
+	AQ==
+	</data>
+	<key>backlight-level</key>
+	<data>
+	//8=
+	</data>
+	<key>csr-active-config</key>
+	<data>
+	ZwAAAA==
+	</data>
+	<key>efi-boot-device-data</key>
+	<data>
+	AgEMANBBAwoAAAAAAQEGAAIfAxIKAAAAAAAAAAQBKgABAAAAAAgAAAAAAAAACMASAAAA
+	AMIwYp0AAAAAAAAAAAAAAAABAX//BAA=
+	</data>
+	<key>fmm-computer-name</key>
+	<data>
+	aG9sb3Rv4oCZcyBNYWNCb29rIFBybw==
+	</data>
+	<key>security-mode</key>
+	<string>none</string>
+</dict>
+</plist>

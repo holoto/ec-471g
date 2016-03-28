@@ -1,0 +1,8 @@
+[
+{"data":{"title":"_STA"},"attr":{"id":"1743","ColType":"Number","ColValue":"11"}},
+{"data":{"title":"_UID"},"attr":{"id":"1745","ColType":"String","ColValue":"0"}},
+{"data":{"title":"name"},"attr":{"id":"1747","ColType":"Data","ColValue":"&lt;\"PNP0103\"&gt;"}},
+{"data":{"title":"IOInterruptSpecifiers"},"attr":{"id":"1749","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"1750","ColType":"Data","ColValue":"&lt;1400000000000000&gt;"}},{"data":{"title":"1"},"attr":{"id":"1751","ColType":"Data","ColValue":"&lt;1500000000000000&gt;"}},{"data":{"title":"2"},"attr":{"id":"1752","ColType":"Data","ColValue":"&lt;0b00000000000000&gt;"}},{"data":{"title":"3"},"attr":{"id":"1753","ColType":"Data","ColValue":"&lt;1600000000000000&gt;"}}]},
+{"data":{"title":"IOInterruptControllers"},"attr":{"id":"1755","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"1756","ColType":"String","ColValue":"io-apic-0"}},{"data":{"title":"1"},"attr":{"id":"1757","ColType":"String","ColValue":"io-apic-0"}},{"data":{"title":"2"},"attr":{"id":"1758","ColType":"String","ColValue":"io-apic-0"}},{"data":{"title":"3"},"attr":{"id":"1759","ColType":"String","ColValue":"io-apic-0"}}]},
+{"data":{"title":"IODeviceMemory"},"attr":{"id":"1761","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"1762","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"1763","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"1765","ColType":"Number","ColValue":"4275044352"}},{"data":{"title":"length"},"attr":{"id":"1767","ColType":"Number","ColValue":"1024"}}]}]}]}
+]

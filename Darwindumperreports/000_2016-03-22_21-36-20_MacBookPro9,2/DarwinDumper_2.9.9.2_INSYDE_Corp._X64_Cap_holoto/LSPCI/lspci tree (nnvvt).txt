@@ -1,0 +1,13 @@
+-[0000:00]-+-00.0  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154]
+           +-02.0  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166]
+           +-16.0  Intel Corporation 7 Series/C210 Series Chipset Family MEI Controller #1 [8086:1e3a]
+           +-1a.0  Intel Corporation 7 Series/C210 Series Chipset Family USB Enhanced Host Controller #2 [8086:1e2d]
+           +-1b.0  Intel Corporation 7 Series/C210 Series Chipset Family High Definition Audio Controller [8086:1e20]
+           +-1c.0-[02]--
+           +-1c.2-[04]--+-00.0  Realtek Semiconductor Co., Ltd. RTL8411 PCI Express Card Reader [10ec:5289]
+           |            \-00.2  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168]
+           +-1c.7-[09]----00.0  Qualcomm Atheros AR9485 Wireless Network Adapter [168c:0032]
+           +-1d.0  Intel Corporation 7 Series/C210 Series Chipset Family USB Enhanced Host Controller #1 [8086:1e26]
+           +-1f.0  Intel Corporation HM77 Express Chipset LPC Controller [8086:1e57]
+           +-1f.2  Intel Corporation 7 Series Chipset Family 6-port SATA Controller [AHCI mode] [8086:1e03]
+           \-1f.3  Intel Corporation 7 Series/C210 Series Chipset Family SMBus Controller [8086:1e22]

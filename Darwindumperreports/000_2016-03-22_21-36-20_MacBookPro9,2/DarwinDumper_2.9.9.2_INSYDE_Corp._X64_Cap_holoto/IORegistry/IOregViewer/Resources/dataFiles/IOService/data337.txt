@@ -1,0 +1,5 @@
+[
+{"data":{"title":"_STA"},"attr":{"id":"61710","ColType":"Number","ColValue":"18446744073709551615"}},
+{"data":{"title":"name"},"attr":{"id":"61712","ColType":"Data","ColValue":"&lt;\"PNP0C14\"&gt;"}},
+{"data":{"title":"_UID"},"attr":{"id":"61714","ColType":"String","ColValue":"APGe"}}
+]

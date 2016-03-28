@@ -87,4 +87,6 @@
 [tool](https://github.com/holoto/ec-471g/tree/master/tool) 安装维护黑苹果的工具
 
 
+[电脑底层信息检测结果](https://github.com/holoto/ec-471g/tree/master/Darwindumperreports)电脑底层信息检测结果
+
 

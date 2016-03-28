@@ -1,0 +1,3 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"4916","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"4918","ColType":"Number","ColValue":"3"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"4920","ColType":"Number","ColValue":"3"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"4922","ColType":"Number","ColValue":"3"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"4924","ColType":"Number","ColValue":"2"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"4926","ColType":"Number","ColValue":"49216"}}]}
+]

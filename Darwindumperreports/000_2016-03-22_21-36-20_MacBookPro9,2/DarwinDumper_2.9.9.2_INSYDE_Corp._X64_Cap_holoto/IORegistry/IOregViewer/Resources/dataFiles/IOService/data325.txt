@@ -1,0 +1,10 @@
+[
+{"data":{"title":"Manufacturer"},"attr":{"id":"60317","ColType":"String","ColValue":"Apple"}},
+{"data":{"title":"Product"},"attr":{"id":"60319","ColType":"String","ColValue":"Keyboard"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"60321","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"60322","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"60324","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"60326","ColType":"Number","ColValue":"6"}}]}]},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"60328","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"VendorID"},"attr":{"id":"60330","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"Transport"},"attr":{"id":"60332","ColType":"String","ColValue":"PS2"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"60334","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"60336","ColType":"Number","ColValue":"8000"}}
+]

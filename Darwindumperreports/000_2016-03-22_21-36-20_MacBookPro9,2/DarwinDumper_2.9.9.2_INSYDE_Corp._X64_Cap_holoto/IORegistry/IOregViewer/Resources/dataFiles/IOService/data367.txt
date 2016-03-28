@@ -1,0 +1,8 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"62538","ColType":"Number","ColValue":"100"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"62540","ColType":"String","ColValue":"AppleIntelCPUPowerManagement"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"62542","ColType":"String","ColValue":"org.tgwbd.driver.NullCPUPowerManagement"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"62544","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"IOClass"},"attr":{"id":"62546","ColType":"String","ColValue":"NullCPUPowerManagement"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"62548","ColType":"String","ColValue":"IOResources"}}
+]

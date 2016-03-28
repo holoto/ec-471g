@@ -1,0 +1,3 @@
+[
+{"data":{"title":"device_type"},"attr":{"id":"62117","ColType":"Data","ColValue":"&lt;\"thermal-zone\"&gt;"}}
+]

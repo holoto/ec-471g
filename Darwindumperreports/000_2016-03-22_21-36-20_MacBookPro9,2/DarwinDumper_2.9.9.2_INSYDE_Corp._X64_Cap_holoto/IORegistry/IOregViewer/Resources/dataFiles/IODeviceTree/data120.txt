@@ -1,0 +1,7 @@
+[
+{"data":{"title":"_STA"},"attr":{"id":"3677","ColType":"Number","ColValue":"18446744073709551615"}},
+{"data":{"title":"IOInterruptSpecifiers"},"attr":{"id":"3679","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3680","ColType":"Data","ColValue":"&lt;0c00000000000000&gt;"}}]},
+{"data":{"title":"compatible"},"attr":{"id":"3682","ColType":"Data","ColValue":"&lt;\"PNP0F13\"&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"3684","ColType":"Data","ColValue":"&lt;\"ETD0501\"&gt;"}},
+{"data":{"title":"IOInterruptControllers"},"attr":{"id":"3686","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3687","ColType":"String","ColValue":"io-apic-0"}}]}
+]

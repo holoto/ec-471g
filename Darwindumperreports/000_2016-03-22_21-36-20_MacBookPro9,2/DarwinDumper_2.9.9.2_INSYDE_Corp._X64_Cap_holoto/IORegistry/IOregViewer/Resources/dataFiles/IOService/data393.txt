@@ -1,0 +1,21 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"65935","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Transport"},"attr":{"id":"65937","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"65939","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"65941","ColType":"Number","ColValue":"256"}},
+{"data":{"title":"VendorID"},"attr":{"id":"65943","ColType":"Number","ColValue":"9610"}},
+{"data":{"title":"VendorIDSource"},"attr":{"id":"65945","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"HIDKind"},"attr":{"id":"65947","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"HIDDeviceEventID"},"attr":{"id":"65949","ColType":"Number","ColValue":"764"}},
+{"data":{"title":"HIDSubinterfaceID"},"attr":{"id":"65951","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"alt_sender_id"},"attr":{"id":"65953","ColType":"Number","ColValue":"4294968059"}},
+{"data":{"title":"HIDKeyMapping"},"attr":{"id":"65955","ColType":"Data","ColValue":"&lt;00000000001800000101020203030404050506060707080809090a0a0b0b0c0c0d0d0e0e0f0f10101111121213131414151516161717&gt;"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"65957","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"65958","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"65960","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"65962","ColType":"Number","ColValue":"128"}}]},{"data":{"title":"1"},"attr":{"id":"65963","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"65965","ColType":"Number","ColValue":"12"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"65967","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"2"},"attr":{"id":"65968","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"65970","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"65972","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"HIDResetKeyboard"},"attr":{"id":"65974","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"HIDInterfaceID"},"attr":{"id":"65976","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Manufacturer"},"attr":{"id":"65978","ColType":"String","ColValue":"SINO WEALTH"}},
+{"data":{"title":"HIDVirtualDevice"},"attr":{"id":"65980","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Product"},"attr":{"id":"65982","ColType":"String","ColValue":"USB KEYBOARD"}},
+{"data":{"title":"LocationID"},"attr":{"id":"65984","ColType":"Number","ColValue":"487718912"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"65986","ColType":"Number","ColValue":"0"}}
+]

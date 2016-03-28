@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"7411","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MaxPowerState"},"attr":{"id":"7413","ColType":"Number","ColValue":"1"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"7415","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"7417","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"7419","ColType":"String","ColValue":"IOService"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"7421","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"7423","ColType":"String","ColValue":"IOPMrootDomain"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"7425","ColType":"String","ColValue":"IOPMrootDomain"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"7427","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"7429","ColType":"String","ColValue":"pk.qwerty12.DisableTurboBoostBattery"}},
+{"data":{"title":"IOClass"},"attr":{"id":"7431","ColType":"String","ColValue":"DisableTurboBoostBattery"}}
+]

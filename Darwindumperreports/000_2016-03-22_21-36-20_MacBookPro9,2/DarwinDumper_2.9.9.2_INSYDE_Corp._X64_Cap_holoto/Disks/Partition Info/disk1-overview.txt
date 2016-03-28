@@ -1,0 +1,46 @@
+/dev/disk1 
+ST500LT012-9WS142 
+Physical Block (sector) size: 4096 bytes 
+Using Block (sector) size: 512 bytes 
+Total Number of Blocks: 976773168 
+Total Disk Size: 500.1 GB 
+  
+MBR Partition Entry 1: 8020210007feffff000800000008c012 
+MBR Partition Entry 2: 00feffff0ffeffff0010c01200507827 
+MBR Partition Entry 3: 00000000000000000000000000000000 
+MBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Partition Map: MBR Partition Table 
+  
+EBR Partition Entry 1: 00feffff07feffff000800000008c012 
+EBR Partition Entry 2: 00feffff05feffff0010c01200104006 
+EBR Partition Entry 3: 00000000000000000000000000000000 
+EBR Partition Entry 4: 00000000000000000000000000000000 
+  
+  
+EBR Partition Entry 1: 00feffff07feffff0008000000084006 
+EBR Partition Entry 2: 00feffff05feffff002000190030780e 
+EBR Partition Entry 3: 00000000000000000000000000000000 
+EBR Partition Entry 4: 00000000000000000000000000000000 
+  
+  
+EBR Partition Entry 1: 00feffff07feffff000800000028780e 
+EBR Partition Entry 2: 00000000000000000000000000000000 
+EBR Partition Entry 3: 00000000000000000000000000000000 
+EBR Partition Entry 4: 00000000000000000000000000000000 
+  
+Unused Size: 240.64KB 
+
+==========  =  =========  ==========           ========= 
+LBA Start   A  Type       LoaderCode           Size LBA 
+==========  =  =========  ==========           ========= 
+0              MBR        Windows Vista,7 MBR  1 
+1              Space                           2047 
+2048        *  NTFS (07)  Windows NTFS NTLDR   314574848 
+314576896      EBR                             1 
+314578944      NTFS (07)  Windows NTFS NTLDR   314574848 
+629153792      EBR                             1 
+629155840      NTFS (07)  Windows NTFS NTLDR   104859648 
+734015488      EBR                             1 
+734017536      NTFS (07)  Windows NTFS NTLDR   242755584 
+976773121      Space                           47 

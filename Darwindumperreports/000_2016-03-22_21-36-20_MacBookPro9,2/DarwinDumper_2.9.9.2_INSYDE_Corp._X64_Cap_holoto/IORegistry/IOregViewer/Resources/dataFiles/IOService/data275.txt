@@ -1,0 +1,20 @@
+[
+{"data":{"title":"Leaf"},"attr":{"id":"33160","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"Writable"},"attr":{"id":"33162","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"BSD Minor"},"attr":{"id":"33164","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"IOBusyInterest"},"attr":{"id":"33166","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"33168","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"Partition ID"},"attr":{"id":"33170","ColType":"Number","ColValue":"5"}},
+{"data":{"title":"Preferred Block Size"},"attr":{"id":"33172","ColType":"Number","ColValue":"512"}},
+{"data":{"title":"BSD Major"},"attr":{"id":"33174","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"BSD Name"},"attr":{"id":"33176","ColType":"String","ColValue":"disk1s5"}},
+{"data":{"title":"Size"},"attr":{"id":"33178","ColType":"Number","ColValue":"161062322176"}},
+{"data":{"title":"Content Hint"},"attr":{"id":"33180","ColType":"String","ColValue":"Windows_NTFS"}},
+{"data":{"title":"Base"},"attr":{"id":"33182","ColType":"Number","ColValue":"161064419328"}},
+{"data":{"title":"Removable"},"attr":{"id":"33184","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"Open"},"attr":{"id":"33186","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"BSD Unit"},"attr":{"id":"33188","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Whole"},"attr":{"id":"33190","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"Content"},"attr":{"id":"33192","ColType":"String","ColValue":"Windows_NTFS"}},
+{"data":{"title":"Ejectable"},"attr":{"id":"33194","ColType":"Boolean","ColValue":"No"}}
+]

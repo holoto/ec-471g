@@ -1,0 +1,15 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"67086","ColType":"Number","ColValue":"5"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"67088","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"Transport"},"attr":{"id":"67090","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"67092","ColType":"Number","ColValue":"20"}},
+{"data":{"title":"VendorID"},"attr":{"id":"67094","ColType":"Number","ColValue":"7119"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"67096","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"67098","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"BootProtocol"},"attr":{"id":"67100","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"67102","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"67103","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"67105","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"67107","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"1"},"attr":{"id":"67108","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"67110","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"67112","ColType":"Number","ColValue":"1"}}]}]},
+{"data":{"title":"HIDDefaultBehavior"},"attr":{"id":"67114","ColType":"String","ColValue":"Mouse"}},
+{"data":{"title":"Product"},"attr":{"id":"67116","ColType":"String","ColValue":"USB Optical Mouse"}},
+{"data":{"title":"LocationID"},"attr":{"id":"67118","ColType":"Number","ColValue":"487784448"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"67120","ColType":"Number","ColValue":"0"}}
+]

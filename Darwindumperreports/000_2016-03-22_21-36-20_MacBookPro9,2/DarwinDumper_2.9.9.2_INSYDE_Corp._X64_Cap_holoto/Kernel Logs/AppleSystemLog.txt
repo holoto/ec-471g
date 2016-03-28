@@ -1,0 +1,501 @@
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64
+Mar 22 21:15:06 localhost kernel[0] <Notice>: vm_page_bootstrap: 1918365 free pages and 162403 wired pages
+Mar 22 21:15:06 localhost kernel[0] <Notice>: kext submap [0x<ptr> - 0x<ptr>], kernel text [0x<ptr> - 0x<ptr>]
+Mar 22 21:15:06 localhost kernel[0] <Notice>: zone leak detection enabled
+Mar 22 21:15:06 localhost kernel[0] <Notice>: "vm_compressor_mode" is 4
+Mar 22 21:15:06 localhost kernel[0] <Notice>: multiq scheduler config: deep-drain 0, ceiling 47, depth limit 4, band limit 127, sanity check 0
+Mar 22 21:15:06 localhost kernel[0] <Notice>: standard timeslicing quantum is 10000 us
+Mar 22 21:15:06 localhost kernel[0] <Notice>: standard background quantum is 2500 us
+Mar 22 21:15:06 localhost kernel[0] <Notice>: WQ[lt_init]: init linktable with max:262144 elements (8388608 bytes)
+Mar 22 21:15:06 localhost kernel[0] <Notice>: WQ[wqp_init]: init prepost table with max:262144 elements (8388608 bytes)
+Mar 22 21:15:06 localhost kernel[0] <Notice>: mig_table_max_displ = 15
+Mar 22 21:15:06 localhost kernel[0] <Notice>: TSC Deadline Timer supported and enabled
+Mar 22 21:15:06 localhost kernel[0] <Notice>: kdp_core zlib memory 0x7000
+Mar 22 21:15:06 localhost kernel[0] <Notice>: NullCPUPowerManagement::init: properties=<ptr>
+Mar 22 21:15:06 localhost kernel[0] <Notice>: NullCPUPowerManagement::start
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=2 LocalApicId=1 Enabled
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=3 LocalApicId=2 Enabled
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=4 LocalApicId=3 Enabled
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=5 LocalApicId=0 Disabled
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=6 LocalApicId=0 Disabled
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=7 LocalApicId=0 Disabled
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=8 LocalApicId=0 Disabled
+Mar 22 21:15:06 localhost kernel[0] <Notice>: calling mpo_policy_init for TMSafetyNet
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+Mar 22 21:15:06 localhost kernel[0] <Notice>: calling mpo_policy_init for AMFI
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Security policy loaded: Apple Mobile File Integrity (AMFI)
+Mar 22 21:15:06 localhost kernel[0] <Notice>: calling mpo_policy_init for Sandbox
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+Mar 22 21:15:06 localhost kernel[0] <Notice>: calling mpo_policy_init for Quarantine
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Security policy loaded: Quarantine policy (Quarantine)
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Copyright (c) 1982, 1986, 1989, 1991, 1993
+Mar 22 21:15:06 localhost kernel[0] <Notice>: The Regents of the University of California. All rights reserved.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: MAC Framework successfully initialized
+Mar 22 21:15:06 localhost kernel[0] <Notice>: using 16384 buffer headers and 10240 cluster IO buffer headers
+Mar 22 21:15:06 localhost kernel[0] <Notice>: FakeSMCKeyStore: started
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AppleCredentialManager::start called
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AssertMacros: tmpData (value: 0x0),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager-83.20.2/AppleCredentialManager/AppleCredentialManager.cpp, line: 765
+Mar 22 21:15:06 localhost kernel[0] <Notice>: AppleKeyStore starting (BUILT: Dec 10 2015 19:43:11)
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Current tsc from rdtsc64() is 34810172960. Rendezvouing..
+Mar 22 21:15:06 localhost kernel[0] <Notice>: IOAPIC: Version 0x20 Vectors 64:87
+Mar 22 21:15:06 localhost kernel[0] <Notice>: ACPI: sleep states S3 S4 S5
+Mar 22 21:15:06 localhost kernel[0] <Notice>: CPUSensors: CPU family 0x6, model 0x3a, stepping 0x9, cores 2, threads 4, TJmax 105
+Mar 22 21:15:06 localhost kernel[0] <Notice>: CPUSensors: setting platform keys to [d8      ]
+Mar 22 21:15:06 localhost kernel[0] <Notice>: CPUSensors: base CPU multiplier is 25
+Mar 22 21:15:06 localhost kernel[0] <Notice>: CPUSensors: started
+Mar 22 21:15:06 localhost kernel[0] <Notice>: OSMetaClass: Kext org.rehabman.voodoo.driver.PS2Controller class ApplePS2Controller is a duplicate;kext org.emlydinesh.driver.ApplePS2Controller already has a class by that name.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Controller start failed (result 0xdc00400a).pci (build 19:23:54 Dec 10 2015), flags 0xe3000, pfm64 (36 cpu) 0xf80000000, 0x80000000
+Mar 22 21:15:06 localhost kernel[0] <Notice>: [ PCI configuration begin ]
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Controller failed to load (0xdc008017).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Failed to load kext org.rehabman.voodoo.driver.PS2Controller (error 0xdc008017).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: console relocated to 0xf80000000
+Mar 22 21:15:06 localhost kernel[0] <Notice>: ACPIBatteryManager: Version 1.55 starting.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: ACPIBatteryManager: Using ACPI regular battery information method _BIF
+Mar 22 21:15:06 localhost kernel[0] <Notice>: FakeSMC v6.11-285-gf024943.1613 Copyright 2014 netkas, slice, usr-sse2, kozlek, navi, THe KiNG, RehabMan. All rights reserved.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: FakeSMC: 14 preconfigured keys added
+Mar 22 21:15:06 localhost kernel[0] <Notice>: FakeSMC: 5 keys exported by Clover EFI
+Mar 22 21:15:06 localhost kernel[0] <Notice>: SMC: successfully initialized
+Mar 22 21:15:06 localhost kernel[0] <Notice>: OSMetaClass: Kext com.yourcompany.driver.AppleACPIPS2Nub class AppleACPIPS2Nub is a duplicate;kext org.emlydinesh.driver.ApplePS2Controller already has a class by that name.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext com.yourcompany.driver.AppleACPIPS2Nub start failed (result 0xdc00400a).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext com.yourcompany.driver.AppleACPIPS2Nub failed to load (0xdc008017).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Failed to load kext com.yourcompany.driver.AppleACPIPS2Nub (error 0xdc008017).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: ACPISensors (THRM): 1 sensor added
+Mar 22 21:15:06 localhost kernel[0] <Notice>: ACPISensors (THRM): started
+Mar 22 21:15:06 localhost kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.ApplePS2Controller class ApplePS2Controller is a duplicate;kext org.emlydinesh.driver.ApplePS2Controller already has a class by that name.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext com.apple.driver.ApplePS2Controller start failed (result 0xdc00400a).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext com.apple.driver.ApplePS2Controller failed to load (0xdc008017).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Failed to load kext com.apple.driver.ApplePS2Controller (error 0xdc008017).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: STD :: Enhanced Apple PS2 Controller and Keyboard driver v4.3 Copyright (c) EMlyDinEsH <www.osxlatitude.com> 2012-2015.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: 000001.047976 AppleUSBLegacyRoot@: AppleUSBLegacyRoot::init: enabling legacy matching
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Keyboard - library kext org.rehabman.voodoo.driver.PS2Controller not found.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Can't load kext org.rehabman.voodoo.driver.PS2Keyboard - failed to resolve library dependencies.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Keyboard failed to load (0xdc00800e).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Failed to load kext org.rehabman.voodoo.driver.PS2Keyboard (error 0xdc00800e).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Trackpad - library kext org.rehabman.voodoo.driver.PS2Controller not found.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Can't load kext org.rehabman.voodoo.driver.PS2Trackpad - failed to resolve library dependencies.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Trackpad failed to load (0xdc00800e).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Failed to load kext org.rehabman.voodoo.driver.PS2Trackpad (error 0xdc00800e).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext org.voodoo.driver.PS2Keyboard - library kext com.apple.driver.ApplePS2Controller not found.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Can't load kext org.voodoo.driver.PS2Keyboard - failed to resolve library dependencies.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext org.voodoo.driver.PS2Keyboard failed to load (0xdc00800e).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Failed to load kext org.voodoo.driver.PS2Keyboard (error 0xdc00800e).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: STD :: Initializing keyboard...
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Mouse - library kext org.rehabman.voodoo.driver.PS2Controller not found.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Can't load kext org.rehabman.voodoo.driver.PS2Mouse - failed to resolve library dependencies.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Mouse failed to load (0xdc00800e).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Failed to load kext org.rehabman.voodoo.driver.PS2Mouse (error 0xdc00800e).
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Couldn't alloc class "ApplePS2Mouse"
+Mar 22 21:15:06 localhost kernel[0] <Notice>: STD :: Initializing keyboard...
+Mar 22 21:15:06 localhost kernel[0] <Notice>: STD :: Keyboard enabled.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: [ PCI configuration end, bridges 4, devices 12 ]
+Mar 22 21:15:06 localhost kernel[0] <Notice>: mcache: 4 CPU(s), 64 bytes CPU cache line size
+Mar 22 21:15:06 localhost kernel[0] <Notice>: mbinit: done [96 MB total pool size, (64/32) split]
+Mar 22 21:15:06 localhost kernel[0] <Notice>: SuperIODevice: [Fatal] found unsupported chip! ITE sequence ID=0xfc11, Winbond sequence ID=0xffff
+Mar 22 21:15:06 localhost kernel[0] <Notice>: rooting via boot-uuid from /chosen: 5F503A6C-E0EC-363C-98AE-D34D99812F3D
+Mar 22 21:15:06 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib kmod start
+Mar 22 21:15:06 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless kmod start
+Mar 22 21:15:06 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib load succeeded
+Mar 22 21:15:06 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless load succeeded
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Ethernet [RealtekRTL8111]: Disable PCIe ASPM.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Ethernet [RealtekRTL8111]: EEE support enabled.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Ethernet [RealtekRTL8111]: TCP/IPv4 segmentation offload enabled.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Ethernet [RealtekRTL8111]: TCP/IPv6 segmentation offload enabled.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Ethernet [RealtekRTL8111]: TCP/IPv6 checksum offload enabled.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Ethernet [RealtekRTL8111]: Version 2.0.0 using interrupt mitigate value 0xcf58. Please don't support tonymacx86.com!
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Ethernet [RealtekRTL8111]: RTL8411: (Chipset 19) at 0x<ptr>,  8:9e: 1:9b:ac: 9
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/SAT0@1F,2/AppleIntelPchSeriesAHCI/PRT0@0/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/ST1000LM014-SSHD-8GB Media/IOGUIDPartitionScheme/osx@2
+Mar 22 21:15:06 localhost kernel[0] <Notice>: BSD root: disk0s2, major 1, minor 2
+Mar 22 21:15:06 localhost kernel[0] <Notice>: jnl: b(1, 2): replay_journal: from: 45517824 to: 46222336 (joffset 0x1d1c000)
+Mar 22 21:15:06 localhost kernel[0] <Notice>: jnl: b(1, 2): journal replay done.
+Mar 22 21:15:06 localhost kernel[0] <Notice>: PTIDSensors: started
+Mar 22 21:15:06 localhost kernel[0] <Notice>: hfs: mounted osx on device root_device
+Mar 22 21:15:06 localhost kernel[0] <Notice>: VM Swap Subsystem is ON
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: allow(0) file-write-flags /private/var/run/diagnosticd/dyld_shared_cache_x86_64
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Sandbox: launchd(1) System Policy: allow(0) file-write-flags /private/var/run/diagnosticd/dyld_shared_cache_x86_64.map
+Mar 22 21:15:06 localhost kernel[0] <Notice>: Waiting for DSMOS...
+Mar 22 21:15:07 holotos-MacBook-Pro kernel[0] <Notice>: in6_unlink_ifa: IPv6 address 0xe50096445294e427 has no prefix
+Mar 22 21:15:07 holotos-MacBook-Pro kernel[0] <Notice>: IOGraphics flags 0x43
+Mar 22 21:15:07 holotos-MacBook-Pro kernel[0] <Notice>: 000030.062520 IOUSBHostHIDDevice@: IOUSBHostHIDDevice::handleStart: unable to open interface
+Mar 22 21:15:07 holotos-MacBook-Pro kernel[0] <Notice>: 000030.062522 IOUSBHostHIDDevice@: IOUSBHostHIDDevice::handleStart: unable to open interface
+Mar 22 21:15:07 holotos-MacBook-Pro kernel[0] <Notice>: 000030.062537 IOUSBHostHIDDevice@: IOUSBHostHIDDevice::start: unable to start IOHIDDevice
+Mar 22 21:15:07 holotos-MacBook-Pro kernel[0] <Notice>: 000030.062572 IOUSBHostHIDDevice@: IOUSBHostHIDDevice::handleStart: unable to open interface
+Mar 22 21:15:07 holotos-MacBook-Pro kernel[0] <Notice>: 000030.062582 IOUSBHostHIDDevice@: IOUSBHostHIDDevice::start: unable to start IOHIDDevice
+Mar 22 21:15:07 holotos-MacBook-Pro kernel[0] <Notice>: SuperIODevice: [Fatal] found unsupported chip! ITE sequence ID=0xfc11, Winbond sequence ID=0xffff
+Mar 22 21:15:07 holotos-MacBook-Pro kernel[0] <Notice>: Previous shutdown cause: 5
+Mar 22 21:15:07 holotos-MacBook-Pro kernel[0] <Notice>: 000030.129951 IOUSBHostHIDDevice@: IOUSBHostHIDDevice::start: unable to start IOHIDDevice
+Mar 22 21:15:08 holotos-MacBook-Pro kernel[0] <Notice>: Notice - new kext com.apple.iokit.IOHIDSystem, v2.0 matches prelinked kext but can't determine if executables are the same (no UUIDs).
+Mar 22 21:15:08 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext org.rehabman.voodoo.driver.PS2Controller class ApplePS2Controller is a duplicate;kext org.emlydinesh.driver.ApplePS2Controller already has a class by that name.
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Controller start failed (result 0xdc00400a).
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Controller failed to load (0xdc008017).
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Dependency org.rehabman.voodoo.driver.PS2Controller of kext org.rehabman.voodoo.driver.PS2Trackpad failed to load.
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Can't remove kext org.rehabman.voodoo.driver.PS2Controller; serv
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Trackpad failed to load (0xdc008015).
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext org.rehabman.voodoo.driver.PS2Trackpad (error 0xdc008015).
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Kext load request buffer from user space still retained by a kext; probable memory leak.
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Ethernet [RealtekRTL8111]: Link up on en0, 100-Megabit, Full-duplex, flow-control
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Refusing new kext com.apple.iokit.IOUSBFamily, v3.8.5: already have loaded v900.4.1.
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.AppleUSBHub class AppleUSBHub is a duplicate;kext com.apple.driver.usb.AppleUSBHub already has a class by that name.
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub start failed (result 0xdc00400a).
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub failed to load (0xdc008017).
+Mar 22 21:15:09 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext com.apple.driver.AppleUSBHub (error 0xdc008017).
+Mar 22 21:15:10 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:15:10 holotos-MacBook-Pro kernel[0] <Notice>: org.pqrs.Karabiner --Info-- init
+Mar 22 21:15:10 holotos-MacBook-Pro kernel[0] <Notice>: DSMOS has arrived
+Mar 22 21:15:10 holotos-MacBook-Pro kernel[0] <Notice>: [IOBluetoothFamily][start] -- completed
+Mar 22 21:15:10 holotos-MacBook-Pro kernel[0] <Notice>: org.pqrs.Karabiner --Info-- start
+Mar 22 21:15:10 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:15:12 holotos-MacBook-Pro kernel[0] <Notice>: Notice - new kext com.apple.iokit.IOHIDSystem, v2.0 matches prelinked kext but can't determine if executables are the same (no UUIDs).
+Mar 22 21:15:13 holotos-MacBook-Pro kernel[0] <Notice>: ACPIBacklightPanel not found... aborting
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: ACPI_SMC_PlatformPlugin::start - waitForService(resourceMatching(AppleIntelCPUPowerManagement) timed out
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: WARNING: IOPlatformPluginUtil : getCPUIDInfo: this is an unknown CPU model 0x3a
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: -- power management may be incomplete or unsupported
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: AppleLPC::notifyPlatformASPM - registering with plugin with ASPM Support true
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: Controller: Intel Panther Point (vendor ID: 8086, device ID: 1e20)
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: CodecCommander: Version 2.4.0 starting.
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: CodecCommander: Evaluating device "IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/HDEF@1B" [8086:1e20].
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: CodecCommander: ....CodecVendor Id: 0x10ec0269
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: CodecCommander: ....Codec Address: 0
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: CodecCommander: ....Subsystem Id: 0x10250732
+Mar 22 21:15:17 holotos-MacBook-Pro kernel[0] <Notice>: CodecCommander: ....PCI Sub Id: 0x10250732
+Mar 22 21:15:18 holotos-MacBook-Pro kernel[0] <Notice>: Notice - new kext com.apple.iokit.IOHIDSystem, v2.0 matches prelinked kext but can't determine if executables are the same (no UUIDs).
+Mar 22 21:15:19 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext org.rehabman.voodoo.driver.PS2Controller class ApplePS2Controller is a duplicate;kext org.emlydinesh.driver.ApplePS2Controller already has a class by that name.
+Mar 22 21:15:19 holotos-MacBook-Pro kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Controller start failed (result 0xdc00400a).
+Mar 22 21:15:19 holotos-MacBook-Pro kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Controller failed to load (0xdc008017).
+Mar 22 21:15:19 holotos-MacBook-Pro kernel[0] <Notice>: Dependency org.rehabman.voodoo.driver.PS2Controller of kext org.rehabman.voodoo.driver.PS2Mouse failed to load.
+Mar 22 21:15:19 holotos-MacBook-Pro kernel[0] <Notice>: Can't remove kext org.rehabman.voodoo.driver.PS2Controller; services failed to terminate
+Mar 22 21:15:19 holotos-MacBook-Pro kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Mouse failed to load (0xdc008015).
+Mar 22 21:15:19 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext org.rehabman.voodoo.driver.PS2Mouse (error 0xdc008015).
+Mar 22 21:15:19 holotos-MacBook-Pro kernel[0] <Notice>: Kext load request buffer from user space still retained by a kext; probable memory leak.
+Mar 22 21:15:20 holotos-MacBook-Pro kernel[0] <Notice>: VoodooPS2SynapticsTouchPad loaded
+Mar 22 21:15:21 holotos-MacBook-Pro kernel[0] <Notice>: STD :: Smart PS2 Touchpad v4.3 Final Copyright (c) EMlyDinEsH <www.osxlatitude.com> 2012-2015.
+Mar 22 21:15:21 holotos-MacBook-Pro kernel[0] <Notice>: STD :: Detecting the touchpad........
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: IntelBacklight: IntelBacklightPanel not found (PNLF patch missing?)... aborting
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: PPGTT is enabled
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: No interval found for . Using 8000000
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext org.rehabman.voodoo.driver.PS2Controller class ApplePS2Controller is a duplicate;kext org.emlydinesh.driver.ApplePS2Controller already has a class by that name.STD :: ELAN touchpad found, Hardware version 3 (Firmware version 0x550f00).
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Controller start failed (result 0xdc00400a).
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Controller failed to load (0xdc008017).
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: Dependency org.rehabman.voodoo.driver.PS2Controller of kext org.rehabman.voodoo.driver.PS2Mouse failed to load.
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: Can't remove kext org.rehabman.voodoo.driver.PS2Controller; services failed to terminate - 0xdc008018.
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: Kext org.rehabman.voodoo.driver.PS2Mouse failed to load (0xdc008015).
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext org.rehabman.voodoo.driver.PS2Mouse (error 0xdc008015).
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: STD :: Touchpad ranges are X_min 0 Y_min 0 X_max 2436 Y_max 1044, CenterX 1218, CenterY 522.
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: Kext load request buffer from user space still retained by a kext; probable memory leak.
+Mar 22 21:15:22 holotos-MacBook-Pro kernel[0] <Notice>: STD :: Touchpad enabled.
+Mar 22 21:15:23 holotos-MacBook-Pro kernel[0] <Notice>: NTFS driver 3.13 [Flags: R/W].
+Mar 22 21:15:23 holotos-MacBook-Pro kernel[0] <Notice>: NTFS volume name WIN10, version 3.1.
+Mar 22 21:15:23 holotos-MacBook-Pro kernel[0] <Notice>: NTFS volume name soft, version 3.1.
+Mar 22 21:15:24 holotos-MacBook-Pro kernel[0] <Notice>: NTFS volume name word, version 3.1.
+Mar 22 21:15:24 holotos-MacBook-Pro kernel[0] <Notice>: NTFS volume name gamepower, version 3.1.
+Mar 22 21:15:24 holotos-MacBook-Pro kernel[0] <Notice>: ACPIBacklightPanel not found... aborting
+Mar 22 21:15:26 holotos-MacBook-Pro kernel[0] <Notice>: utun_start: ifnet_disable_output returned error 12
+Mar 22 21:15:33 holotos-MacBook-Pro kernel[0] <Notice>: IntelBacklight: IntelBacklightPanel not found (PNLF patch missing?)... aborting
+Mar 22 21:15:40 holotos-MacBook-Pro kernel[0] <Notice>: **** [IOBluetoothFamily][SearchForTransportEventTimeOutHandler] -- Missing Bluetooth Controller Transport! 
+Mar 22 21:16:10 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:16:12 holotos-MacBook-Pro kernel[0] <Notice>: ignored is_io_service_close(0x100000386,IOHIDParamUserClient)
+Mar 22 21:16:16 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:16:23 holotos-MacBook-Pro kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle -501
+Mar 22 21:16:29 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: coreduetd(70) deny(1) file-read-metadata /usr/libexec
+Mar 22 21:16:29 holotos-MacBook-Pro kernel[0] <Notice>: ignored is_io_service_close(0x100000386,IOHIDParamUserClient)
+Mar 22 21:16:30 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: appleeventsd(52) deny(1) file-read-metadata /Library/Security/Trust Settings/Admin.plist
+Mar 22 21:16:31 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: storeaccountd(339) deny(1) file-write-create /Users/holoto/Library/Caches/com.apple.spotlight
+Mar 22 21:16:31 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: netbiosd(210) deny(1) file-read-metadata /usr
+Mar 22 21:16:35 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: storeaccountd(339) deny(1) file-write-create /Users/holoto/Library/Caches/com.apple.spotlight
+Mar 22 21:16:36 holotos-MacBook-Pro kernel[0] <Notice>: ignored is_io_service_close(0x100000386,IOHIDParamUserClient)
+Mar 22 21:16:40 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: softwareupdated(219) deny(1) system-fsctl 682f
+Mar 22 21:16:40 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: AssetCacheLocato(397) deny(1) mach-lookup com.apple.cookied
+Mar 22 21:16:44 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: com.apple.Addres(402) deny(1) mach-lookup com.apple.cdp.daemon
+Mar 22 21:18:34 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:20:08 holotos-MacBook-Pro kernel[0] <Notice>: considerRebuildOfPrelinkedKernel prebuild rebuild has expired
+Mar 22 21:20:38 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:20:50 holotos-MacBook-Pro kernel[0] <Notice>: Resetting IOCatalogue.
+Mar 22 21:20:51 holotos-MacBook-Pro kernel[0] <Notice>: Refusing new kext com.apple.iokit.IOUSBFamily, v3.8.5: already have loaded v900.4.1.
+Mar 22 21:20:51 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.AppleUSBHub class AppleUSBHub is a duplicate;kext com.apple.driver.usb.AppleUSBHub already has a class by that name.
+Mar 22 21:20:51 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub start failed (result 0xdc00400a).
+Mar 22 21:20:51 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub failed to load (0xdc008017).
+Mar 22 21:20:51 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext com.apple.driver.AppleUSBHub (error 0xdc008017).
+Mar 22 21:21:06 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:21:17 holotos-MacBook-Pro kernel[0] <Notice>: Resetting IOCatalogue.
+Mar 22 21:21:19 holotos-MacBook-Pro kernel[0] <Notice>: Refusing new kext com.apple.iokit.IOUSBFamily, v3.8.5: already have loaded v900.4.1.
+Mar 22 21:21:19 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.AppleUSBHub class AppleUSBHub is a duplicate;kext com.apple.driver.usb.AppleUSBHub already has a class by that name.
+Mar 22 21:21:19 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub start failed (result 0xdc00400a).
+Mar 22 21:21:19 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub failed to load (0xdc008017).
+Mar 22 21:21:19 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext com.apple.driver.AppleUSBHub (error 0xdc008017).
+Mar 22 21:21:43 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:21:52 holotos-MacBook-Pro kernel[0] <Notice>: Resetting IOCatalogue.
+Mar 22 21:21:53 holotos-MacBook-Pro kernel[0] <Notice>: Refusing new kext com.apple.iokit.IOUSBFamily, v3.8.5: already have loaded v900.4.1.
+Mar 22 21:21:53 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.AppleUSBHub class AppleUSBHub is a duplicate;kext com.apple.driver.usb.AppleUSBHub already has a class by that name.
+Mar 22 21:21:53 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub start failed (result 0xdc00400a).
+Mar 22 21:21:53 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub failed to load (0xdc008017).
+Mar 22 21:21:53 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext com.apple.driver.AppleUSBHub (error 0xdc008017).
+Mar 22 21:22:30 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:22:38 holotos-MacBook-Pro kernel[0] <Notice>: Resetting IOCatalogue.
+Mar 22 21:22:40 holotos-MacBook-Pro kernel[0] <Notice>: Refusing new kext com.apple.iokit.IOUSBFamily, v3.8.5: already have loaded v900.4.1.
+Mar 22 21:22:40 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.AppleUSBHub class AppleUSBHub is a duplicate;kext com.apple.driver.usb.AppleUSBHub already has a class by that name.
+Mar 22 21:22:40 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub start failed (result 0xdc00400a).
+Mar 22 21:22:40 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub failed to load (0xdc008017).
+Mar 22 21:22:40 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext com.apple.driver.AppleUSBHub (error 0xdc008017).
+Mar 22 21:23:05 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:23:35 holotos-MacBook-Pro kernel[0] <Notice>: Resetting IOCatalogue.
+Mar 22 21:23:37 holotos-MacBook-Pro kernel[0] <Notice>: Refusing new kext com.apple.iokit.IOUSBFamily, v3.8.5: already have loaded v900.4.1.
+Mar 22 21:23:37 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.AppleUSBHub class AppleUSBHub is a duplicate;kext com.apple.driver.usb.AppleUSBHub already has a class by that name.
+Mar 22 21:23:37 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub start failed (result 0xdc00400a).
+Mar 22 21:23:37 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub failed to load (0xdc008017).
+Mar 22 21:23:37 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext com.apple.driver.AppleUSBHub (error 0xdc008017).
+Mar 22 21:23:46 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:23:55 holotos-MacBook-Pro kernel[0] <Notice>: Resetting IOCatalogue.
+Mar 22 21:23:56 holotos-MacBook-Pro kernel[0] <Notice>: Refusing new kext com.apple.iokit.IOUSBFamily, v3.8.5: already have loaded v900.4.1.
+Mar 22 21:23:56 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.AppleUSBHub class AppleUSBHub is a duplicate;kext com.apple.driver.usb.AppleUSBHub already has a class by that name.
+Mar 22 21:23:56 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub start failed (result 0xdc00400a).
+Mar 22 21:23:56 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub failed to load (0xdc008017).
+Mar 22 21:23:56 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext com.apple.driver.AppleUSBHub (error 0xdc008017).
+Mar 22 21:24:09 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:24:18 holotos-MacBook-Pro kernel[0] <Notice>: Resetting IOCatalogue.
+Mar 22 21:24:19 holotos-MacBook-Pro kernel[0] <Notice>: Refusing new kext com.apple.iokit.IOUSBFamily, v3.8.5: already have loaded v900.4.1.
+Mar 22 21:24:19 holotos-MacBook-Pro kernel[0] <Notice>: OSMetaClass: Kext com.apple.driver.AppleUSBHub class AppleUSBHub is a duplicate;kext com.apple.driver.usb.AppleUSBHub already has a class by that name.
+Mar 22 21:24:19 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub start failed (result 0xdc00400a).
+Mar 22 21:24:19 holotos-MacBook-Pro kernel[0] <Notice>: Kext com.apple.driver.AppleUSBHub failed to load (0xdc008017).
+Mar 22 21:24:19 holotos-MacBook-Pro kernel[0] <Notice>: Failed to load kext com.apple.driver.AppleUSBHub (error 0xdc008017).
+Mar 22 21:25:19 holotos-MacBook-Pro kernel[0] <Notice>: Couldn't alloc class "CodecCommanderResidency"
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(934) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfs.kext/Contents
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(936) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfs.kext/Contents/_CodeSignature
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(938) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfs.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(940) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfs.kext/Contents/Info.plist
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(942) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfs.kext/Contents/MacOS
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(944) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfs.kext/Contents/MacOS/acfs
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(946) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfs.kext/Contents/Resources
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(948) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfs.kext/Contents/Resources/Xsan.icns
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(950) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfs.kext/Contents/version.plist
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(952) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfsctl.kext
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(954) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfsctl.kext/Contents
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(956) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfsctl.kext/Contents/_CodeSignature
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(958) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfsctl.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(960) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfsctl.kext/Contents/Info.plist
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(962) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfsctl.kext/Contents/MacOS
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(964) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfsctl.kext/Contents/MacOS/acfsctl
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(966) System Policy: allow(0) file-write-owner /System/Library/Extensions/acfsctl.kext/Contents/version.plist
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1030) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1032) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1034) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/_CodeSignature
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1036) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1038) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Info.plist
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1040) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/MacOS
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1042) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/MacOS/ALF
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1044) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1046) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ar.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1048) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ar.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1050) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ca.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1052) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ca.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1054) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/cs.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1056) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/cs.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1058) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/da.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1060) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/da.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1062) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/Dutch.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1064) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/Dutch.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1066) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/el.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1068) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/el.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1070) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/English.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1072) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/English.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1074) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/es_MX.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1076) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/es_MX.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1078) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/fi.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1080) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/fi.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1082) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/French.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1084) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/French.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1086) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/German.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1088) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/German.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1090) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/he.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1092) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/he.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1094) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/hr.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1096) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/hr.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1098) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/hu.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1100) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/hu.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1102) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/id.lproj
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1104) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/id.lproj/InfoPlist.strings
+Mar 22 21:25:23 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1106) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/Italian.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1108) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/Italian.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1110) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/Japanese.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1112) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/Japanese.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1114) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ko.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1116) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ko.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1118) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ms.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1120) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ms.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1122) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/no.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1124) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/no.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1126) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/pl.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1128) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/pl.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1130) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/pt.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1132) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/pt.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1134) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/pt_PT.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1136) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/pt_PT.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1138) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ro.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1140) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ro.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1142) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ru.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1144) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/ru.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1146) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/sk.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1148) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/sk.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1150) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/Spanish.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1152) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/Spanish.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1154) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/sv.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1156) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/sv.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1158) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/th.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1160) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/th.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1162) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/tr.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1164) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/tr.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1166) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/uk.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1168) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/uk.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1170) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/vi.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1172) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/vi.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1174) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/zh_CN.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1176) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/zh_CN.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1178) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/zh_TW.lproj
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1180) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/Resources/zh_TW.lproj/InfoPlist.strings
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1182) System Policy: allow(0) file-write-owner /System/Library/Extensions/ALF.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1194) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2400Controller.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1196) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2400Controller.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1198) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2400Controller.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1200) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2400Controller.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1202) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2400Controller.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1204) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2400Controller.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1206) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2400Controller.kext/Contents/MacOS/AMD2400Controller
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1208) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2400Controller.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1210) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2600Controller.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1212) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2600Controller.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1214) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2600Controller.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1216) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2600Controller.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1218) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2600Controller.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1220) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2600Controller.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1222) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2600Controller.kext/Contents/MacOS/AMD2600Controller
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1224) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD2600Controller.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1226) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD3800Controller.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1228) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD3800Controller.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1230) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD3800Controller.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1232) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD3800Controller.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1234) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD3800Controller.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1236) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD3800Controller.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1238) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD3800Controller.kext/Contents/MacOS/AMD3800Controller
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1240) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD3800Controller.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1242) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4600Controller.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1244) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4600Controller.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1246) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4600Controller.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1248) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4600Controller.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1250) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4600Controller.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1252) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4600Controller.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1254) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4600Controller.kext/Contents/MacOS/AMD4600Controller
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1256) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4600Controller.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1258) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4800Controller.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1260) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4800Controller.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1262) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4800Controller.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1264) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4800Controller.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1266) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4800Controller.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1268) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4800Controller.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1270) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4800Controller.kext/Contents/MacOS/AMD4800Controller
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1272) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD4800Controller.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1274) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD5000Controller.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1276) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD5000Controller.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1278) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD5000Controller.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1280) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD5000Controller.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1282) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD5000Controller.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1284) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD5000Controller.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1286) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD5000Controller.kext/Contents/MacOS/AMD5000Controller
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1288) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD5000Controller.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1290) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD6000Controller.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1292) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD6000Controller.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1294) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD6000Controller.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1296) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD6000Controller.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1298) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD6000Controller.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1300) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD6000Controller.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1302) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD6000Controller.kext/Contents/MacOS/AMD6000Controller
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1304) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD6000Controller.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1306) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD7000Controller.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1308) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD7000Controller.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1310) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD7000Controller.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1312) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD7000Controller.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1314) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD7000Controller.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1316) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD7000Controller.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1318) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD7000Controller.kext/Contents/MacOS/AMD7000Controller
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1320) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD7000Controller.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1322) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD8000Controller.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1324) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD8000Controller.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1326) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD8000Controller.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1328) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD8000Controller.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1330) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD8000Controller.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1332) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD8000Controller.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1334) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD8000Controller.kext/Contents/MacOS/AMD8000Controller
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1336) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD8000Controller.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1338) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD9000Controller.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1340) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD9000Controller.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1342) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD9000Controller.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1344) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD9000Controller.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1346) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD9000Controller.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1348) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD9000Controller.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1350) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD9000Controller.kext/Contents/MacOS/AMD9000Controller
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1352) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMD9000Controller.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1354) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDFramebuffer.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1356) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDFramebuffer.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1358) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDFramebuffer.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1360) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDFramebuffer.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1362) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDFramebuffer.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1364) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDFramebuffer.kext/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1366) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDFramebuffer.kext/Contents/MacOS/AMDFramebuffer
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1368) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDFramebuffer.kext/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1370) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDMTLBronzeDriver.bundle
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1372) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1374) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1376) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1378) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1380) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1382) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents/MacOS/AMDMTLBronzeDriver
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1384) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents/PkgInfo
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1386) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1388) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonVADriver.bundle
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1390) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonVADriver.bundle/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1392) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonVADriver.bundle/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1394) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonVADriver.bundle/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1396) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonVADriver.bundle/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1398) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonVADriver.bundle/Contents/MacOS
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1400) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonVADriver.bundle/Contents/MacOS/AMDRadeonVADriver
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1402) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonVADriver.bundle/Contents/PkgInfo
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1404) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonVADriver.bundle/Contents/version.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1406) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000.kext
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1408) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000.kext/Contents
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1410) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000.kext/Contents/_CodeSignature
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1412) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1414) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000.kext/Contents/Info.plist
+Mar 22 21:25:24 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1416) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000.kext/Contents/MacOS
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1418) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000.kext/Contents/MacOS/AMDRadeonX3000
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1420) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000.kext/Contents/PkgInfo
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1422) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000.kext/Contents/version.plist
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1424) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1426) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1428) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents/_CodeSignature
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1430) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1432) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents/Info.plist
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1434) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents/MacOS
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1436) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents/MacOS/AMDRadeonX3000GLDriver
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1438) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents/MacOS/ATIRadeonX3000SCLib.dylib
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1440) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents/PkgInfo
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1442) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents/version.plist
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1444) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000.kext
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1446) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000.kext/Contents
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1448) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000.kext/Contents/_CodeSignature
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1450) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000.kext/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1452) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000.kext/Contents/Info.plist
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1454) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000.kext/Contents/MacOS
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1456) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000.kext/Contents/MacOS/AMDRadeonX4000
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1458) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000.kext/Contents/PkgInfo
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1460) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000.kext/Contents/version.plist
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1462) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000GLDriver.bundle
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1464) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1466) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents/_CodeSignature
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1468) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents/_CodeSignature/CodeResources
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1470) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents/Info.plist
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1472) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents/MacOS
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1474) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents/MacOS/AMDRadeonX4000GLDriver
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1476) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents/MacOS/ATIRadeonX4000SCLib.dylib
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1478) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents/PkgInfo
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1480) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDRadeonX4000GLDriver.bundle/Contents/version.plist
+Mar 22 21:25:25 holotos-MacBook-Pro kernel[0] <Notice>: Sandbox: chown(1482) System Policy: allow(0) file-write-owner /System/Library/Extensions/AMDShared.bundle

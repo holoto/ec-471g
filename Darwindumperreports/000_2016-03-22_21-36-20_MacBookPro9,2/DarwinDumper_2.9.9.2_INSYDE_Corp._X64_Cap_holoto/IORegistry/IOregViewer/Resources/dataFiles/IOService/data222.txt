@@ -1,0 +1,21 @@
+[
+{"data":{"title":"USBPortType"},"attr":{"id":"8792","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"idProduct"},"attr":{"id":"8794","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"kUSBVendorString"},"attr":{"id":"8796","ColType":"String","ColValue":"SINO WEALTH"}},
+{"data":{"title":"sessionID"},"attr":{"id":"8798","ColType":"Number","ColValue":"1845147483"}},
+{"data":{"title":"AppleUSBAlternateServiceRegistryID"},"attr":{"id":"8800","ColType":"Number","ColValue":"4294967973"}},
+{"data":{"title":"IOCFPlugInTypes"},"attr":{"id":"8802","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"9dc7b780-9ec0-11d4-a54f-000a27052861"},"attr":{"id":"8804","ColType":"String","ColValue":"IOUSBFamily.kext/Contents/PlugIns/IOUSBLib.bundle"}}]},
+{"data":{"title":"USBSpeed"},"attr":{"id":"8806","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"kUSBCurrentConfiguration"},"attr":{"id":"8808","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"bDeviceClass"},"attr":{"id":"8810","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"bDeviceProtocol"},"attr":{"id":"8812","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClassNameOverride"},"attr":{"id":"8814","ColType":"String","ColValue":"IOUSBDevice"}},
+{"data":{"title":"USB Product Name"},"attr":{"id":"8816","ColType":"String","ColValue":"USB KEYBOARD"}},
+{"data":{"title":"bDeviceSubClass"},"attr":{"id":"8818","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"8820","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"idVendor"},"attr":{"id":"8822","ColType":"Number","ColValue":"9610"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"8824","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"8826","ColType":"Number","ColValue":"2"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"8828","ColType":"Number","ColValue":"32768"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"8830","ColType":"Number","ColValue":"0"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"8832","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"8834","ColType":"Number","ColValue":"2"}},{"data":{"title":"PowerOverrideOn"},"attr":{"id":"8836","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"8838","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"locationID"},"attr":{"id":"8840","ColType":"Number","ColValue":"487718912"}},
+{"data":{"title":"USB Vendor Name"},"attr":{"id":"8842","ColType":"String","ColValue":"SINO WEALTH"}},
+{"data":{"title":"bcdDevice"},"attr":{"id":"8844","ColType":"Number","ColValue":"256"}}
+]

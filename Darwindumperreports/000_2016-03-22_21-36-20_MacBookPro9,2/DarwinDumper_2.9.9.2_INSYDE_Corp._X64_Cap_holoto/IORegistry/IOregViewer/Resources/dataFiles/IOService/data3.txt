@@ -1,0 +1,15 @@
+[
+{"data":{"title":"IOPlatformMaxBusDelay"},"attr":{"id":"1454","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"1455","ColType":"Number","ColValue":"18446744073709551615"}},{"data":{"title":"1"},"attr":{"id":"1456","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"IOPlatformMaxInterruptDelay"},"attr":{"id":"1458","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"1459","ColType":"Number","ColValue":"18446744073709551615"}},{"data":{"title":"1"},"attr":{"id":"1460","ColType":"Number","ColValue":"0"}}]},
+{"data":{"title":"Platform Memory Ranges"},"attr":{"id":"1462","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"1463","ColType":"Number","ColValue":"0"}},{"data":{"title":"1"},"attr":{"id":"1464","ColType":"Number","ColValue":"4294967295"}}]},
+{"data":{"title":"IONameMatched"},"attr":{"id":"1466","ColType":"String","ColValue":"ACPI"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"1468","ColType":"String","ColValue":"com.apple.driver.AppleACPIPlatform"}},
+{"data":{"title":"IOClass"},"attr":{"id":"1470","ColType":"String","ColValue":"AppleACPIPlatformExpert"}},
+{"data":{"title":"IOPolledInterface"},"attr":{"id":"1472","ColType":"String","ColValue":"AppleACPIEventPoller is not serializable"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"1474","ColType":"Number","ColValue":"10000"}},
+{"data":{"title":"ACPI Statistics"},"attr":{"id":"1476","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"MethodCount"},"attr":{"id":"1478","ColType":"Number","ColValue":"819"}},{"data":{"title":"FixedEventCount"},"attr":{"id":"1480","ColType":"Number","ColValue":"0"}},{"data":{"title":"GpeCount"},"attr":{"id":"1482","ColType":"Number","ColValue":"70"}},{"data":{"title":"GpeLastDispatched"},"attr":{"id":"1484","ColType":"Number","ColValue":"23"}},{"data":{"title":"SciCount"},"attr":{"id":"1486","ColType":"Number","ColValue":"70"}}]},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"1488","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"1490","ColType":"String","ColValue":"ACPI"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"1492","ColType":"String","ColValue":"IOPlatformExpertDevice"}},
+{"data":{"title":"acpi-mmcfg-seg0"},"attr":{"id":"1494","ColType":"Number","ColValue":"3758096384"}}
+]

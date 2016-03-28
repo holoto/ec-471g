@@ -1,0 +1,23 @@
+[
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"4014","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"4016","ColType":"String","ColValue":"com.apple.driver.usb.AppleUSBEHCIPCI"}},
+{"data":{"title":"kUSBSleepPortCurrentLimit"},"attr":{"id":"4018","ColType":"Number","ColValue":"2100"}},
+{"data":{"title":"name"},"attr":{"id":"4020","ColType":"Data","ColValue":"&lt;\"EHC1\"&gt;"}},
+{"data":{"title":"Errata"},"attr":{"id":"4022","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"4024","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"4026","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClass"},"attr":{"id":"4028","ColType":"String","ColValue":"AppleUSBEHCIPCI"}},
+{"data":{"title":"kUSBWakePortCurrentLimit"},"attr":{"id":"4030","ColType":"Number","ColValue":"2100"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"4032","ColType":"String","ColValue":"IOPCIDevice"}},
+{"data":{"title":"locationID"},"attr":{"id":"4034","ColType":"Number","ColValue":"486539264"}},
+{"data":{"title":"64bit"},"attr":{"id":"4036","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"4038","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"4040","ColType":"Number","ColValue":"3"}},{"data":{"title":"DevicePowerState"},"attr":{"id":"4042","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"4044","ColType":"Number","ColValue":"3"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"4046","ColType":"Number","ColValue":"3"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"4048","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"4050","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"port-count"},"attr":{"id":"4052","ColType":"Data","ColValue":"&lt;01000000&gt;"}},
+{"data":{"title":"controller-statistics"},"attr":{"id":"4054","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"kControllerStatPowerStateTime"},"attr":{"id":"4056","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"kPowerStateSleep"},"attr":{"id":"4058","ColType":"String","ColValue":"0ms (0%)"}},{"data":{"title":"kPowerStateOn"},"attr":{"id":"4060","ColType":"String","ColValue":"1381148ms (99%)"}},{"data":{"title":"kPowerStateOff"},"attr":{"id":"4062","ColType":"String","ColValue":"0ms (0%)"}},{"data":{"title":"kPowerStateSuspended"},"attr":{"id":"4064","ColType":"String","ColValue":"1ms (0%)"}}]},{"data":{"title":"kControllerStatSpuriousInterruptCount"},"attr":{"id":"4066","ColType":"Number","ColValue":"0"}},{"data":{"title":"kControllerStatIOCount"},"attr":{"id":"4068","ColType":"Number","ColValue":"133328"}}]},
+{"data":{"title":"IOPCITunnelCompatible"},"attr":{"id":"4070","ColType":"Boolean","ColValue":"No"}},
+{"data":{"title":"kUSBMuxEnabled"},"attr":{"id":"4072","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPCIClassMatch"},"attr":{"id":"4074","ColType":"String","ColValue":"0x0c032000"}},
+{"data":{"title":"kUSBSleepSupported"},"attr":{"id":"4076","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"device-properties"},"attr":{"id":"4078","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"AAPL,current-available"},"attr":{"id":"4080","ColType":"Data","ColValue":"&lt;3408&gt;"}},{"data":{"title":"AAPL,clock-id"},"attr":{"id":"4082","ColType":"Data","ColValue":"&lt;01&gt;"}},{"data":{"title":"AAPL,current-in-sleep"},"attr":{"id":"4084","ColType":"Data","ColValue":"&lt;e803&gt;"}},{"data":{"title":"built-in"},"attr":{"id":"4086","ColType":"Data","ColValue":"&lt;00&gt;"}},{"data":{"title":"acpi-device"},"attr":{"id":"4088","ColType":"String","ColValue":"IOACPIPlatformDevice is not serializable"}},{"data":{"title":"device_type"},"attr":{"id":"4090","ColType":"Data","ColValue":"&lt;\"EHCI\"&gt;"}},{"data":{"title":"acpi-path"},"attr":{"id":"4092","ColType":"String","ColValue":"IOACPIPlane:/_SB/PCI0@0/EHC1@1d0000"}},{"data":{"title":"AAPL,current-extra"},"attr":{"id":"4094","ColType":"Data","ColValue":"&lt;800c&gt;"}}]},
+{"data":{"title":"ports"},"attr":{"id":"4096","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"PRT1"},"attr":{"id":"4098","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"UsbConnector"},"attr":{"id":"4100","ColType":"Number","ColValue":"255"}},{"data":{"title":"port"},"attr":{"id":"4102","ColType":"Data","ColValue":"&lt;01000000&gt;"}}]}]}
+]

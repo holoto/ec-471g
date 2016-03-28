@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOAudioEngineGlobalUniqueID"},"attr":{"id":"4647","ColType":"String","ColValue":"VoodooHDAEngine:pci8086,1e20:0"}},
+{"data":{"title":"IOAudioEngineDescription"},"attr":{"id":"4649","ColType":"String","ColValue":"Speaker (Analog)"}},
+{"data":{"title":"IOAudioEngineClockDomain"},"attr":{"id":"4651","ColType":"Number","ColValue":"153472256"}},
+{"data":{"title":"IOAudioEngineSampleOffset"},"attr":{"id":"4653","ColType":"Number","ColValue":"64"}},
+{"data":{"title":"IOAudioEngineInputSampleLatency"},"attr":{"id":"4655","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"IOAudioEngineOutputSampleLatency"},"attr":{"id":"4657","ColType":"Number","ColValue":"32"}},
+{"data":{"title":"IOAudioEngineFlavor"},"attr":{"id":"4659","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOAudioSampleRate"},"attr":{"id":"4661","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOAudioSampleRateFraction"},"attr":{"id":"4663","ColType":"Number","ColValue":"0"}},{"data":{"title":"IOAudioSampleRateWholeNumber"},"attr":{"id":"4665","ColType":"Number","ColValue":"48000"}}]},
+{"data":{"title":"IOAudioEngineNumActiveUserClients"},"attr":{"id":"4667","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"4669","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOAudioEngineState"},"attr":{"id":"4671","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOAudioEngineNumSampleFramesPerBuffer"},"attr":{"id":"4673","ColType":"Number","ColValue":"32768"}}
+]

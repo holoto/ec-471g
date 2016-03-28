@@ -1,0 +1,163 @@
+/* DarwinDumper UI css */
+/* Blackosx - Feb 2013 -> Aug 2015 */
+
+html, body { padding: 0; margin: 0; overflow: auto;	/* -webkit-user-select: none; */ }
+hr { width:113px; height: 3px; border: none; background-image: url(../assets/sidebar_horizontal_rule.png); background-repeat:no-repeat; }
+
+a:link {color:#e3c539;}
+a:visited {color:#00FF00;}
+a:hover {color:#efa728;}
+a:active {color:#ffffff;}
+
+#Container { height: auto; background-color: #181a1e; -webkit-user-select: none; }
+
+#leftSideBox { width: 166px; height: 616px; background-color: #333; float: left; }
+#leftSideLogoBox { margin-left:28px; margin-top:32px; width:115px; height: 140px; background-image: url(../assets/logo_darwinDumper.png); background-repeat: no-repeat; }
+#leftSideLogoBox:hover { margin-left:28px; margin-top:32px; width:115px; height: 140px; background-image: url(../assets/logo_darwinDumper_hover.png); background-repeat: no-repeat; }
+#leftSideVersionBox { margin-top: 3px; width: 170px; font-family: Tahoma, Geneva, sans-serif; font-size: 10px; color: #FFF; text-align: center; }
+#leftSideUpdateBox { margin-top: 5px; width: 170px; font-family: Tahoma, Geneva, sans-serif; font-size: 10px; color: #4ab631; text-align: center; }
+.updateText a:link { color:#4ab631; text-decoration: none; }
+.updateText a:hover { color:#e3c539; text-decoration: none; }
+#leftSideSymlinkInfo { margin-top: 32px; width: 170px; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: #FFF; text-align: center; }
+
+.menu{ margin-top:28px; width: auto; background-color: #333; text-align: center; }
+.menu ul{ margin:0; padding:0; list-style-type: none; }
+
+/* Drop down save menu */
+.saveDropDown select { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; background-color: #000; width: 140px; margin-top: 1px; height: 20px; border: 0px; color: #666; }
+
+#leftSideBoxRightEdge { width: 4px; height: 616px; float: left; background-image: url(../assets/left_sidebar_right_edge.png); background-repeat: repeat-y; }
+
+#topHeaderBox { width: auto; height: 20px; margin-left: 170px; padding-top: 4px; background-image: url(../assets/title_bar_grad_top.png); background-repeat:repeat-x; }
+.topbarHeadingText { font-family: Tahoma, Geneva, sans-serif; font-size: 10px; color: #000; }
+.groupSelectButtonTop { margin-top: -6px; position:absolute; }
+
+#topMiddleOptionsContainer { width: 250px; height: 192px; float: left; background-image: url(../assets/middle_bar_grad_seps.png); background-repeat:repeat-x; }
+#topMiddleOptions { margin-top: 2px; margin-left: 5px; float: left; }
+#topRightSideContent { height: 192px; margin-left: 420px; width: auto; }
+#topRightSideStatusBars { padding-top: 2px; }
+
+#middleHeaderBox { width: auto; height: 18px; margin-left: 170px; background-image: url(../assets/title_bar_grad_bottom.png); background-repeat:repeat-x; }
+.middleBarHeadingText { font-family: Tahoma, Geneva, sans-serif; font-size: 10px; color: #000; }
+.groupSelectButtonMiddle { margin-top: -9px; position:absolute; }
+
+#MiddleOptionsContainer { width: 250px; float: left; background-image: url(../assets/middle_bar_grad_seps.png); background-repeat:repeat-x; }
+#MiddleOptions { margin-top: 2px; margin-left: 5px; float: left; }
+#rightSideContent { margin-left: 420px; width: auto; }
+#rightSideStatusBars { padding-top: 2px; }
+
+#secondHeaderBox { width: auto; height: 18px; margin-left: 170px; background-image: url(../assets/title_bar_grad_bottom.png); background-repeat:repeat-x; }
+.secondBarHeadingText { font-family: Tahoma, Geneva, sans-serif; font-size: 10px; color: #000; }
+
+#secondMiddleOptionsContainer { width: 250px; height: 62px; float: left; background-image: url(../assets/second_middle_bar_grad.png); background-repeat:repeat-x;  }
+#secondMiddleOptions { margin-top: 2px; margin-left: 5px; float: left; }
+#secondRightSideContent { height: 62px; margin-left: 420px; width: auto; }
+#secondRightSideStatusBars { padding-top: 2px; }
+
+/* Modal Dialog Box */
+#dialog-OwnPerm { font-family: Lucida Grande, Lucida Sans Unicode, Tahoma; font-size: 12px; }
+#dialogFixing { font-family: Lucida Grande, Lucida Sans Unicode, Tahoma; font-size: 12px; }
+#dialogFixed { font-family: Lucida Grande, Lucida Sans Unicode, Tahoma; font-size: 12px; }
+#dialogWaitingAuth { font-family: Lucida Grande, Lucida Sans Unicode, Tahoma; font-size: 12px; }
+#dialogWaitingAction { font-family: Lucida Grande, Lucida Sans Unicode, Tahoma; font-size: 12px; }
+#dialogPathNotExist { font-family: Lucida Grande, Lucida Sans Unicode, Tahoma; font-size: 12px; }
+.ui-dialog-titlebar { height: 14px; font-size: 12px; }
+.ui-button-text { font-size: 10px; padding: 1px 1px 1px 1px; }
+.no-close .ui-dialog-titlebar-close { display: none } /* Remove the close box */
+
+/* Checkbox labels */
+.checkboxes label { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: #666; }
+.checkboxes label:hover { color: #a1a1a1; }
+.checkboxes label:active { color: #5cce34; }
+input[type=checkbox]:checked + label { color: #FFF; } /* 68CF44 96cfdf */
+input[type=checkbox]:checked + label:hover { color: #a1a1a1; }
+input[type=checkbox]:checked + label:active { color: #cf2c2c; }
+
+/* Right side of the window images to show Waiting, Running and Complete status */
+.statusBarIdle { margin-bottom:1px; background-image: url(../assets/status_bar_idle.png); background-repeat: no-repeat; }
+.statusBarWaiting { margin-bottom:1px; background-image: url(../assets/status_bar_waiting.png); background-repeat: no-repeat; }
+.statusBarRunning { margin-bottom:1px; background-image: url(../assets/status_bar_running.png); background-repeat: no-repeat; }
+.statusBarComplete { margin-bottom:1px; background-image: url(../assets/status_bar_complete.png); background-repeat: no-repeat; }
+
+/* Main window sidebar buttons */
+/* Used for the Quit button */
+.button_mainLogo { border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; cursor: pointer; }
+
+.button1 { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+.button1:hover { background: #FF0000; width:100%; }
+.button1:active { background: #ff9696; border:0px; }
+
+/* Used for the Deselect-All, credits and help buttons */
+.button2 { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+.button2:hover { background: #999999; width:100%; }
+.button2:active { background: #DDD; border:0px; }
+
+/* Same as button2 except this class is selected in the jQuery script to load an associated info page */
+.button_showpage { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+.button_showpage:hover { background: #999999; width:100%; padding:0; }
+.button_showpage:active { background: #DDD; border:0px; }
+
+/* Used for the Run and Run as Root buttons */
+.button3 { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+.button3:hover { background: #0eb041; width:100%; }
+.button3:active { background: #17e157; border:0px; }
+
+/* Used for the Select-All button */
+.button4 { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+.button4:hover { background: #84c0f8; width:100%; }
+.button4:active { background: #bedffe; border:0px; }
+
+/* Used when disabling the control buttons */
+.ghosted { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: #777; vertical-align: middle; border: 0px; background: #333; text-align: center; padding-top: 5px; height: 30px; width:100%; }
+
+/* small 'info' buttons beside checkboxes */
+.button_info { border: 0px; height: 13px; width: 13px; margin-bottom:3px; display:table-cell; vertical-align: middle; margin-right:4px; background-image: url(../assets/small_info_button_normal.gif); background-repeat: no-repeat; }
+.button_info:hover { background-image: url(../assets/small_info_button_hover.gif); background-repeat: no-repeat; }
+.button_info:active { background-image: url(../assets/small_info_button_active.gif); background-repeat: no-repeat; }
+
+/* small 'warning' triangle buttons */
+.warning_triangle_none { border: 0px; height: 13px; width: 14px; margin-left:6px; margin-bottom:3px; display:table-cell; vertical-align: middle; margin-right:4px; background-color: Transparent; background-image: none; background-repeat: no-repeat; }
+.warning_triangle_info { border: 0px; height: 13px; width: 14px; margin-left:6px; margin-bottom:3px; display:table-cell; vertical-align: middle; margin-right:4px; background-color: Transparent; background-image: url(../assets/warning_triangle_normal.gif); background-repeat: no-repeat; }
+.warning_triangle_info:hover { background-color: Transparent; background-image: url(../assets/warning_triangle_hover.gif); background-repeat: no-repeat; }
+.warning_triangle_info:active { background-color: Transparent; background-image: url(../assets/warning_triangle_active.gif); background-repeat: no-repeat; }
+
+/* Drop down archive menu */
+.archiveDropDown select, .htmlReportDropDown select { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; background-color: #000; width: 210px; margin-top: 1px; height: 16px; border: 0px; color: #666; }
+
+/* Info Window items*/
+#infoWindow { margin-left: 20px; width: 450px; height: auto; position: relative; border: 1px solid #9d9d9d; background: #454444; opacity: .975; }
+#infoWindow p { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: bottom; }
+#infoWindow table { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; margin-left: 10px;  }
+#infoWindowCloseButton { margin-left: 200px; margin-bottom: 10px; margin-top: 15px; }
+#helpTitleBar { width: auto; height: 24px; background-image: url(../assets/help_title_bar_grad.png); background-repeat:repeat-x; text-align: center; color: #FFF; }
+
+/*Drop Down Window Text & Table Styles*/
+.dropDownTitleText { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; color: white; vertical-align: bottom; }
+.dropDownBody { color:white; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; } 
+.dropDownBodyBold { color:white; text-align:left; vertical-align: text-top; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; font-weight:bold;} 
+.dropDownTableBody { background-color:#545e54; color:white; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; border-style:solid; border-width:1px; border-color: #363836; } 
+.dropDownTableBodyBold { background-color:#6b786b; color:white; text-align:left; vertical-align: text-top; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; font-weight:bold; border-style:solid; border-width:1px; border-color: #363836; } 
+.dropDownTableBodyNote { background-color:#77322e; color:white; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; border-style:solid; border-width:1px; border-color: #62201c; } 
+.dropDownTableBodyBoldNote { background-color:#a7312e; color:white; text-align:left; vertical-align: text-top; margin-left: 10px; margin-right; 10px; color: #FFF; padding: 5px 10px 5px 5px; font-weight:bold; border-style:solid; border-width:1px; border-color: #7b2421; }
+
+/* Remove webkit's blue ring around the dropdown menus */
+select { outline:none; }
+
+/* Set width for saveDirectory page path text box */
+.saveDirBox { width: 97% }
+
+/* Style to make class flash */
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    width:160px;
+    padding:0;
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}

@@ -1,0 +1,13 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"5038","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"5040","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"5042","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"5044","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"5046","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"5048","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"MouseNameMatch"},"attr":{"id":"5050","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5051","ColType":"String","ColValue":"PNP0F03"}},{"data":{"title":"1"},"attr":{"id":"5052","ColType":"String","ColValue":"PNP0F0B"}},{"data":{"title":"2"},"attr":{"id":"5053","ColType":"String","ColValue":"PNP0F12"}},{"data":{"title":"3"},"attr":{"id":"5054","ColType":"String","ColValue":"PNP0F13"}},{"data":{"title":"4"},"attr":{"id":"5055","ColType":"String","ColValue":"PNP0F0E"}}]},
+{"data":{"title":"IONameMatched"},"attr":{"id":"5057","ColType":"String","ColValue":"PNP0303"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"5059","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5060","ColType":"String","ColValue":"PNP0303"}},{"data":{"title":"1"},"attr":{"id":"5061","ColType":"String","ColValue":"PNP030B"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"5063","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"5065","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOInterruptSpecifiers"},"attr":{"id":"5067","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5068","ColType":"Data","ColValue":"&lt;0100000000000000&gt;"}},{"data":{"title":"1"},"attr":{"id":"5069","ColType":"Data","ColValue":"&lt;0c00000000000000&gt;"}}]},
+{"data":{"title":"IOInterruptControllers"},"attr":{"id":"5071","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"5072","ColType":"String","ColValue":"io-apic-0"}},{"data":{"title":"1"},"attr":{"id":"5073","ColType":"String","ColValue":"io-apic-0"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"5075","ColType":"String","ColValue":"org.emlydinesh.driver.ApplePS2Controller"}},
+{"data":{"title":"IOClass"},"attr":{"id":"5077","ColType":"String","ColValue":"AppleACPIPS2Nub"}}
+]

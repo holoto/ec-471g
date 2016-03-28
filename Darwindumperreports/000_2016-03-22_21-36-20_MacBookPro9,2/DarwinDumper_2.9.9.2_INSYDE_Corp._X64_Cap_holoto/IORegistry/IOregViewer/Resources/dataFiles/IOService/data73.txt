@@ -1,0 +1,12 @@
+[
+{"data":{"title":"processor-number"},"attr":{"id":"2070","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"name"},"attr":{"id":"2072","ColType":"Data","ColValue":"&lt;\"CPU3\"&gt;"}},
+{"data":{"title":"bus-frequency"},"attr":{"id":"2074","ColType":"Data","ColValue":"&lt;0084d717&gt;"}},
+{"data":{"title":"clock-frequency"},"attr":{"id":"2076","ColType":"Data","ColValue":"&lt;806ba794&gt;"}},
+{"data":{"title":"cpu-type"},"attr":{"id":"2078","ColType":"Data","ColValue":"&lt;0406&gt;"}},
+{"data":{"title":"processor-lapic"},"attr":{"id":"2080","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"device_type"},"attr":{"id":"2082","ColType":"Data","ColValue":"&lt;\"processor\"&gt;"}},
+{"data":{"title":"processor-index"},"attr":{"id":"2084","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"timebase-frequency"},"attr":{"id":"2086","ColType":"Data","ColValue":"&lt;00ca9a3b&gt;"}},
+{"data":{"title":"processor-id"},"attr":{"id":"2088","ColType":"Number","ColValue":"4"}}
+]

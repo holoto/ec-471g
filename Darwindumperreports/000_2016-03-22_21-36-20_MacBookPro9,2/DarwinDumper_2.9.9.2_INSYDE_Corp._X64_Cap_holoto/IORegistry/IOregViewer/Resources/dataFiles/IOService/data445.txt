@@ -1,0 +1,8 @@
+[
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"69056","ColType":"String","ColValue":"IOBluetoothHCIController"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"69058","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"69060","ColType":"String","ColValue":"com.apple.iokit.IOBluetoothFamily"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"69062","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClass"},"attr":{"id":"69064","ColType":"String","ColValue":"IOBluetoothHCIController"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"69066","ColType":"String","ColValue":"IOResources"}}
+]

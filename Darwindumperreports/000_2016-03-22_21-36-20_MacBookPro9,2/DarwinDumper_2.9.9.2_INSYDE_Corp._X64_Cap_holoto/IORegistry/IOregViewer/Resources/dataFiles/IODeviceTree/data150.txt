@@ -1,0 +1,5 @@
+[
+{"data":{"title":"_STA"},"attr":{"id":"4436","ColType":"Number","ColValue":"15"}},
+{"data":{"title":"name"},"attr":{"id":"4438","ColType":"Data","ColValue":"&lt;\"INT340E\"&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"4440","ColType":"Data","ColValue":"&lt;\"PNP0C02\"&gt;"}}
+]

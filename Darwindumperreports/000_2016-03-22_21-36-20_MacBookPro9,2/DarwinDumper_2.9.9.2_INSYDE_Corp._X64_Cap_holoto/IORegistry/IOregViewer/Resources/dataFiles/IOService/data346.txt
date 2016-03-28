@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"61901","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"61903","ColType":"String","ColValue":"ACPI0003"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"61905","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"61907","ColType":"String","ColValue":"ACPI0003"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"61909","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"61911","ColType":"String","ColValue":"org.rehabman.driver.AppleSmartBatteryManager"}},
+{"data":{"title":"IOClass"},"attr":{"id":"61913","ColType":"String","ColValue":"rehab_ACPIACAdapter"}}
+]

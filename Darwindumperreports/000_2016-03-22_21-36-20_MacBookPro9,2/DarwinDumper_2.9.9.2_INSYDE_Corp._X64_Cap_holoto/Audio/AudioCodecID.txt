@@ -1,0 +1,8 @@
+----------------------------------------
+VoodooHDA
+Codec: 	Intel Panther Point [8086:2806]
+Controller: Intel Corporation 7 Series/C210 Series Chipset Family High Definition Audio Controller
+----------------------------------------
+VoodooHDA
+Codec: 	Realtek ALC269 [10ec:0269]
+Controller: Intel Corporation 7 Series/C210 Series Chipset Family High Definition Audio Controller

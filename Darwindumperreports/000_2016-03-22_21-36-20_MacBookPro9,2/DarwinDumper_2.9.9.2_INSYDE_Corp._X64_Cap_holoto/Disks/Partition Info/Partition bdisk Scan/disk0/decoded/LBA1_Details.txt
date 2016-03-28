@@ -1,0 +1,14 @@
+Partition Table Revision: 00000100
+Header Size: 92
+Header Checksum: 69116477
+Middle Reserved Section (Should be zero): Yes
+Header LBA: 1
+Backup LBA: 1953525167
+First Logical Block: 34
+Last Logical Block: 1953525134
+Disk GUID: f66f92c8-0359-44b9-9bc3-4b7c8a1ca298
+Partition Array Starting LBA: 2
+Partition Array Entries: 128
+Partition Array Structure Size: 128
+Partition Entry Array Checksum: 3f3de12a
+Ending Reserved Section (Should be zero): Yes

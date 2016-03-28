@@ -1,0 +1,21 @@
+   14    0 0xffffff7f8104f000 0x2000     0x2000     org.tgwbd.driver.NullCPUPowerManagement (1.0.0d2) 93D39664-55FB-9220-39AD-A436B33DB160 <7 4 3>
+   19    2 0xffffff7f8198f000 0x16000    0x16000    org.netkas.driver.FakeSMC (1613) 1EFE2DC4-2F30-3BE4-B350-EFFED660EF02 <11 7 5 4 3 1>
+   23    0 0xffffff7f81c28000 0x7000     0x7000     com.no-one.BrcmPatchRAM (1.7.1) 8932BF0B-DF81-3ACD-87DA-9E31AEF3D222 <22 5 4 3>
+   28    0 0xffffff7f82332000 0x8000     0x8000     org.rehabman.driver.AppleSmartBatteryManager (1.55) 43FC443B-927B-33B3-A081-CCAC54573CB2 <11 4 3>
+   29    0 0xffffff7f819ce000 0x5000     0x5000     org.hwsensors.driver.CPUSensors (1613) D62E38D6-3883-35B3-9E66-9AAB76781634 <19 7 5 4 3>
+   35    0 0xffffff7f80dac000 0x2000     0x2000     org.voodoo.driver.VoodooTSCSync (1.1) 0547D0AD-C9FE-3D5A-9CD7-6B90E6BC0335 <7 4 3>
+   40    2 0xffffff7f81f2c000 0xd000     0xd000     org.emlydinesh.driver.ApplePS2Controller (4.3) 4FCFAC03-294A-38A2-B0AF-59CA733A88B6 <11 7 5 4 3 1>
+   46    0 0xffffff7f819d5000 0x8000     0x8000     org.hwsensors.driver.ACPISensors (1613) 3395F1CB-727A-3A43-BE30-D2D3E1CF6012 <19 11 7 5 4 3>
+   51    1 0xffffff7f81f39000 0xd000     0xd000     org.emlydinesh.driver.ApplePS2Keyboard (4.3) 5F341E2D-0F57-3A69-A3CA-80871D3C89D6 <42 40 7 6 5 4 3 1>
+   56    0 0xffffff7f80fed000 0x3a000    0x3a000    com.insanelymac.RealtekRTL8111 (2.0.0) 54A33BAE-C115-361F-A956-7FFE91E04329 <55 12 5 4 3 1>
+   82    0 0xffffff7f81bde000 0x6000     0x6000     org.tw.CodecCommander (2.4.0) 0E0423BE-8BA5-3439-A3B9-16C88E104C25 <81 12 4 3 1>
+   88    0 0xffffff7f819f0000 0x2000     0x2000     pk.qwerty12.DisableTurboBoostBattery (2) 59AF4B6D-0B3C-3248-86BD-DEA9B6515664 <7 5 4 3>
+  104    0 0xffffff7f8233f000 0x29000    0x29000    org.pqrs.driver.Karabiner (10.18.0) E6E09313-87A6-30F6-94BE-61DA4EC19A8D <42 5 4 3 1>
+  105    0 0xffffff7f82368000 0xb000     0xb000     org.rehabman.voodoo.driver.PS2Controller (1.8.21) 3097AA12-0801-377B-8A90-2EC609E7C1B1 <11 7 5 4 3 1>
+  109    0 0xffffff7f82385000 0x4000     0x4000     com.rehabman.driver.USBInjectAll (0.5.9) 07B2E391-0705-3E48-A4DC-78DCBD7178D4 <12 11 4 3>
+  119    0 0xffffff7f823ae000 0x14000    0x14000    org.emlydinesh.driver.ApplePS2SmartTouchPad (4.3) 3E6F3230-665D-395F-A85C-14378EED17EC <51 42 40 7 6 5 4 3 1>
+  121    0 0xffffff7f823c2000 0x21000    0x21000    org.voodoo.driver.VoodooHDA (2.8.8) 394A3B95-68A8-326D-8980-BEC2B1C95048 <81 12 7 5 4 3>
+  135    0 0xffffff7f82376000 0x4000     0x4000     com.kext.HDAEnabler (1.0.0d1) EE164AC4-5743-278D-92DA-776233CA760F <12 4 3>
+  139    0 0xffffff7f8237a000 0x2000     0x2000     net.osrom.kext.Disabler (1.0.1) 7D158CD9-D1C2-6ADC-D896-2FD8E29CD4AD <4 3>
+  142    0 0xffffff7f823e3000 0x5000     0x5000     com.darwin.driver.ACPIBacklight (3.0.4) 73C247F7-1210-363B-B58E-63A672319C27 <70 12 11 4 3>
+  143    0 0xffffff7f823e8000 0x5000     0x5000     com.rehabman.driver.IntelBacklight (1.0.8) 8E4A8F91-C46A-3DC2-9077-EB082905C399 <70 12 11 4 3>
