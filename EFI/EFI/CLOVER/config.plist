@@ -7,7 +7,7 @@
 		<key>DSDT</key>
 		<dict>
 			<key>Debug</key>
-			<true/>
+			<false/>
 			<key>DropOEM_DSM</key>
 			<false/>
 			<key>Fixes</key>
@@ -22,19 +22,11 @@
 				<true/>
 				<key>AddPNLF_1000000</key>
 				<true/>
-				<key>DeleteUnused_400000</key>
-				<true/>
 				<key>FIX_ACST_4000000</key>
 				<true/>
 				<key>FIX_ADP1_800000</key>
 				<true/>
-				<key>FIX_INTELGFX_100000</key>
-				<true/>
-				<key>FIX_RTC_20000</key>
-				<true/>
 				<key>FIX_S3D_2000000</key>
-				<true/>
-				<key>FIX_TMR_40000</key>
 				<true/>
 				<key>FIX_WAK_200000</key>
 				<true/>
@@ -48,23 +40,15 @@
 				<true/>
 				<key>FixFirewire_0800</key>
 				<true/>
-				<key>FixHPET_0010</key>
+				<key>FixHDA_8000</key>
 				<true/>
-				<key>FixIDE_0200</key>
+				<key>FixHPET_0010</key>
 				<true/>
 				<key>FixIPIC_0040</key>
 				<true/>
-				<key>FixLAN_2000</key>
-				<true/>
 				<key>FixRegions_10000000</key>
 				<true/>
-				<key>FixSATA_0400</key>
-				<true/>
 				<key>FixSBUS_0080</key>
-				<true/>
-				<key>FixShutdown_0004</key>
-				<true/>
-				<key>FixUSB_1000</key>
 				<true/>
 				<key>NewWay_80000000</key>
 				<true/>
@@ -73,17 +57,13 @@
 			<string>DSDT.aml</string>
 			<key>ReuseFFFF</key>
 			<false/>
-			<key>Rtc8Allowed</key>
-			<true/>
 		</dict>
 		<key>HaltEnabler</key>
-		<true/>
-		<key>PatchAPIC</key>
 		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
-			<true/>
+			<false/>
 			<key>EnableC2</key>
 			<true/>
 			<key>EnableC4</key>
@@ -94,18 +74,38 @@
 			<true/>
 			<key>Generate</key>
 			<true/>
-			<key>UseSystemIO</key>
-			<true/>
+			<key>PluginType</key>
+			<integer>1</integer>
 		</dict>
 		<key>SortedOrder</key>
 		<array>
 			<string>SSDT.aml</string>
+			<string>SSDT-0.aml</string>
+			<string>SSDT-1.aml</string>
+			<string>SSDT-2.aml</string>
+			<string>SSDT-3.aml</string>
+			<string>SSDT-4.aml</string>
+			<string>SSDT-5.aml</string>
+			<string>SSDT-6.aml</string>
+			<string>SSDT-7.aml</string>
+			<string>SSDT-8.aml</string>
+			<string>SSDT-9.aml</string>
+			<string>SSDT-10.aml</string>
+			<string>SSDT-11.aml</string>
+			<string>SSDT-12.aml</string>
+			<string>SSDT-13.aml</string>
+			<string>SSDT-14.aml</string>
+			<string>SSDT-15.aml</string>
+			<string>SSDT-16.aml</string>
+			<string>SSDT-17.aml</string>
+			<string>SSDT-18.aml</string>
+			<string>SSDT-19.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v -xcpm nv_disable=1 -gux_defer_usb2 kext-dev-mode=1 rootless=0</string>
+		<string>-v nv_disable=1 -gux_defer_usb2 kext-dev-mode=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>Legacy</key>
@@ -193,8 +193,6 @@
 		<true/>
 		<key>NvidiaSingle</key>
 		<false/>
-		<key>PatchVBios</key>
-		<true/>
 		<key>ig-platform-id</key>
 		<string>0x01660003</string>
 	</dict>
@@ -205,13 +203,13 @@
 		<key>AsusAICPUPM</key>
 		<true/>
 		<key>Debug</key>
-		<true/>
+		<false/>
 		<key>ForceKextsToLoad</key>
 		<array>
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
 		</array>
 		<key>KernelCpu</key>
-		<true/>
+		<false/>
 		<key>KernelHaswellE</key>
 		<false/>
 		<key>KernelLapic</key>
@@ -220,22 +218,6 @@
 		<true/>
 		<key>KextsToPatch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI-audio HD4000 0x01660003, port 0205</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AgUAAAAEAAAHBAAA
-				</data>
-				<key>Name</key>
-				<string>disabled:AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>
-				AgUAAAAIAAAGAAAA
-				</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
@@ -250,22 +232,6 @@
 				<key>Replace</key>
 				<data>
 				AAAAAAAAAAAAAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI-audio HD4000 0x01660003, port 0304</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AwQAAAAEAACBAAAA
-				</data>
-				<key>Name</key>
-				<string>disabled:AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>
-				AwQAAAAIAAAGAAAA
 				</data>
 			</dict>
 			<dict>
@@ -286,18 +252,34 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Boot graphics glitch, 10.10.x/10.11.x (credit lisai9093, cecekpawon)</string>
+				<string>HDMI-audio HD4000 0x01660003, port 0304</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AQAAdRc=
+				AwQAAAAEAACBAAAA
 				</data>
 				<key>Name</key>
-				<string>disabled:IOGraphicsFamily</string>
+				<string>disabled:AppleIntelFramebufferCapri</string>
 				<key>Replace</key>
 				<data>
-				AQAA6xc=
+				AwQAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.9-10.11-AppleHDA/Realtek ALC269</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				YgLsEA==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				aQLsEA==
 				</data>
 			</dict>
 			<dict>
@@ -316,6 +298,54 @@
 				BAYAAAAIAAAGAAAA
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Boot graphics glitch, 10.10.x/10.11.x (credit lisai9093, cecekpawon)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQAAdRc=
+				</data>
+				<key>Name</key>
+				<string>disabled:IOGraphicsFamily</string>
+				<key>Replace</key>
+				<data>
+				AQAA6xc=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio HD4000 0x01660003, port 0205</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AgUAAAAEAAAHBAAA
+				</data>
+				<key>Name</key>
+				<string>disabled:AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				AgUAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AppleHDA/Resources/xml&gt;zml</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				eG1sLnps
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				em1sLnps
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -324,6 +354,10 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C02140302D5DMT31M</string>
+		<key>ROM</key>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -354,7 +388,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro9,2</string>
 		<key>SerialNumber</key>
-		<string>C02LLF10DTY3</string>
+		<string>C02KGEBDDTY3</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
@@ -363,7 +397,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 	</dict>
 </dict>
 </plist>
