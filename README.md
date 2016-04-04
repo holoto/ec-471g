@@ -30,6 +30,10 @@
   亮度可以正常正常调节 
   摄像头已经正常识别使用
   USB驱动正常
+  USB完美驱动
+  鼠标 键盘 使用AnyAppleUSBKeyboard.kext AnyAppleUSBMouse.kext 伪造id 已经识别为苹果设备
+  摄像完美驱动
+  也使用了AnyiSightCam.kext 伪造id 已经识别为苹果摄像头
    其他功能正常
     非常稳定
         本人重启验证上百次
@@ -56,7 +60,7 @@
 
 
 ## 补充 
-        1tb sshd 混合硬盘   分区GPT+Journaled HFS     OSX10.11.3 
+        1tb sshd 混合硬盘   分区GPT+Journaled HFS     OSX10.11.4 
        
         500GB    机械硬盘   分区MBR+NTFS              系统win10系统
             
@@ -64,7 +68,7 @@
                #:                       TYPE NAME                    SIZE       IDENTIFIER
                0:      GUID_partition_scheme                        *1.0 TB     disk0    
                1:                        EFI EFI                     209.7 MB   disk0s1  引导区
-               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.3
+               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.4
                3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3  OSX恢复分区
             /dev/disk1 (internal, physical): 500GB    机械硬盘 在笔记本光驱位
                #:                       TYPE NAME                    SIZE       IDENTIFIER
