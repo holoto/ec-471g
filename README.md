@@ -34,6 +34,10 @@
     非常稳定
         本人重启验证上百次
 
+# clvoer prebootlog
+
+[prebootlog](https://raw.githubusercontent.com/holoto/ec-471g/master/EFI/EFI/CLOVER/misc/preboot.log)
+
 
 
 
