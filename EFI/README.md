@@ -2,11 +2,16 @@
 
 本四叶草版本3389 最新版本
 
+
 ![clover](https://raw.githubusercontent.com/holoto/ec-471g/master/EFI/EFI/CLOVER/misc/screenshot0.bmp 'clover')
 ![clover1](https://raw.githubusercontent.com/holoto/ec-471g/master/EFI/EFI/CLOVER/misc/screenshot1.bmp 'clover1')
 
 
+
 '如需使用 将本目录文件全部复制到 你的efi引导盘'
+    复制KEXT/SLE下的文件到/System/Library/Extensions下
+   并且sudo chmod -R 755 你的efi引导盘的EFI目录
+   sudo chowd -R rool:wheel 你的efi引导盘的EFI目录
 
 
 [四叶草官方下载地址](https://sourceforge.net/projects/cloverefiboot/)
