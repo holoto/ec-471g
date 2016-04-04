@@ -1,6 +1,9 @@
 # ec-471g 黑苹果配置文件 hackintosh 10.11.4
- :smile: 
+
+ :smile:
+  
  最新clover v3389
+ 
         git clone https://github.com/holoto/ec-471g.git
 
 # 本人提供黑苹果安装服务
