@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Author</key>
+	<string>Ukr55, Winlog</string>
 	<key>Description</key>
 	<string>ios7</string>
 	<key>Theme</key>
@@ -23,7 +25,7 @@
 			<true/>
 		</dict>
 		<key>Banner</key>
-		<string>logo.png</string>
+		<string>logo_trans.png</string>
 		<key>Components</key>
 		<dict>
 			<key>Banner</key>
@@ -49,9 +51,9 @@
 		<key>Origination</key>
 		<dict>
 			<key>DesignHeight</key>
-			<integer>768</integer>
+			<integer>1080</integer>
 			<key>DesignWidth</key>
-			<integer>1366</integer>
+			<integer>1920</integer>
 		</dict>
 		<key>Selection</key>
 		<dict>
@@ -60,12 +62,12 @@
 			<key>Color</key>
 			<string>0x06ACF980</string>
 			<key>OnTop</key>
-			<false/>
+			<true/>
 			<key>Small</key>
 			<string>selection_small.png</string>
 		</dict>
 	</dict>
 	<key>Year</key>
-	<string>2014</string>
+	<string>2013</string>
 </dict>
 </plist>

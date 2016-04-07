@@ -2,7 +2,7 @@
 
  :smile:
   
- 最新clover v3389
+ 最新clover v3411
  
         git clone https://github.com/holoto/ec-471g.git
 
