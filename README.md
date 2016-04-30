@@ -1,10 +1,11 @@
 # ec-471g 黑苹果配置文件 hackintosh 10.11.4
-
+#mac osx version 10.11.4
  :smile:
-  
- 最新clover v3411
+
+#[english README](https://github.com/holoto/ec-471g/blob/master/README_EN.md)
+ 最新clover v3489
  
-        git clone https://github.com/holoto/ec-471g.git
+`git clone https://github.com/holoto/ec-471g.git`
 
 # 本人提供黑苹果安装服务
 
@@ -24,19 +25,19 @@
 
 
 # 亮点
-  显卡hd4000已经驱动 显存1536MB
-  声卡alc269已经使用万能声卡驱动
-  稳定关机断电休眠
-  亮度可以正常正常调节 
-  摄像头已经正常识别使用
-  USB驱动正常
-  USB完美驱动
-  鼠标 键盘 使用AnyAppleUSBKeyboard.kext AnyAppleUSBMouse.kext 伪造id 已经识别为苹果设备
-  摄像完美驱动
-  也使用了AnyiSightCam.kext 伪造id 已经识别为苹果摄像头
-   其他功能正常
-    非常稳定
-        本人重启验证上百次
+  1. 显卡hd4000已经驱动 显存1536MB
+  2. 声卡alc269已经使用万能声卡驱动
+  3. 稳定关机断电休眠
+  4. 亮度可以正常正常调节
+  5. 摄像头已经正常识别使用
+  6. USB驱动正常
+  7. USB完美驱动
+  8. 鼠标 键盘 使用AnyAppleUSBKeyboard.kext AnyAppleUSBMouse.kext 伪造id 已经识别为苹果设备
+  9. 摄像完美驱动
+  10. 也使用了AnyiSightCam.kext 伪造id 已经识别为苹果摄像头
+  11. 其他功能正常
+  12.  非常稳定
+  13. 本人重启验证上百次
 
 # clvoer prebootlog
 
