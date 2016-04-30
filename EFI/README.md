@@ -1,6 +1,7 @@
 # 本目录为EFI 引导目录
 
 本四叶草版本V3489 最新版本
+#[english README](https://github.com/holoto/ec-471g/blob/master/EFI/README_EN.md)
 
 
 ![clover](https://raw.githubusercontent.com/holoto/ec-471g/master/EFI/EFI/CLOVER/misc/screenshot0.bmp 'clover')

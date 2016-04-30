@@ -3,7 +3,7 @@
 #If you think this article is good, you can star
 
 # Catalog for the EFI boot directory
-
+#[Chinese README](https://github.com/holoto/ec-471g/blob/master/EFI/README.md)
 The latest version of Clover version V3489
 
 
