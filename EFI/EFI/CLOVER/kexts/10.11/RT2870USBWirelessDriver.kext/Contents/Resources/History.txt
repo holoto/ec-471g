@@ -1,0 +1,252 @@
+[V 1.1.1.0], 2008-06-02
+	1. Sync with VSS
+	2. Resolved connection problem with DIR-300. Changed location of preparing IE of WPA-PSK/WPA2-PSK.
+
+[V 1.0.0.0], 2007-03-29
+	for intel MBP, remove unnecessary SimpleLocks
+	release verison
+
+[V 1.0.0.0] - RC1
+	first release version
+
+[V 0.0.1.e3]
+	seems solve the sleep and wakeup panic issue.
+	solve RT2890 on MacBookPro driver not release issue.
+		return kIOReturnSuccess for message(kIOMessageServiceIsTerminated, ...)
+
+[V 0.0.1.e2]
+	longer the sleep time (to 100ms)for MlmeRadioON();
+
+[V 0.0.1.e1]
+	do not indicate connect for WPA-NONE in RTMPWPAAddKeyProc
+
+[V 0.0.1.d9]
+	sync with windows v1.0.2.0
+
+[V 0.0.1.d8]
+	fix sleep and wake connection
+
+[V 0.0.1.d7]
+	fix WPA-TKIP, AdHoc Beacon TxWI endian
+	set init parameters
+
+
+[V 0.0.1.d6]
+[V 0.0.1.d5]
+	sync to Windows - v1.0.1.0
+		fix AddBAReq sequence
+	
+	PSK group TKIP msg2 problem, addAsicKey fail??
+	
+
+[V 0.0.1.d4]
+[V 0.0.1.d3]
+Shared-WEP: do not swap endian for Authen SEQ#3 for shared-wep
+WPA2-PSK () - RTMPMakeRSNIE - have to do this in CntlOidRTBssidProc
+
+[V 0.0.1.d2]
+deadlock in MlmeHandler called by SetInfo
+correct AID endian for PS mode
+WPA2-PSK () - RTMPMakeRSNIE - have to do this in set OID_802_11_WEP_STATUS
+
+
+[V 0.0.1.d1]
+
+====================================================================================================
+The base windows version
+====================================================================================================
+[V0.1.8.3]
+1. BBP R69,R70,R73 has different value for rt2860D. So driver set different value for rt2860C/D.
+
+[V0.1.8.2]
+1. Before do scanning, set BBP R4 to 20MHz mode.
+2. Let TX/RX PSDU max size limit as 16KB. (p.s : set {MAX_LEN_CFG,0x00001fff} /pAd->CommonCfg.HtCapability.HtCapParm.MaxRAmpduFactor = 1; respectively)
+
+[V0.1.8.1]
+1.change b/g protect mode ,frame gap to HT_TXOP
+[V0.1.8.0]
+1. release
+2. Fix WiFi-dual band problems
+3. Fix Adhoc problem in A band
+4. Fix site survey issue when change country region
+5. Fix RTS issue
+
+[V0.1.7.0]
+1. release
+
+[V0.1.6.1]
+1. Pass APSD, WMM, h+d in-house certification
+2. Updat firmware v0.3, and support signal led mode
+3. Fix surprise remove issue
+4. Modify power save, the min current is about 24mA
+5. Support legacy DLS protocol
+
+[V0.1.6.0]
+1. Improve Softap <-> Intel IOT 
+2. Update some MAT register based on Jerry
+
+[V0.1.5.6]
+1. Update Led default value
+2. Update WMM parameter
+3. Fix check build crash issue
+
+[V0.1.5.5]
+1. Update some IOT in TGn plugfest#4.  (Stick to ShortGI(use #if WIFI_TEST), INTEL BA setup issue, MCS=32)
+
+[V0.1.5.4]
+1. Fix site survey in dual band because the scan time is too long
+2. Support legacy WMM (haven't passed certification)
+3. Support APSD (haven't passed certification)
+4. Support 11h+d (haven't passed certification)
+5. Fix driver freezed when Adhoc
+6. Updat firmware v0.2, fix led issue.
+
+[V0.1.5.3]
+1. Solve IOT issue. Details in nIOT.doc.
+2. PaulWu suggest spinklock in MiniportMMRequest
+
+[V0.1.5.0]
+1. Shift 802.11n OID definition that has conflict with WMM, Aggregation OID definition that was applied in rt61 after rt2860 driver coding.
+2. V0.1.5.0 version driver should be used with new rt2860 GUI after 11/30.
+
+[V0.1.4.0]
+1. release
+
+[V0.1.3.3]
+1. Fix Tkip MIC fragment issue
+2. Fix ZeroConfig/FunK UI with WPA2 security issue
+3. Fix Adhoc Beacon Issue
+
+[V0.1.3.2]
+1. Fix fragment issue
+2. Update the E2PROM reading routine for tx power per channel since we will support 40MHz in A band
+3. Fix bug in auto wake routine
+4. Update LED default value
+5. Fix dual band issue in SoftAP
+6. Update RF channel programming table to support 40MHz in A band
+7. Fix Tx rate error when Adhoc with more than two clients
+8. Check in firmware v0.1, this version is the first version which supports LED mode, power saving.
+
+[V0.1.3.1]
+1. Add Station connects to Pre-N only AP.
+2. Rx EAP Fragment frames will fail on TKIP mode.
+3. EAPOL frame will be encrypted while WPA_802_1X_PORT_SECURED.
+4. Fix 2c_wlan_wep failed item.
+
+[V0.1.3.0]
+1. release
+
+[V0.1.2.4]
+1. fix surprise remove may cause infinite loop
+2. fix WPA-None security issue.
+3. fix counter measure issue.
+4. fix DHCP frame checking on SoftAP mode.
+5. fix wep encryption might fail cause by bTxkey floating.
+6. fix WPA both mode security.
+7. Retry to more times will cause WHQL testing failed on FailedCount checking.
+
+[V0.1.2.3]
+1. Fix adhoc basic rate in beacon
+2. Fix basic rate bitmap in MAC register
+3. Fix RSSI report error in UI site survey page
+4. Support Hardware Radio on/off
+5. Support TxPower percentage control
+6. Fix TSSI read from E2PROM error
+7. Fix bug, always 1Mbps when B mode
+
+[V0.1.2.2]
+1. Support RTS/CTS-to-Self
+2. Fix countermeasure 
+3. Fix country region issue
+
+[V0.1.2.1]
+1. Support dual band
+2. Fix country region issue
+3. Fix PHY issue between difference BW
+
+[V0.1.2.0]
+1. release
+2. Fix some n negociation bug. [Jan - mlme.c]
+3. Make initial N(Phymode) setting from registry correct. [Jan - init.c, info.c]
+4. IOT with MBA more stable. (Marvel/Broadcom/Atheros) [Jan - data.c]
+
+[V0.1.1.1]
+1. NdisMIndicateStatus can't be called when driver is on halt progresss (ap.c)
+2. Put WPA(#221) Element ID on the end of inside the association frame. (assoc.c)
+
+[V0.1.1.0]
+1. release
+
+[V0.1.0.2]
+1. Remove LinkDown Timer here. move it to properly place.
+2. Used LinkUp Timer to indicate link up event.
+3. Modify security relative codes
+4. Use LinkDown Timer to indicate link down event after intiailize.
+5. All security work.
+
+[V0.1.0.1]
+1. Fix MacTableInsertEntry will clear WEP Cipher if on station mode on ap.c
+2. remove unnecessary code on connect.c
+3. Modify RTMPAddBSSIDCipher for fixing WEP not work on rtmp.h & rtmp_info.c & sanity.c
+4. Modify RTMPHandleInterrupt consider false interrupt cause by suprise remove on rtmp_man.c
+5. Modify RTMPHalt on NIC exist or not in rtmp_main.c
+---
+6. Auto recognize Bad atheros chip , and turn on ASIC sending RTS register.
+7. Add HTIOTCheck function for test, if not work, will delete in the future. 
+8. IOT_STRUC structure is to store all InterOpbility action parameter.
+
+[V0.1.0.0]
+1. handle BAR control frame.
+2. Periodically check BA reordering queue and refresh if possible.
+3. Atheros IOT problem workaround.
+
+[V0.0.9.4]
+1. Fix countermeasure
+2. Fix SoftAP WPAPSK/WPA2PSK
+3. Update DRS algorithm to imporve throughput when open environment
+
+[V0.0.9.3]
+Release by Jan to fix atheros compatible issue, it should be checked in later.
+
+[V0.0.9.2]
+1. Fix Radio on/off issue, but not best power save
+2. Fix NdisReset issue
+3. Fix hibernate issue
+4. Fix bug in RTMPMaxRssi 
+5. Fix DRS issue
+
+[V0.0.9.1]
+1. Fix prefast build issue.
+2. Support x64 platform
+3. Rename .inf and .sys file name
+
+[V0.0.9.0]
+1. AP dynamic antenna status check
+2. Modify calcuating rssi method according to Gain and RssiOffset in E2PROM
+3. Modify load firmware routine about CRC check 
+4. Update DRS function
+5. Fix 20/40 MHz bandwidth issue
+
+[V0.0.8.0]
+[V0.0.7.1]
+1. Change broadcast and mlme rate as CCK 1Mbps
+2. Fix BA bugs
+3. Dynamic antenna status check
+4. Fix rssi report issue
+5. Fix DHCP issue
+6. Fix throughput issue caused by protection
+
+[V0.0.7.0]
+1. Basic MCS rate adaptation
+2. MCS initial rate according RSSI
+3. Update ASIC auto-fallback according to MCS table
+4. Fix WindowsXP SoftAP bridge issue when AMSDU
+5. Fix CCK fail issue becasue of BBP AGC
+6. Update ethreal format to support rate, rssi
+7. Update BBP, MAC, RF register initial value
+8. Fix 20/40 MHz bandwidth issue
+
+[V0.0.0.6]
+1. RT2860c emulation ping ok
+
+

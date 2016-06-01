@@ -1,7 +1,7 @@
 #Translation by Google translation
 #If you think this article is good, you can star
 #acer-ec-471g  hackintosh clover config
-#mac osx version 10.11.4
+#mac osx version 10.11.5
  :smile:
 #[Chinese README](https://github.com/holoto/ec-471g/blob/master/README.md)
 #The latest version of Clover version V3489
@@ -36,7 +36,7 @@
 11. Additional functioning
 12. Very stable
 13. restart verified hundreds of times
-14. win10 + osx10.11.4 boot menu
+14. win10 + osx10.11.5 boot menu
 
 # clvoer prebootlog
 
@@ -60,7 +60,7 @@
 
 
 ##  Supplement
-         1tb sshd hybrid hard disk partition GPT + Journaled HFS OSX10.11.4
+         1tb sshd hybrid hard disk partition GPT + Journaled HFS OSX10.11.5
 
                 500GB mechanical hard disk partition MBR + NTFS system win10 system
 
@@ -69,7 +69,7 @@
                #:                       TYPE NAME                    SIZE       IDENTIFIER
                0:      GUID_partition_scheme                        *1.0 TB     disk0
                1:                        EFI EFI                     209.7 MB   disk0s1  efi boot partition
-               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.4
+               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.5
                3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3   OSX recovery partition
             /dev/disk1 (internal, physical): 500GB  hard drive in a notebook optical drive
                #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -92,6 +92,10 @@
 ![osx5](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/mac5.png "osx运行截图")
 ![osx1](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/mac2.png "osx运行截图")
 ![osx2](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/mac3.png "osx运行截图")
+## osx software
+![app](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/app.png "osx运行截图")
+![app2](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/app2.png "osx运行截图")
+![app3](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/app3.png "osx运行截图")
 
 
 

@@ -1,5 +1,5 @@
-# ec-471g 黑苹果配置文件 hackintosh 10.11.4
-#mac osx version 10.11.4
+# ec-471g 黑苹果配置文件 hackintosh 10.11.5
+#mac osx version 10.11.5
  :smile:
 
 #[english README](https://github.com/holoto/ec-471g/blob/master/README_EN.md)
@@ -61,7 +61,7 @@
 
 
 ## 补充 
-        1tb sshd 混合硬盘   分区GPT+Journaled HFS     OSX10.11.4 
+        1tb sshd 混合硬盘   分区GPT+Journaled HFS     OSX10.11.5 
        
         500GB    机械硬盘   分区MBR+NTFS              系统win10系统
             
@@ -69,7 +69,7 @@
                #:                       TYPE NAME                    SIZE       IDENTIFIER
                0:      GUID_partition_scheme                        *1.0 TB     disk0    
                1:                        EFI EFI                     209.7 MB   disk0s1  引导区
-               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.4
+               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.5
                3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3  OSX恢复分区
             /dev/disk1 (internal, physical): 500GB    机械硬盘 在笔记本光驱位
                #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -92,6 +92,12 @@
 ![osx5](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/mac5.png "osx运行截图")
 ![osx1](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/mac2.png "osx运行截图")
 ![osx2](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/mac3.png "osx运行截图")
+
+## osx software
+![app](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/app.png "osx运行截图")
+![app2](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/app2.png "osx运行截图")
+![app3](https://raw.githubusercontent.com/holoto/ec-471g/master/pic/app3.png "osx运行截图")
+
 
 
 

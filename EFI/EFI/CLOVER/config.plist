@@ -117,6 +117,11 @@
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>UseARTFrequency</key>
+		<false/>
+	</dict>
 	<key>Devices</key>
 	<dict>
 		<key>USB</key>
@@ -170,6 +175,8 @@
 			<true/>
 			<key>Legacy</key>
 			<true/>
+			<key>Linux</key>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
@@ -220,6 +227,54 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>HDMI-audio HD4000 0x01660003, port 0406</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				BAYAAAAEAACBAAAA
+				</data>
+				<key>Name</key>
+				<string>disabled:AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				BAYAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio HD4000 0x01660003, port 0205</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AgUAAAAEAAAHBAAA
+				</data>
+				<key>Name</key>
+				<string>disabled:AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				AgUAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio HD4000 0x01660003, port 0304</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AwQAAAAEAACBAAAA
+				</data>
+				<key>Name</key>
+				<string>disabled:AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				AwQAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>10.9-10.11-AppleHDA/Realtek ALC269</string>
 				<key>Disabled</key>
 				<false/>
@@ -268,18 +323,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>HDMI-audio HD4000 0x01660003, port 0205</string>
+				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AgUAAAAEAAAHBAAA
+				AEFQUExFIFNTRAA=
 				</data>
 				<key>Name</key>
-				<string>disabled:AppleIntelFramebufferCapri</string>
+				<string>disabled:IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				AgUAAAAIAAAGAAAA
+				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
 			<dict>
@@ -296,54 +351,6 @@
 				<key>Replace</key>
 				<data>
 				em1sLnps
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI-audio HD4000 0x01660003, port 0406</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				BAYAAAAEAACBAAAA
-				</data>
-				<key>Name</key>
-				<string>disabled:AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>
-				BAYAAAAIAAAGAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI-audio HD4000 0x01660003, port 0304</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AwQAAAAEAACBAAAA
-				</data>
-				<key>Name</key>
-				<string>disabled:AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>
-				AwQAAAAIAAAGAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable TRIM for SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
-				<key>Name</key>
-				<string>disabled:IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
 		</array>
@@ -388,7 +395,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro9,2</string>
 		<key>SerialNumber</key>
-		<string>C02L5VEIDTY3</string>
+		<string>C02LHOFRDTY3</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
