@@ -31,6 +31,24 @@
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 		</dict>
+		<key>SD Card Host Controller2</key>
+		<dict>
+			<key>IOClass</key>
+			<string>VoodooSDHC</string>
+			<key>IOPCIMatch</key>
+			<string>0x10EC5289</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>SD Card Host Controller3</key>
+		<dict>
+			<key>IOClass</key>
+			<string>VoodooSDHC</string>
+			<key>IOPCIMatch</key>
+			<string>0x528910EC</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
 	</dict>
 	<key>OSBundleLibraries</key>
 	<dict>
