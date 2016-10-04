@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>14F1021</string>
+	<string>15C50</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -33,7 +33,7 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>13A557</string>
+	<string>13F34</string>
 	<key>DTSDKName</key>
 	<string>macosx10.9</string>
 	<key>DTXcode</key>
@@ -71,7 +71,7 @@
 			<key>enableTSO6</key>
 			<true/>
 			<key>intrMitigate</key>
-			<integer>53080</integer>
+			<integer>24401</integer>
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
@@ -79,7 +79,7 @@
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IONetworkingFamily</key>
-		<string>1.5.0</string>
+		<string>1.1.0</string>
 		<key>com.apple.iokit.IOPCIFamily</key>
 		<string>1.7</string>
 		<key>com.apple.kpi.bsd</key>

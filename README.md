@@ -1,16 +1,16 @@
-# ec-471g 黑苹果配置文件 hackintosh 10.11.5
-#mac osx version 10.11.5
+# ec-471g 黑苹果配置文件 hackintosh 10.11.6
+#mac osx version 10.11.6
  :smile:
 
 #[english README](https://github.com/holoto/ec-471g/blob/master/README_EN.md)
- 最新clover v3489
+ 最新clover v3773
  
 `git clone https://github.com/holoto/ec-471g.git`
 
 # 本人提供黑苹果安装服务
 
 
-[咸鱼链接](https://2.taobao.com/item.htm?spm=2007.1000622.0.0.iCkUXt&id=528507949582)
+[咸鱼链接](https://github.com/holoto/hackintosh)
 
 
 ## 无法解决的问题
@@ -26,14 +26,13 @@
 
 # 亮点
   1. 显卡hd4000已经驱动 显存1536MB
-  2. 声卡alc269已经使用万能声卡驱动
+  2. 声卡alc269已经原生仿冒完美驱动
   3. 稳定关机断电休眠
   4. 亮度可以正常正常调节
   5. 摄像头已经正常识别使用
   6. USB驱动正常
   7. USB完美驱动
   8. 鼠标 键盘 使用AnyAppleUSBKeyboard.kext AnyAppleUSBMouse.kext 伪造id 已经识别为苹果设备
-  9. 摄像完美驱动
   10. 也使用了AnyiSightCam.kext 伪造id 已经识别为苹果摄像头
   11. 其他功能正常
   12.  非常稳定
@@ -61,7 +60,7 @@
 
 
 ## 补充 
-        1tb sshd 混合硬盘   分区GPT+Journaled HFS     OSX10.11.5 
+        1tb sshd 混合硬盘   分区GPT+Journaled HFS     OSX10.11.6 
        
         500GB    机械硬盘   分区MBR+NTFS              系统win10系统
             
@@ -69,7 +68,7 @@
                #:                       TYPE NAME                    SIZE       IDENTIFIER
                0:      GUID_partition_scheme                        *1.0 TB     disk0    
                1:                        EFI EFI                     209.7 MB   disk0s1  引导区
-               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.5
+               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.6
                3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3  OSX恢复分区
             /dev/disk1 (internal, physical): 500GB    机械硬盘 在笔记本光驱位
                #:                       TYPE NAME                    SIZE       IDENTIFIER

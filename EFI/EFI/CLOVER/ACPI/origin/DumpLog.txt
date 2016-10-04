@@ -1,76 +1,73 @@
-51:560  11:655  Found UEFI Acpi 2.0 RSDP at A6FFE014
-51:560  0:000  Saving ACPI tables from RSDP A6FFE014 to EFI\CLOVER\ACPI\origin ...
-51:560  0:000   A6FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
-51:659  0:099    (Xsdt: A6FFE210, Rsdt: A6FFE124)
-51:659  0:000    A6FFE210: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 164 -> XSDT.aml
-51:693  0:033    A6FFE124: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 100 -> RSDT.aml
-51:726  0:033    Tables in Xsdt: 16
-51:726  0:000    0. A6FFB000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268 -> FACP.aml
-51:769  0:043        (Dsdt: A6FEC000, Facs: A6FBA000, XDsdt: A6FEC000, XFacs: 0)
-51:769  0:000        A6FEC000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 45759 -> DSDT.aml
-51:804  0:034        A6FBA000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
-51:833  0:028    1. A6FFD000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566 -> UEFI.aml
-51:866  0:033    2. A6FFC000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165 -> ASF!.aml
-51:898  0:031    3. A6FFA000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56 -> HPET.aml
-51:931  0:033    4. A6FF9000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 140 -> APIC.aml
-51:962  0:031    5. A6FF8000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60 -> MCFG.aml
-51:996  0:033    6. A6FEB000: 'WDAT', 'ACRPRDCT', Rev: 1, Len: 548 -> WDAT.aml
-52:028  0:031    7. A6FE9000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 4200 -> SSDT-0.aml
-52:062  0:033    8. A6FE7000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40 -> BOOT.aml
-52:093  0:031    9. A6FE2000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52 -> ASPT.aml
-52:127  0:033    10. A6FE0000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68 -> FPDT.aml
-52:159  0:031    11. A6FDE000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2408 -> SSDT-1.aml
-52:192  0:032    12. A6FDD000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2706
+7:980  3:996  Found UEFI Acpi 2.0 RSDP at A6FFE014
+7:980  0:000  Saving ACPI tables from RSDP A6FFE014 to EFI\CLOVER\ACPI\origin ...
+7:980  0:000   A6FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+8:088  0:107    (Xsdt: A6FFE210, Rsdt: A6FFE124)
+8:088  0:000    A6FFE210: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 156 -> XSDT.aml
+8:107  0:018    A6FFE124: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 96 -> RSDT.aml
+8:128  0:021    Tables in Xsdt: 15
+8:128  0:000    0. A6FFB000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268 -> FACP.aml
+8:144  0:016        (Dsdt: A6FEC000, Facs: A6FBA000, XDsdt: A6FEC000, XFacs: 0)
+8:144  0:000        A6FEC000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 45759 -> DSDT.aml
+8:171  0:026        A6FBA000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+8:188  0:017    1. A6FFD000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566 -> UEFI.aml
+8:205  0:017    2. A6FFC000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165 -> ASF!.aml
+8:222  0:017    3. A6FFA000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56 -> HPET.aml
+8:240  0:017    4. A6FF9000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 140 -> APIC.aml
+8:257  0:016    5. A6FF8000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60 -> MCFG.aml
+8:274  0:017    6. A6FEB000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374 -> SLIC.aml
+8:291  0:017    7. A6FEA000: 'WDAT', 'ACRPRDCT', Rev: 1, Len: 548 -> WDAT.aml
+8:311  0:019    8. A6FE8000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 4200 -> SSDT-0.aml
+8:330  0:019    9. A6FE6000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40 -> BOOT.aml
+8:349  0:018    10. A6FE1000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52 -> ASPT.aml
+8:367  0:018    11. A6FDF000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68 -> FPDT.aml
+8:384  0:016    12. A6FDD000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2408 -> SSDT-1.aml
+8:401  0:017    13. A6FDC000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2706
  Found hidden SSDT 4 pcs
-52:192  0:000        * A3E52018: 'S', 'a', Rev: 45, Len: 5505092  53 00 53 00 44 00 54 00 2D 00 31 00 34 00 2E 00       * A6E18A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 5E 50 6D 52 65 66 00 Internal length = 771 -> SSDT-3x.aml
-52:223  0:031        * A6E17018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 C0 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-4x.aml
-52:268  0:044        * A6E16D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 D4 50 6D 52 65 66 00 Internal length = 281 -> SSDT-5x.aml
-52:300  0:031   -> SSDT-2.aml
-52:334  0:034    13. A6FDC000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 727 -> SSDT-6.aml
-52:366  0:031    14. A6FDB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 840 -> SSDT-7.aml
-52:400  0:034    15. A6FDA000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56 -> BGRT.aml
-52:431  0:030    Tables in Rsdt: 16
-52:431  0:000    0. A6FFB000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
-52:431  0:000        (Dsdt: A6FEC000, Facs: A6FBA000, XDsdt: A6FEC000, XFacs: 0)
-52:431  0:000        A6FEC000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 45759
-52:431  0:000        A6FBA000: 'FACS', Ver: 2, Len: 64
-52:431  0:000    1. A6FFD000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
-52:431  0:000    2. A6FFC000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
-52:431  0:000    3. A6FFA000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
-52:431  0:000    4. A6FF9000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 140
-52:431  0:000    5. A6FF8000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
-52:431  0:000    6. A6FEB000: 'WDAT', 'ACRPRDCT', Rev: 1, Len: 548
-52:431  0:000    7. A6FE9000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 4200
-52:431  0:000    8. A6FE7000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
-52:431  0:000    9. A6FE2000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
-52:431  0:000    10. A6FE0000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
-52:431  0:000    11. A6FDE000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2408
-52:431  0:000    12. A6FDD000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2706
-52:431  0:000    13. A6FDC000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 727
-52:431  0:000    14. A6FDB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 840
-52:431  0:000    15. A6FDA000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
-52:431  0:000  Found UEFI Acpi 1.0 RSDP at A6FFE000
-52:431  0:000  Printing ACPI tables from RSDP A6FFE000 ...
-52:431  0:000   A6FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
-52:431  0:000    (Rsdt: A6FFE038)
-52:431  0:000    A6FFE038: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 100
-52:431  0:000    Tables in Rsdt: 16
-52:431  0:000    0. A6FFB000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
-52:431  0:000        (Dsdt: A6FEC000, Facs: A6FBA000, XDsdt: A6FEC000, XFacs: 0)
-52:431  0:000        A6FEC000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 45759
-52:432  0:000        A6FBA000: 'FACS', Ver: 2, Len: 64
-52:432  0:000    1. A6FFD000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
-52:432  0:000    2. A6FFC000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
-52:432  0:000    3. A6FFA000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
-52:432  0:000    4. A6FF9000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 140
-52:432  0:000    5. A6FF8000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
-52:432  0:000    6. A6FEB000: 'WDAT', 'ACRPRDCT', Rev: 1, Len: 548
-52:432  0:000    7. A6FE9000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 4200
-52:432  0:000    8. A6FE7000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
-52:432  0:000    9. A6FE2000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
-52:432  0:000    10. A6FE0000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
-52:432  0:000    11. A6FDE000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2408
-52:432  0:000    12. A6FDD000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2706
-52:432  0:000    13. A6FDC000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 727
-52:432  0:000    14. A6FDB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 840
-52:432  0:000    15. A6FDA000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+8:401  0:000        * A3E74018: '', '', Rev: 0, Len: 327551  00 00 00 00 7F FF 04 00 00 00 00 00 00 00 00 00       * A6E18A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 5E 50 6D 52 65 66 00 Internal length = 771 -> SSDT-3x.aml
+8:420  0:018        * A6E17018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 C0 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-4x.aml
+8:437  0:016        * A6E16D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 D4 50 6D 52 65 66 00 Internal length = 281 -> SSDT-5x.aml
+8:455  0:017   -> SSDT-2.aml
+8:472  0:016    14. A6FDB000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56 -> BGRT.aml
+8:488  0:016    Tables in Rsdt: 15
+8:488  0:000    0. A6FFB000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+8:488  0:000        (Dsdt: A6FEC000, Facs: A6FBA000, XDsdt: A6FEC000, XFacs: 0)
+8:488  0:000        A6FEC000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 45759
+8:489  0:001        A6FBA000: 'FACS', Ver: 2, Len: 64
+8:489  0:000    1. A6FFD000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+8:489  0:000    2. A6FFC000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+8:489  0:000    3. A6FFA000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+8:489  0:000    4. A6FF9000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 140
+8:489  0:000    5. A6FF8000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+8:489  0:000    6. A6FEB000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+8:489  0:000    7. A6FEA000: 'WDAT', 'ACRPRDCT', Rev: 1, Len: 548
+8:489  0:000    8. A6FE8000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 4200
+8:489  0:000    9. A6FE6000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+8:489  0:000    10. A6FE1000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+8:489  0:000    11. A6FDF000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+8:489  0:000    12. A6FDD000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2408
+8:489  0:000    13. A6FDC000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2706
+8:489  0:000    14. A6FDB000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+8:489  0:000  Found UEFI Acpi 1.0 RSDP at A6FFE000
+8:489  0:000  Printing ACPI tables from RSDP A6FFE000 ...
+8:489  0:000   A6FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+8:489  0:000    (Rsdt: A6FFE038)
+8:489  0:000    A6FFE038: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 96
+8:489  0:000    Tables in Rsdt: 15
+8:489  0:000    0. A6FFB000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+8:489  0:000        (Dsdt: A6FEC000, Facs: A6FBA000, XDsdt: A6FEC000, XFacs: 0)
+8:489  0:000        A6FEC000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 45759
+8:490  0:001        A6FBA000: 'FACS', Ver: 2, Len: 64
+8:490  0:000    1. A6FFD000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+8:490  0:000    2. A6FFC000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+8:490  0:000    3. A6FFA000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+8:490  0:000    4. A6FF9000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 140
+8:490  0:000    5. A6FF8000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+8:490  0:000    6. A6FEB000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+8:490  0:000    7. A6FEA000: 'WDAT', 'ACRPRDCT', Rev: 1, Len: 548
+8:490  0:000    8. A6FE8000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 4200
+8:490  0:000    9. A6FE6000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+8:490  0:000    10. A6FE1000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+8:490  0:000    11. A6FDF000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+8:490  0:000    12. A6FDD000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2408
+8:490  0:000    13. A6FDC000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2706
+8:490  0:000    14. A6FDB000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56

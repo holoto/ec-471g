@@ -1,17 +1,17 @@
 #Translation by Google translation
 #If you think this article is good, you can star
 #acer-ec-471g  hackintosh clover config
-#mac osx version 10.11.5
+#mac osx version 10.11.6
  :smile:
 #[Chinese README](https://github.com/holoto/ec-471g/blob/master/README.md)
-#The latest version of Clover version V3489
+#The latest version of Clover version V3773
 
 `git clone https://github.com/holoto/ec-471g.git`
 
 #  provide installation services (in china)
 
 
-[installation services link](https://2.taobao.com/item.htm?spm=2007.1000622.0.0.iCkUXt&id=528507949582)
+[installation services link](https://github.com/holoto/hackintosh)
 
 
 ## Can not solve the problem
@@ -24,7 +24,7 @@
 
 # driver
 1. hd4000 graphics card has 1536MB memory and drive
-2. Sound alc269 has a universal sound card driver
+2. Sound card alc269 has been a perfect drive native counterfeit
 3. Stable shut off Sleep
 4. Normal Normal brightness can be adjusted
 5. The camera has been recognized properly use
@@ -36,7 +36,7 @@
 11. Additional functioning
 12. Very stable
 13. restart verified hundreds of times
-14. win10 + osx10.11.5 boot menu
+14. win10 + osx10.11.6 boot menu
 
 # clvoer prebootlog
 
@@ -60,7 +60,7 @@
 
 
 ##  Supplement
-         1tb sshd hybrid hard disk partition GPT + Journaled HFS OSX10.11.5
+         1tb sshd hybrid hard disk partition GPT + Journaled HFS OSX10.11.6
 
                 500GB mechanical hard disk partition MBR + NTFS system win10 system
 
@@ -69,7 +69,7 @@
                #:                       TYPE NAME                    SIZE       IDENTIFIER
                0:      GUID_partition_scheme                        *1.0 TB     disk0
                1:                        EFI EFI                     209.7 MB   disk0s1  efi boot partition
-               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.5
+               2:                  Apple_HFS osx                     999.3 GB   disk0s2  0SX10.11.6
                3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3   OSX recovery partition
             /dev/disk1 (internal, physical): 500GB  hard drive in a notebook optical drive
                #:                       TYPE NAME                    SIZE       IDENTIFIER
